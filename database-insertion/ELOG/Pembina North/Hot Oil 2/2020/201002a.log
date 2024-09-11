@@ -1,0 +1,40 @@
+$@MID@$: 2200
+Date: Fri, 02 Oct 2020 16:10:00 -0600
+Author: Tye Mastre
+Flow: 244
+Inlet Temp: 195
+Outlet Temp: 210
+Pump Press: 710
+Surge Tank Press: 315
+Surge Tank Level: 3
+Fuel Gas Press: 780
+Stack Temp: 221
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Oct
+Day: 2
+Year: 2020
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 2201
+Date: Fri, 02 Oct 2020 23:42:45 -0600
+Author: Blaine Harris
+Flow: 243
+Inlet Temp: 196
+Outlet Temp: 210
+Pump Press: 700
+Surge Tank Press: 310
+Surge Tank Level: 3
+Fuel Gas Press: 770
+Stack Temp: 223
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Oct
+Day: 3
+Year: 2020
+Attachment: 
+Encoding: HTML
+========================================
+

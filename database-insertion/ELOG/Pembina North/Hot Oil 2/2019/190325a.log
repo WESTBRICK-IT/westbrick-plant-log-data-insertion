@@ -1,0 +1,40 @@
+$@MID@$: 1150
+Date: Mon, 25 Mar 2019 17:13:23 -0600
+Author: Ryan Bangle
+Flow: 235
+Inlet Temp: 198
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 345
+Surge Tank Level: 3
+Fuel Gas Press: 930
+Stack Temp: 243
+Flame Condition: Blue
+Shift: Day
+Month: Mar
+Day: 25
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 1151
+Date: Mon, 25 Mar 2019 20:09:10 -0600
+Author: Romeo Tobias
+Flow: 236
+Inlet Temp: 199
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 345
+Surge Tank Level: 3
+Fuel Gas Press: 660
+Stack Temp: 241
+Flame Condition: Blue
+Shift: Night
+Month: Mar
+Day: 25
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+

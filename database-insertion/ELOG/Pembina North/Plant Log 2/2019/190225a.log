@@ -1,0 +1,62 @@
+$@MID@$: 2101
+Date: Mon, 25 Feb 2019 00:22:31 -0700
+Author: Romeo Tobias
+Shift: Night Shift
+Operators: Romeo T | Jeff B
+Shift Handover Meeting: Dayton M | Bryan N
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Truck Offload
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>Topped up LPG oil lubricator.</p>
+
+<p>Cleaned treater basket.</p>
+
+<p>Add some glycol. Rate started bouncing around and still losing level. Adjusted level controller to control at around 3 bolts. Cycle methanol pump into gas to gas exchanger when differential started coming up (went up around 212 kPa). Pressure dropped and glycol level came up.</p>
+
+<p>Closed K203 bottom louver. Will ring in compressor top cooler bank high temperature alarm if middle louver is totally closed. Run AC-3104B in slow.</p>
+
+<p>Topped up lean oil lubricator tank.</p>
+
+<p>Lowered down tarp for amine condenser.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 2102
+Date: Mon, 25 Feb 2019 19:24:11 -0700
+Author: Bryan Noble
+Shift: Day Shift
+Operators: Dayton M | Bryan N
+Shift Handover Meeting: Romeo T | Jeff B
+Start of Shift Meeting: Daren F | Kristina C | Tyson T | Kevin T
+Plant Status: Steady | Process Upset | Lost Compressor(s) | ESD | Flaring Event
+Equipment Outage: K-201 | K-203 | K-204 | K-205 | C3-A | Amine | Glycol | Acid Gas Well
+Filter Change: 
+Pigging: 
+Recycle Pumps: Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>-glycol issues</p>
+
+<p>V-101 FQI3008-800kpa- 0 on manual while K-204 was down. FQI 99- 1375 kpa set point</p>
+
+<p>-Shut K-204 down for the new spool piece tie in on the discharge.Keabray out to install BOL now.</p>
+
+<p>-big show out to put scafolding up for shut down on wed for spec flip on Mp header.</p>
+
+<p>-Water plant East Water tank manway leaking, had vac truck and GGT out to empty tanks &amp; clean up water that leaked out of manway onto ground.</p>
+
+<p>-Had a fuse blow and a wire short out going to the plc in process, that tripped messed up the amine system, acid gas, and caused us to go sour. everything back online now.</p>
+
+<p>-opened louvers on K-203, 202 and 201 today</p>
+
+<p>&nbsp;</p>

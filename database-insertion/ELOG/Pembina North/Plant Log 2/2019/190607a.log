@@ -1,0 +1,154 @@
+$@MID@$: 2302
+Date: Fri, 07 Jun 2019 05:30:07 -0600
+Author: Ryan Gilgan
+Shift: Night Shift
+Operators: Ryan G | Bryan N
+Shift Handover Meeting: Tye M | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;HVO hauled in 3 loads of Baccalieu.</p>
+
+<p>Put one recycle in each tank.</p>
+
+<p>Increased reboiler temp slowly over night.&nbsp; Got it to 118 degrees the the reflux high leveled.&nbsp;&nbsp; Had to drop temps back to 116 degrees to get it back under control.&nbsp;&nbsp; Suspect steam locked in regen tower.</p>
+
+<p>Left reboiler temp control at 36% from 32%.&nbsp; (was open 38% when reflux issues started).</p>
+
+<p>Amine concentration at 0400 was 42%.&nbsp;</p>
+
+<p>Increased Amine water make up rate at 2200 to 25%, Increased water makeup again at 0400 to 30%.</p>
+
+<p>Gas flows varied between 810 to 615, caused some level fluctutions in the De Eth and&nbsp;HP cold sep.</p>
+
+<p>Pinched K+201, K-202, K-208 louvers closed.</p>
+
+<p>Bypassed fire eyes due to a thunderstorm rolled through.&nbsp; Put back to normal at 0400.</p>
+
+<p>Amine reboiler level is 50% in sight glass, and reading 70% on DCS&nbsp; sent in WO to calibrate.&nbsp;&nbsp; WO# 33039.</p>
+
+<p>Water flash tank in process level bouncing around, put in WO# 33040.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 2303
+Date: Fri, 07 Jun 2019 05:30:10 -0600
+Author: Ryan Gilgan
+Shift: Night Shift
+Operators: Ryan G | Bryan N
+Shift Handover Meeting: Tye M | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;HVO hauled in 3 loads of Baccalieu.</p>
+
+<p>Put one recycle in each tank.</p>
+
+<p>Increased reboiler temp slowly over night.&nbsp; Got it to 118 degrees the the reflux high leveled.&nbsp;&nbsp; Had to drop temps back to 116 degrees to get it back under control.&nbsp;&nbsp; Suspect steam locked in regen tower.</p>
+
+<p>Left reboiler temp control at 36% from 32%.&nbsp; (was open 38% when reflux issues started).</p>
+
+<p>Amine concentration at 0400 was 42%.</p>
+
+<p>Increased Amine water make up rate at 2200 to 25%, Increased water makeup again at 0400 to 30%.</p>
+
+<p>Gas flows varied between 810 to 615, caused some level fluctutions in the De Eth and&nbsp;HP cold sep.</p>
+
+<p>Pinched K+201, K-202, K-208 louvers closed.</p>
+
+<p>Bypassed fire eyes due to a thunderstorm rolled through.&nbsp; Put back to normal at 0400.</p>
+
+<p>Amine reboiler level is 50% in sight glass, and reading 70% on DCS&nbsp; sent in WO to calibrate.&nbsp;&nbsp; WO# 33039.</p>
+
+<p>Water flash tank in process level bouncing around, put in WO# 33040.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 2304
+Date: Fri, 07 Jun 2019 15:10:24 -0600
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Tye M | Kyle S
+Shift Handover Meeting: Ryan G | Bryan N
+Start of Shift Meeting: Daren F | Tyson T | Devin N
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: Water Plant
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 41%
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;-Devin N. calibrated amine reboiler level transmitter, was reading approximately 15% high.</p>
+
+<p>-Univar rep out to pick up lean amine and glycol samples.</p>
+
+<p>-Rob hauled in Braz &amp; Zeta water.</p>
+
+<p>-HVO hauled in Baccalieu emulsion.</p>
+
+<p>-Changed water plant filters (West pot), East pot is now in service.</p>
+
+<p>-Did an amime titration at 15:00HRS, 41%.</p>
+$@MID@$: 2305
+Date: Fri, 07 Jun 2019 17:28:03 -0600
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Tye M | Kyle S
+Shift Handover Meeting: Ryan G | Bryan N
+Start of Shift Meeting: Daren F | Tyson T | Devin N
+Plant Status: Steady
+Equipment Outage: K-5000
+Filter Change: Water Plant
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 41%
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;-Devin N. calibrated amine reboiler level transmitter, was reading approximately 15% high.</p>
+
+<p>-Univar rep out to pick up lean amine and glycol samples.</p>
+
+<p>-Rob hauled in Braz &amp; Zeta water.</p>
+
+<p>-HVO hauled in Baccalieu emulsion.</p>
+
+<p>-Changed water plant filters (West pot), East pot is now in service.</p>
+
+<p>-Did an amime titration at 15:00HRS, 41%.</p>
+
+<p>-Water samples came back, all 5 ditches are good to dump.</p>
+
+<p>-Increased fuel gas pressure to water flash tank to get it to pump.</p>
+
+<p>-Increased Zeta blend gas valve at 08:00 am from 200 to 340 e3m3. C02 is around 1.9 to 2%.</p>
+
+<p>-Left the amine makeup water at 30% output on the pump.</p>
+
+<p>-Pinched louvers on gathering.</p>
+
+<p>-Added oil to acid gas compressor crank case. Was at 50%. Filled up to 95%. Acid gas compressor went down shortly after on mystery alarm. Fired back up. All good.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

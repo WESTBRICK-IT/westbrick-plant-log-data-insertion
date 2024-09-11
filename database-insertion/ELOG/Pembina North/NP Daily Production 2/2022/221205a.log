@@ -1,0 +1,42 @@
+$@MID@$: 2235
+Date: Mon, 05 Dec 2022 09:56:46 -0700
+Author: Travis Beuker
+Inlet: 453
+Sales: 400
+LPG: 107
+Oil: 116
+Production Month: Dec
+Production Day: 5
+Production Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 2236
+Date: Mon, 05 Dec 2022 10:16:44 -0700
+Author: Travis Beuker
+Inlet: 453
+Sales: 401
+LPG: 108
+Oil: 106
+Production Month: Dec
+Production Day: 3
+Production Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>From 3rd</p>
+$@MID@$: 2237
+Date: Mon, 05 Dec 2022 10:18:00 -0700
+Author: Travis Beuker
+Inlet: 453
+Sales: 400
+LPG: 107
+Oil: 116
+Production Month: Dec
+Production Day: 4
+Production Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Disreguard other one accidentally put todays date for production.</p>

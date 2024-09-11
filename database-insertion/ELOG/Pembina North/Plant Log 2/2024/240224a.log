@@ -1,0 +1,84 @@
+$@MID@$: 5780
+Date: Sat, 24 Feb 2024 05:27:38 -0700
+Author: Ryan Gilgan
+Shift: Night Shift
+Operators: Ryan G
+Shift Handover Meeting: Kevin N
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Production Tank Level: 3.05
+LPG Bullet Peak Level: 166
+LPG Bullet Peak Pressure: 306
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather:&nbsp; 6 gegrees at the start of shift, cooling to -3 in the morning some snow</p>
+
+<p>No security issues noted at Braz North</p>
+
+<p>Shoveled snow</p>
+
+<p>Devin called out to fix trends at the beginning of shift.</p>
+
+<p>Later that night the trends flat lined again and lost connection to the Zeta computer.&nbsp;&nbsp; Kyle stayed the night at Zeta.</p>
+
+<p>Daren and Devin came out to see what was going on.&nbsp; Nothing found as the connesction came back before they arrived on site (after remote log in kicked them out).</p>
+
+<p>They set up the computer in the maintenace office to see alarms incase this happens again.&nbsp; Suspect a bad cable connection from the maitenance office to control room.</p>
+
+<p>There were no DCS issues the rest of the night.</p>
+$@MID@$: 5781
+Date: Sat, 24 Feb 2024 17:09:09 -0700
+Author: Kevin Nicol
+Shift: Day Shift
+Operators: Kevin N
+Shift Handover Meeting: Ryan G
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 05-21
+Recycle Pumps: Production
+Production Tank Level: 3.81
+LPG Bullet Peak Level: 187
+LPG Bullet Peak Pressure: 317
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Production tank 3.81, checked</p>
+
+<p>lowered glycol flow set point to 4.5</p>
+
+<p>added oil to K204 engine</p>
+
+<p>drained k203 suction scrubber</p>
+
+<p>submitted event for DCS issues last night. #38602, no issues durring day shift</p>
+
+<p>Mark S resent Dominion pig, pulled clean, yesterdays pig failed to leave the sender</p>
+
+<p>worked on weekly and monthly PM&#39;s</p>

@@ -1,0 +1,106 @@
+$@MID@$: 5964
+Date: Sun, 26 May 2024 05:05:55 -0600
+Author: Kevin Nicol
+Shift: Night Shift
+Operators: Kevin N
+Shift Handover Meeting: Blaine H
+Start of Shift Meeting: 
+Plant Status: ESD
+Equipment Outage: K-202 | K-203 | K-205 | K-206 | C3-B | T-101 | H-400
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Production Tank Level: 3.43
+LPG Bullet Peak Level: 152
+LPG Bullet Peak Pressure: 404
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: Yes
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Production tank 3.43, checked</p>
+
+<p>started BC3 at shift change and adjusted fans</p>
+
+<p>added EG to the reboiler</p>
+
+<p>opened v-103</p>
+
+<p>K206 controls on auto</p>
+
+<p>tried to reset K205 alarms, panal locked up, comp running fine and still comunicating with the DCS</p>
+
+<p>FQI-3003 trends are locked up</p>
+
+<p>removed fire detection, Plant Mode 2, found the LPG fire detection faulted high</p>
+
+<p>filled out Envirosoft</p>
+
+<p>restarted plant, started K204 in sales mode due to K205 panal locked up</p>
+
+<p>glycol pump p-3203B VFD faulted and would not reset, started P-3203A</p>
+
+<p>filled out safety bypass for fire detection and will monitor until tomorow as per discussion with Chase</p>
+
+<p>Called Nathan he will try and get someone out in the morrning</p>
+
+<p>lowered the hot oil flow control from 248 to 228</p>
+
+<p>rebooted the panal on K205, panal appers to be working but the alarms will still not clear</p>
+$@MID@$: 5965
+Date: Sun, 26 May 2024 16:30:53 -0600
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H
+Shift Handover Meeting: Kevin N
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 14-03 | 05-14
+Recycle Pumps: Production
+Production Tank Level: 3.854
+LPG Bullet Peak Level: 164
+LPG Bullet Peak Pressure: 385
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><strong>Weather mostly sunny +3 in the morning warming to +15</strong></u></p>
+
+<p>Confirmed the production tank height</p>
+
+<p>Measurement Inc out to trouble shoot V-3101 coriolis and as to why its not accumulating. They found that its metering as it should and could not find anything wrong.</p>
+
+<p>Called Daren and he walk operations through some steps to reset comms to V-3101 meter and fqi 3003 meter thats also locked up.</p>
+
+<p>Called Andy Robb with Elite and he is to come out and look at the meter problems</p>
+
+<p>Rob Thirsk hauled in Zeta water and emptied out the floor drains in process.</p>
+
+<p>Tightened packings on the South EG pump</p>
+
+<p>Shawn with Surepoint out to fix the LPG fire eye (AT 3401) that was pinned at 100%</p>
+
+<p>Shawn with Surepoint got the EG pump (P 3203B) VFD to reset. Shut off A pump and started B</p>
+
+<p>Mark pigged Wolf Creek and Wpne lines, Wolf pig pulled clean.</p>
+
+<p>Filled the wet leg on K-204 suction scrubber level controler</p>

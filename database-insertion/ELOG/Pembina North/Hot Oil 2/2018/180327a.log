@@ -1,0 +1,40 @@
+$@MID@$: 444
+Date: Tue, 27 Mar 2018 09:04:54 -0600
+Author: Kevin Nicol
+Flow: 235
+Inlet Temp: 198
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 350
+Surge Tank Level: 2
+Fuel Gas Press: 920
+Stack Temp: 244
+Flame Condition: Blue
+Shift: Day
+Month: Mar
+Day: 27
+Year: 2018
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 445
+Date: Tue, 27 Mar 2018 20:07:35 -0600
+Author: Nigel Renschler
+Flow: 235
+Inlet Temp: 197
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 350
+Surge Tank Level: 2
+Fuel Gas Press: 900
+Stack Temp: 244
+Flame Condition: Blue
+Shift: Night
+Month: Mar
+Day: 27
+Year: 2018
+Attachment: 
+Encoding: HTML
+========================================
+

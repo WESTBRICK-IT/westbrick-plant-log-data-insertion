@@ -1,0 +1,86 @@
+$@MID@$: 4242
+Date: Wed, 05 Jan 2022 04:36:11 -0700
+Author: Jordan Wilson
+Shift: Night Shift
+Operators: Romeo T | Jordan W
+Shift Handover Meeting: Blaine H | Pat B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: -26, some minor snow</p>
+
+<p>-Call RCO for timeline on grader, they will let me know tomorrow</p>
+
+<p>-No security issues at Braz North noted</p>
+
+<p>-hot oil air preheat down to -16 degrees.&nbsp; adjusted the hot oil valve to air intake, will have to watch and adjust if temps drop again.&nbsp; currently temps between 20-30 degrees</p>
+
+<p>-drain horizontal coalescer</p>
+
+<p>-drain de-eth scrubber</p>
+
+<p>-drain K-202 1st and 2nd stage scrubbers</p>
+
+<p>-low H2 warning on GC, bottles had good pressure, but low to GC.&nbsp; adjusted regulators a bit and pressure from 300 to 450 kpa, alarm cleared.</p>
+
+<p>-TIC-4300 from 37% to 37.5% to increase regen tops temp</p>
+
+<p>-TIC-5800 for acid gas 4th stage intercooler from 35 to 38</p>
+$@MID@$: 4243
+Date: Wed, 05 Jan 2022 16:52:29 -0700
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Pat B
+Shift Handover Meeting: Romeo T | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather at the start of shift cold, cloudy -28 staying that temp throughout the day.</p>
+
+<p>The hot oil heater went down 2 times on flame fail, adjusted the air intake heat control valve manually to cool the air down, temp control running between 19 and 29 degrees.</p>
+
+<p>Production books sales gas in inlet volumes were not balanced. Found that fqi 99 meter was over ranging on DP and not always reading the correct volume. Increased the back pressure control on fqi 99 to 910kpa to 950 kpa to help force more gas through fqi 3008 meter.</p>
+
+<p>Increased K204 speed 50 rpm to move more gas.</p>
+
+<p>Vermillian called and said that maybe Thrusday night or Friday they will be temporarily shutting off the extra gas to run tubing down the well.</p>
+
+<p>Tyson out to take oil samples</p>
+
+<p>Nathan grease the BC3 motor</p>

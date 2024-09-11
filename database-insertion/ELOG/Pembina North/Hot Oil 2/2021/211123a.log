@@ -1,0 +1,40 @@
+$@MID@$: 2999
+Date: Tue, 23 Nov 2021 09:29:24 -0700
+Author: Jordan Wilson
+Flow: 232
+Inlet Temp: 200
+Outlet Temp: 211
+Pump Press: 720
+Surge Tank Press: 315
+Surge Tank Level: 5
+Fuel Gas Press: 820
+Stack Temp: 209
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Nov
+Day: 23
+Year: 2021
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 3000
+Date: Tue, 23 Nov 2021 23:54:19 -0700
+Author: Blaine Harris
+Flow: 233
+Inlet Temp: 199
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 325
+Surge Tank Level: 5
+Fuel Gas Press: 840
+Stack Temp: 212
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Nov
+Day: 23
+Year: 2021
+Attachment: 
+Encoding: HTML
+========================================
+

@@ -1,0 +1,60 @@
+$@MID@$: 3086
+Date: Thu, 06 Jan 2022 05:50:43 -0700
+Author: Jordan Wilson
+Flow: 225
+Inlet Temp: 199
+Outlet Temp: 208
+Pump Press: 720
+Surge Tank Press: 335
+Surge Tank Level: 4.5
+Fuel Gas Press: 790
+Stack Temp: 217
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Jan
+Day: 5
+Year: 2021
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 3087
+Date: Thu, 06 Jan 2022 17:45:19 -0700
+Author: Blaine Harris
+Flow: -
+Inlet Temp: -
+Outlet Temp: -
+Pump Press: -
+Surge Tank Press: -
+Surge Tank Level: -
+Fuel Gas Press: -
+Stack Temp: -
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Jan
+Day: 6
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Down</p>
+$@MID@$: 3088
+Date: Thu, 06 Jan 2022 17:47:55 -0700
+Author: Blaine Harris
+Flow: -
+Inlet Temp: -
+Outlet Temp: -
+Pump Press: -
+Surge Tank Press: -
+Surge Tank Level: -
+Fuel Gas Press: -
+Stack Temp: -
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Jan
+Day: 6
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Hot oil heater down</p>

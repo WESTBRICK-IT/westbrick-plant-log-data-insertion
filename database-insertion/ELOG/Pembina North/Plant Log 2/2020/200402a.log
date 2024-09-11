@@ -1,0 +1,88 @@
+$@MID@$: 2931
+Date: Thu, 02 Apr 2020 04:57:29 -0600
+Author: Ryan Gilgan
+Shift: Night Shift
+Operators: Ryan G | Dallas L
+Shift Handover Meeting: Ryan Bl | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Reviewed morning meeting minutes.</p>
+
+<p>Added C3 to the surge tank 2 to 9 bolts.</p>
+
+<p>Pinched tarps on Amine trim cooler.</p>
+
+<p>Emailed PO to Carl for the supply delivered.</p>
+
+<p>Pinched louvers on K-202.</p>
+
+<p>Increased propane surge tank pressure to 950kpa.</p>
+
+<p>Increased Amine condenser temp from 28 to 30 degrees to get temps up on cooler.</p>
+
+<p>Production tank level is getting high, day shift may want to call PPL to start the pmp.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 2932
+Date: Thu, 02 Apr 2020 17:15:24 -0600
+Author: ryan blair
+Shift: Day Shift
+Operators: Ryan Bl | Kyle S
+Shift Handover Meeting: Tye M | Romeo T
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: K-5000
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: N/A
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Amine boiler valve set at 26% from 27%</p>
+
+<p>Hot gas bypass on C3 lowered from 30kpa to 25 kpa. Ambient has allowed us to run in this range.</p>
+
+<p>Brandon with elite automation out working on calibating gas meters</p>
+
+<p>PPL started pumping in AM. Kelly(PPL mech) out to look at pump and set up regarding low suction S/D&#39;s.&nbsp; Seems to all check out on their end. They will be back tomorrow to have another look.</p>
+
+<p>Devin out to look at TNK 1 level transmitter, says it all looks good and is functioning normally.&nbsp; (Temp shot tank and its about right). **Will keep everyone in the loop as to PPL issues, Operations to carry over info**</p>
+
+<p>Set C3 surge tank pressure at 850kpa,&nbsp; turned fan on high spd</p>
+
+<p>Zeta Creek pigged sales line. Blend was out for a bit. BOL</p>
+
+<p>V-200 pressured up, valves cut back. Found 5-14 line open into 1-21 line. Closed and brought Obsidian back online, valving back to normal. Kim was notified</p>
+
+<p><span style="color:#FF0000"><strong><u>WO-36023-</u></strong></span> Amine reflux BP controller not working/controlling. Devin worked on. Reset wonderware BOL</p>
+
+<p><strong><u><span style="color:#FF0000">WO-</span><span style="color:#FF0000">36024</span></u></strong>- Amine reflux pressure contoller was not working. Devin worked on, found some programming out. Reset wonderware BOL</p>

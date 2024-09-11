@@ -1,0 +1,40 @@
+$@MID@$: 1232
+Date: Tue, 21 May 2019 05:20:36 -0600
+Author: Ryan Bangle
+Flow: 244
+Inlet Temp: ---
+Outlet Temp: 193
+Pump Press: 740
+Surge Tank Press: 325
+Surge Tank Level: 4
+Fuel Gas Press: 740
+Stack Temp: 221
+Flame Condition: Blue
+Shift: Night
+Month: May
+Day: 20
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 1233
+Date: Tue, 21 May 2019 10:23:33 -0600
+Author: Kevin Nicol
+Flow: 244
+Inlet Temp: na
+Outlet Temp: 193
+Pump Press: 660
+Surge Tank Press: 325
+Surge Tank Level: 4
+Fuel Gas Press: 770
+Stack Temp: 211
+Flame Condition: Blue
+Shift: Day
+Month: May
+Day: 21
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;shut off onepump, raised temp to 212</p>

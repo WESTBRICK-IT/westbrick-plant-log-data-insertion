@@ -1,0 +1,170 @@
+$@MID@$: 2933
+Date: Fri, 03 Apr 2020 03:42:06 -0600
+Reply to: 2934
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Ryan Bl | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Sanitized control room PM and AM.</p>
+
+<p>Manually lowered amine skim tank level.</p>
+
+<p>Skimmed amine charcoal filter. Clean.</p>
+
+<p>Amine regen reflux flow started to trend down and flow rate was bouncing. Increased the amine reboiler temp to bring the reflux rate up abit but it didnt seem to help. Noticed the acid gas condencer louvers and internal recycle louvers were swinging abit as well. Hard to tell by the trends if it was the condencer/recycle louvers fighting themselves causing the reflux flow to jump around or vise versa. Ran the trim cooler recycle louvers in manual and added a little anti foam and it seemed to line out within half hour. Gas flows were also up and down by 80e3m3 which didnt help.</p>
+
+<p>Blew down reflux accumulator sight glass and didnt see any hydrocarbon, just a slight skim. Coalescer filter also clean.</p>
+
+<p>Lost abit of level in the amine reboiler when condencer and regen&nbsp;temps were swinging and gas flows dropped. Increased makup pump from 13 to 16. May need to work on getting the amine concentraton down more. R/O water tank at 30% level.</p>
+
+<p>Condencer recycle louver setpoint was 15 degrees. Bumped up to 20 degrees but running in manual currently.</p>
+
+<p>Amine skim tank rang in hi level but it was only at 3 bolts, Blew down the level transmitter and the alarm clearned.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+$@MID@$: 2934
+Date: Fri, 03 Apr 2020 05:16:34 -0600
+In reply to: 2933
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Ryan Bl | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;Turned the 2 speed condencer fan to flow</p>
+
+<table align="center" cellspacing="1" style="border-bottom:#486090 1px solid; border-left:#486090 1px solid; border-right:#486090 1px solid; border-top:#486090 1px solid; width:98%">
+	<tbody>
+		<tr>
+			<td style="background-color: #486090">Tye Mastre wrote:</td>
+		</tr>
+		<tr>
+			<td style="background-color: #ffffb0">
+			<p>Sanitized control room PM and AM.</p>
+
+			<p>Manually lowered amine skim tank level.</p>
+
+			<p>Skimmed amine charcoal filter. Clean.</p>
+
+			<p>Amine regen reflux flow started to trend down and flow rate was bouncing. Increased the amine reboiler temp to bring the reflux rate up abit but it didnt seem to help. Noticed the acid gas condencer louvers and internal recycle louvers were swinging abit as well. Hard to tell by the trends if it was the condencer/recycle louvers fighting themselves causing the reflux flow to jump around or vise versa. Ran the trim cooler recycle louvers in manual and added a little anti foam and it seemed to line out within half hour. Gas flows were also up and down by 80e3m3 which didnt help.</p>
+
+			<p>Blew down reflux accumulator sight glass and didnt see any hydrocarbon, just a slight skim. Coalescer filter also clean.</p>
+
+			<p>Lost abit of level in the amine reboiler when condencer and regen&nbsp;temps were swinging and gas flows dropped. Increased makup pump from 13 to 16. May need to work on getting the amine concentraton down more. R/O water tank at 30% level.</p>
+
+			<p>Condencer recycle louver setpoint was 15 degrees. Bumped up to 20 degrees but running in manual currently.</p>
+
+			<p>Amine skim tank rang in hi level but it was only at 3 bolts, Blew down the level transmitter and the alarm clearned.</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+$@MID@$: 2935
+Date: Fri, 03 Apr 2020 17:04:33 -0600
+Author: ryan blair
+Shift: Day Shift
+Operators: Ryan Bl | Kyle S
+Shift Handover Meeting: Tye M | Romeo T
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 44.3%
+Roustabout Utilization: 
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Eric out to grab some PID books and scope out potential RO system</p>
+
+<p>Blue River hauling water from Zeta Creek. Charge pump is on and in auto</p>
+
+<p>Sanatize and clean up control room</p>
+
+<p>Procedure sign offs worked on</p>
+
+<p>CMDS worked on</p>
+
+<p>Set refridge accumulator pressure at 825kpa from 850kpa</p>
+
+<p>Turn C3 condenser fan onto high spd</p>
+
+<p>Took Amine sample, at 44.3%, Reboiler at 58% level</p>
+
+<p>Order RO water for tomorrow or Saturday</p>
+
+<p>Adjust K203 top and bottom louver setpoints to 35C from 30C</p>
+
+<p>Build out SVI and PID on TNK 150</p>
+
+<p>Take oil samples off treater and recycle pump. Spun both samples looking for product issues, both spun clean and look good. Samples are in Lab, will hold for a few days.</p>
+
+<p>Cleaned up all garbage, old samples, jugs in Lab</p>
+
+<p>Conference call with Kelly and Mike, discussion around PPL pumping issues.</p>
+
+<p>Turn on second recycle pump to try and get a little more heat into tank.</p>
+
+<p>Brandon out to look at both recycle pumps and check for rebuild parts. A sounds good, B has a small knock, just to keep monitoring.&nbsp;</p>
+
+<p>Tighten packing on both recycle pumps and clean up area a bit</p>
+
+<p>PPL had multiple people on site looking at equipment to trouble shoot and look into low suction issues. Lining up to hot oil line on Tuesday.</p>
+
+<p>Kenny lining up to pig the wolf creek line in the AM (Saturday)</p>

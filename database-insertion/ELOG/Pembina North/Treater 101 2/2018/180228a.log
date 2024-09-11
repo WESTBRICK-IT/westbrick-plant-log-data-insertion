@@ -1,0 +1,32 @@
+$@MID@$: 400
+Date: Wed, 28 Feb 2018 05:00:03 -0700
+Author: Ryan Gilgan
+Pressure: 222
+Temperature: 60
+Front Water Lvl: 3
+Back Water Lvl: 3
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Feb
+Day: 27
+Year: 2018
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 401
+Date: Wed, 28 Feb 2018 08:06:03 -0700
+Author: Justin Ewing
+Pressure: 226
+Temperature: 65
+Front Water Lvl: 1.5
+Back Water Lvl: 3.0
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Feb
+Day: 28
+Year: 2018
+Attachment: 
+Encoding: HTML
+========================================
+<p>dumped back water to 1.0 bolts</p>

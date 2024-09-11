@@ -1,0 +1,9 @@
+$@MID@$: 7
+Date: Fri, 08 Dec 2023 08:55:20 -0700
+Author: Daren Fald
+Asset: HMI Display
+Duration: Permanent
+Attachment: 
+Encoding: HTML
+========================================
+<p>Made changes tooo the LPG display window.&nbsp; Added PIC-3401 Controller and added new pressure transmitter PIT-3400 on the display as well.&nbsp; This transmitter also has an High alarm set @ 550kPa.&nbsp; This alarm lets Operations Know if there is an over pressure in the Bullet.&nbsp;</p>

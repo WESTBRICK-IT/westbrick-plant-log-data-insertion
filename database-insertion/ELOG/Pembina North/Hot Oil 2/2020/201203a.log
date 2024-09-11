@@ -1,0 +1,40 @@
+$@MID@$: 2317
+Date: Thu, 03 Dec 2020 09:21:54 -0700
+Author: Jordan Wilson
+Flow: 244
+Inlet Temp: 195
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 325
+Surge Tank Level: 3
+Fuel Gas Press: 780
+Stack Temp: 225
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Dec
+Day: 3
+Year: 2020
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 2318
+Date: Thu, 03 Dec 2020 23:08:41 -0700
+Author: Blaine Harris
+Flow: 244
+Inlet Temp: 195
+Outlet Temp: 211
+Pump Press: 720
+Surge Tank Press: 325
+Surge Tank Level: 3
+Fuel Gas Press: 790
+Stack Temp: 222
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Dec
+Day: 3
+Year: 2020
+Attachment: 
+Encoding: HTML
+========================================
+

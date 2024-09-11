@@ -1,0 +1,144 @@
+$@MID@$: 3634
+Date: Mon, 08 Mar 2021 02:33:16 -0700
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Kyle S | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>+7 Degrees Cooling To -2 Degrees, Clear &amp; Calm</strong></em></u></p>
+
+<p>Sanitized and cleaned control room PM and AM.</p>
+
+<p>Pulling down lots of line pack from pig. All inlets open and pressures back to normal around 12:00 AM.</p>
+
+<p>Blew down treater sight glasses. Water quality looked poor from pig. Clearned up after blowing them down.</p>
+
+<p>Reviewed and signed off on procedures.</p>
+
+<p>Called Rimby to kick on LPG pumps and maintain 45% for meter prove. BOL.</p>
+
+<p>Pinched louvers on K-201 and K-202 to maintain contactor inlet temp.</p>
+
+<p>Laid some soaker pads down for recycle pumps. Thanks dayshift for cleaning up containments, looks good.</p>
+
+<p>Manually dumped de eth suction scrubber and K-202 1st stg scrubber.</p>
+
+<p>Braz North K-101 PLC comm fail and West Pem process PLC comm fail rang in twice then clearned. May need to quiz Daren about it today.</p>
+
+<p>Pembina kicked their pumps on. Density around 773. Was 770 yesterday morning. Todays pig would not have helped matters any but density is still climbing up. Both pumps still recycling out of the shipping tank and Pembina stayed running.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3635
+Date: Mon, 08 Mar 2021 16:49:28 -0700
+Author: Kyle Shute
+Shift: Day Shift
+Operators: Kyle S | Jordan W
+Shift Handover Meeting: Tye M | Romeo T
+Start of Shift Meeting: Daren F | Devin N
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 05-14 | 05-21
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>+3&deg;C today, clear and calm.</strong></em></u></p>
+
+<p>- Hi-Flo out this morning to prove the Keylink meter.</p>
+
+<p>- Miktye hauled out one load of oil from the production tank to take to Tervita.</p>
+
+<p>- Core Lab out to take monthly sour gas samples, also grabbed a sample of our sales oil for vapor pressure testing.</p>
+
+<p>- HVO hauled in one load of Mancal emulsion, <strong>valving is still swung into the &quot;Overflow&quot; tank.</strong></p>
+
+<p>- Rob hauled Zeta produced water.</p>
+
+<p>- Mark pigged 5-21 to the plant, also pigged the WPNE pipeline, both pigs pulled.</p>
+
+<p>- Devin calibrated the process and sales h2s analyzers.</p>
+
+<p>- Hauled oil down to K-204 for Tyson for tomorrow&#39;s service.</p>
+
+<p>- Bigoray production will be swung to Cynthia tomorrow morning at 8:00AM for 24hrs, notified Cliff Ellis with Clearview and Randy Gruber with Sinopec.</p>
+
+<p>- Spread some gravel around the plant.</p>
+
+<p>- Did a pressure survey across process for Erik.</p>
+$@MID@$: 3636
+Date: Mon, 08 Mar 2021 23:12:53 -0700
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Ryan G | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>+1 Degree Cooling To -7 Degrees, Clear &amp; Calm</strong></em></u></p>
+
+<p>Sanitized control room PM and AM.</p>
+
+<p>Skimmed amine charcoal filter. Slight skim of oil.</p>
+
+<p>Skimmed and drained the amine skim tank.</p>
+
+<p>Pinched louvers on K-201 and K-202 abit more to maintain amine contactor inlet temp.</p>
+
+<p>V-107 comms flatlined on DCS. Powered down and reset comms on meter. Back to normal.</p>
+
+<p>Turned off the single speed condencer fand and turned the 2 speed from &quot;slow&quot; to &quot;fast&quot; to warm up amine contactor inlet temp and raise c3 accumulator pressure.</p>
+
+<p>Lots of fog rolled through around 2 AM. Had to sweep off cooler banks as JW temps were climbing on compressors from frost.</p>
+
+<p>CMDS validations with Romeo.</p>

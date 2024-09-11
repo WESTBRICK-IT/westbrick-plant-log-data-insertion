@@ -1,0 +1,113 @@
+$@MID@$: 4244
+Date: Thu, 06 Jan 2022 05:52:14 -0700
+Author: Jordan Wilson
+Shift: Night Shift
+Operators: Romeo T | Jordan W
+Shift Handover Meeting: Blaine H | Pat B
+Start of Shift Meeting: 
+Plant Status: Process Upset | Lost Compressor(s)
+Equipment Outage: K-201 | K-206 | K-5000 | C3-B | H-400 | Amine
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: Yes
+Upcoming Activities: Yes
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: -34</p>
+
+<p>-no security issues noted at Braz North</p>
+
+<p>-analyzer issues with process analyzer.&nbsp; Line froze off from horizontal coalescer to analyzer, had a bunch of fluid in it.&nbsp; drain horizontal coalescer, wrap line with rags and heat up with hot water, got line freed up and liquids bled out of analyzer. S<span style="color:#FF0000">R 6048373 entered to have new heat trace installed, analyzer looked at (as well as sales analyzer) and a drip pot installed on this line to catch liquids before analyzer.&nbsp; pulled dragers while analyzer issues to ensure we are sweet, looked good</span></p>
+
+<p>-shovel some snow</p>
+
+<p><span style="color:#FF0000">-TIC-5100 (acid gas 4th stage discharge fan) increased from 33 to 35 as the gas leaving to well was getting cold</span></p>
+
+<p>-<span style="color:#FF0000">service request 6048374</span> entered to have the topworx/ actuator fixed for H-400 air preheat line</p>
+
+<p>-<span style="color:#FF0000">service request 6048375</span> entered to have audible alarm set up on board op computer so we don&#39;t just rely on the horn outside.&nbsp; when wind direction is wrong and its cold it can be tough to hear alarm in control room</p>
+
+<p>Process analyzer froze up again, caused H2S to spike, closed sales ESD valve.</p>
+
+<ul>
+	<li><span style="color:#FF0000">bypassed process analyzer as this reading was false based on dragers pulled, this is still on bypass at shift change</span></li>
+	<li>opened ESDY-7000 on sales meter page to get gas moving again, but it wouldn&#39;t open the ESDY-7000 valve on the sales compressor page, which is usually does, caused gas to recycle back to K-206.&nbsp; ESDY-7000 on sales compressor page did open later after all equipment went down</li>
+	<li>with gas recycling back to K-206, the compressor went down</li>
+	<li>when K-206 went down this knocked down C3B refridge compressor, shut off glycol pumps with the extra compressors down</li>
+	<li>H-400 hot oil heater went down with fuel gas issues, could not get it to fire up, keeps going down on flame fail, or even before trying to fire up it goes down on purge low flow, figure fuel gas issues, regulator was a little frosty, probably due to C3 being down, tried to get it going by warming up regulator with warm water but no luck, called devin to come out early.</li>
+	<li>shut in sour inlets after we couldn&#39;t start hot oil system, V-200, and WPNE line are shut in manual 0%.</li>
+	<li>started going sour on sales due to hot oil system down and amine regen tops temp low, closed sales ESD and took load off compressors.&nbsp; We did run for about half an hour with sour production shut in but H2S kept climbing</li>
+	<li><span style="color:#FF0000">-K-206, 201, 202, 204, and 205 still running, but just idling</span></li>
+	<li><span style="color:#FF0000">K-5000, H-400, amine charge pump, C3B all down</span></li>
+	<li><span style="color:#FF0000">ESDY-5000 ESD still closed, Process H2S analyzer still bypassed</span></li>
+</ul>
+
+<p>-Terrence and John with Vermilion called about pressures, told him we are having issues, he requested that we call him when back up and running.</p>
+
+<p>-Kim with obsidian called, please keep him in the loop when things are back online</p>
+
+<p>&nbsp;</p>
+$@MID@$: 4245
+Date: Thu, 06 Jan 2022 17:48:42 -0700
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Pat B
+Shift Handover Meeting: Romeo T | Jordan W
+Start of Shift Meeting: 
+Plant Status: Process Upset
+Equipment Outage: 
+Filter Change: 
+Pigging: 14-03
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather cold -37 and clear, stayed cold all day</p>
+
+<p>Plant down at shift change, hot oil heater down and could not restart.</p>
+
+<p>Got kick out of sales on high ppm&#39;s</p>
+
+<p>Had to pull back from sales through pic 208</p>
+
+<p>Had to swap hot oil circulation pump to P-3501A from P-3501B because of the bad mechanical seal on B pump.</p>
+
+<p>Devon out to look at the hot oil heater and found burnt wires on the pilot ignighter. Did a temporary fix until Heateach can repair. They were already scheduled to come out to repair the air intake preheat valve.</p>
+
+<p>Heatech out to work on the air intake preheat valve. He also changed out the damaged wireing for the pilot system. He also found the linkage really loose for the air intake that was allowing really rich exhaust back into the intake causing it to back fire.</p>
+
+<p>1:30 pm starting bring gas back in and loading compression</p>
+
+<p>Tyson repaired the mechical seal on P-3501B Hot oil pump</p>
+
+<p>Started Bc3 compressor just before shift change, some how lost all the c3 to flare somewhere, still looking for the reason at shift change.</p>
+
+<p>Hvo hauled in a losd of Mancal emulsion</p>
+
+<p>Added EG glycol to the reboiler a couple of times.</p>
+
+<p>&nbsp;</p>

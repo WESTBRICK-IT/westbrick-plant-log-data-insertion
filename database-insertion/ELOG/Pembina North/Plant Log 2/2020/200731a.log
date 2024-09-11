@@ -1,0 +1,125 @@
+$@MID@$: 3180
+Date: Fri, 31 Jul 2020 04:37:27 -0600
+Author: Romeo Tobias
+Shift: Night Shift
+Operators: Romeo T
+Shift Handover Meeting: Dayton M | Jordan W
+Start of Shift Meeting: 
+Plant Status: Flaring Event
+Equipment Outage: 
+Filter Change: Coalescer
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 41%
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: N/A
+Operational Targets: N/A
+Overrides or Safeties Bypassed: Yes
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Add C3 into accumulator but it end up all in the chiller. Changed level setpoint from 28 to 24%. Still no level in accumulator. No liquid in the suction scrubber. Monitored troughout the night.</p>
+
+<p>Changed out inlet coalscer filter with Bryan,</p>
+
+<p>Changed out process H2S analyzer tape, low on tape.</p>
+
+<p>Topped up glycol throughout the night. Started losing level again around 4AM.</p>
+
+<p>Bypassing sales dewpoint every 2 hours. Shutdown is at 10C. Flowing at -31C around 4:30AM.</p>
+
+<p>Water plant booster pump stayed running even the level is already low. WO# 37248</p>
+
+<p>Started amine make-up water at 20% to build up some level in the reboiler.</p>
+
+<p>LPG tank alarmed on high level. Dayshift please have Keylink pump it out if its good to ship. Thanks.</p>
+
+<p>Water flash tank meter no display. WO# 37249</p>
+
+<p>Tried starting up acid gas compressor a couple of times but it keeps going down, not sure why? Blend gas is open at 35%. Thanks.</p>
+
+<p>Started up de-bute reflux pump after we build some levels in the tower.</p>
+
+<p>Changed out de-eth tower temperature from 72 to 80.</p>
+
+<p>Set C3 suction pressure from 40 kPa to 55 kPa.</p>
+
+<p>Disinfected control room twice.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3181
+Date: Fri, 31 Jul 2020 16:53:49 -0600
+Author: Dayton Mohr
+Shift: Day Shift
+Operators: Dayton M | Jordan W
+Shift Handover Meeting: Romeo T | Bryan N
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: Water Plant
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: Yes
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><strong>K3301 C3B</strong></p>
+
+<ul>
+	<li>No run issues today</li>
+	<li>Daren &amp; Devin checked unit over, no problems</li>
+	<li>Tyson checked all perimeters, checked valve temps,&nbsp; all good</li>
+	<li>Start of shift opened hot gas bypass to get more suction pressure, left on auto, before noon the control valve was closed.</li>
+</ul>
+
+<p><strong>Chiller/ Accum</strong></p>
+
+<ul>
+	<li>Adjusted level down over the morning from 24% down to 10 % final postion to achieve the 3* temp diff wanted, did not effect operation,&nbsp; consistant propane pressure above 28 kpa to 60 kpa near the end of shift due to high temps today.</li>
+	<li>Lowering the level in the chiller pushed the level back to the accum, pumped back to storage from accum, left accum level at 10 bolts</li>
+	<li>Devin checked level set points on level indication. Left as they were.</li>
+</ul>
+
+<p>&nbsp;<strong>Glycol flash tank</strong>- adjusted level control, raised &amp; pushed hydrocarbons to flare, set back where needed.</p>
+
+<p><strong>Glycol Regen</strong> level up &amp; down today, adjusted glycol seperator dump control, added acouple times throughout the day, seems to be coming around, getting returns now.. Also adjusted glycol flow control from 12 to 10 m3 a day, changes with gas flow tho.</p>
+
+<p><strong>Keylink-</strong>Called Rimbey to start pumps, had to bled pumps down, vapour locked, reset &amp; got the pumps going, had Dean set the level for 250 M3 volume. <span style="color:#FF0000">Night shift please check lubicator for the pumps tonight to ensure it is oiling.</span></p>
+
+<p><strong>Acid Gas K5000</strong>- Devin/Daren/Tyson-found no lube flow was holding it out, opened up lube oil, pumped up, started, loaded &amp; online. Called all producers to bring on sour wells, No sign of anything at end of shift.</p>
+
+<p><strong>Water Plant- </strong>comm issues, plc is gone, needs to be replaced, will require a shut down as per Daren, will run as normal, just have no communication other then level, pumps will still start &amp; stop as they should.</p>
+
+<p><strong>Misc</strong></p>
+
+<ul>
+	<li>Removed sales dew point bypass</li>
+	<li>Devin changed out hydrogen bottles on the GC &amp; reset</li>
+	<li>Corrision inhibitor pump in the inlet head building leaking, Devin checked it out, will need to order parts, blocked &amp; shut off pump. WO-37250</li>
+	<li>GGT hauling in water from Zeta</li>
+	<li>HVO hauled in Mancal oil</li>
+	<li>Changed water plant filters, east is now in service</li>
+	<li>Sanitized control room start &amp; end of shift.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

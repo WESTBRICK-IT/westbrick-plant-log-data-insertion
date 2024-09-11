@@ -1,0 +1,42 @@
+$@MID@$: 4100
+Date: Thu, 20 Jul 2023 16:23:32 -0600
+Author: Blaine Harris
+Flow: 229
+Inlet Temp: 207
+Outlet Temp: 211
+Pump Press: 740
+Surge Tank Press: 315
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 202
+Air Temp: 27
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Jul
+Day: 20
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 4101
+Date: Thu, 20 Jul 2023 22:42:01 -0600
+Author: Pat Brown
+Flow: 232
+Inlet Temp: 206
+Outlet Temp: 210
+Pump Press: 740
+Surge Tank Press: 325
+Surge Tank Level: 4
+Fuel Gas Press: 80
+Stack Temp: 223
+Air Temp: 21
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Jul
+Day: 20
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+

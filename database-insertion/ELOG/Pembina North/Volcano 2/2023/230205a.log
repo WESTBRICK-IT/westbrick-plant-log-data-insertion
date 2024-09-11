@@ -1,0 +1,36 @@
+$@MID@$: 2345
+Date: Sun, 05 Feb 2023 10:36:06 -0700
+Author: Brad Towers
+Surge Tank Temp: 57
+Surge Tank Press: 255
+Surge Tank Level: 4.5
+Outlet Temp: 75
+Stack Temp: 111
+Pump Press: 415
+Flame Condition: Orange
+Shift: Day
+Month: Feb
+Day: 5
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 2346
+Date: Sun, 05 Feb 2023 23:10:21 -0700
+Author: Pat Brown
+Surge Tank Temp: 57
+Surge Tank Press: 260
+Surge Tank Level: 4.5
+Outlet Temp: 75
+Stack Temp: 114
+Pump Press: 415
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Feb
+Day: 5
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+

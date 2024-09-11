@@ -1,0 +1,136 @@
+$@MID@$: 4328
+Date: Thu, 17 Feb 2022 00:26:41 -0700
+Author: Blaine Harris
+Shift: Night Shift
+Operators: Blaine H | Bryan N
+Shift Handover Meeting: Chris P | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather cloudy -9</p>
+
+<p>Completed the slips and trips inspection</p>
+
+<p>Checked on the hot oil pump seal several times, no change.</p>
+
+<p>Increased the lube rate on the west lubricator on the north Keylink pump</p>
+
+<p>Keylink having metering issues, the pump is running but recyle is open and not moving product.</p>
+
+<p>There was no visible security issues at Braz North</p>
+$@MID@$: 4329
+Date: Thu, 17 Feb 2022 16:29:41 -0700
+Author: Jordan Wilson
+Shift: Day Shift
+Operators: Jordan W | Pat B
+Shift Handover Meeting: Blaine H | Jeff B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: +3, some snow and rain</p>
+
+<p><span style="color:#FF0000">-Please watch footing as snow, rain, and warm temps have made things slippery</span></p>
+
+<p>-Morning meeting</p>
+
+<p>-AC-3102A debute fan from 0 to 10%</p>
+
+<p>-C3 2 speed fan turned from slow to fast</p>
+
+<p>-TIC 4300 regen tops temp adjusted from 39 to 39.5%</p>
+
+<p>-accountability framework session</p>
+
+<p>-fix some production books for Jessica</p>
+
+<p>-Increased lubrication drip rates for LPG pump</p>
+
+<p>-Talked to Pembina, we should be back shipping on saturday evening</p>
+
+<p>-Westbrick brought on production from new well 16-3-50-14.&nbsp; Right now we are about 110e3m3 up through v-3101.&nbsp; This is backing out the inlets to v-3101.&nbsp; Following changes have been made to try and move more gas</p>
+
+<ul>
+	<li>k-203 RPM from 670 to 880</li>
+	<li>K-204 RPM from 850 to 880</li>
+	<li>K-206 RPM from 840 to 870</li>
+	<li>K-205 from 780 to 830</li>
+	<li>BPY-101 back pressure controller from v-101 to K-203 set from 850 to 910 kpa to try and force more gas to K-204 and free up some room with K-203</li>
+	<li>Reinstated alarms and S/D&#39;s for K-201 and started compressor to see if that will help pull down more pressure, doesn&#39;t appear to have made much of a difference, may be able to shut compressor down tonight</li>
+	<li>Talked to Mark S in the field about the pressure.&nbsp; 14-3 pressure went from roughly 1000 kpa to 1900 kpa with start up of the well, but our inlets went from 680 kpa to 780 kpa.&nbsp; seemed like a big spread between the two, but Mark hit all the riser sites and pressures seem to drop in a fairly linear fashion between 14-3 and our inlets.&nbsp; Perhaps this is just the way the line will look with the extra gas.&nbsp; The extra 40m3 of fluid in the line potentially causing some fluid pack issues?&nbsp; We will see how things level out.&nbsp; All compression is on and sped up and no recycle valves open on compression.&nbsp; Don&#39;t seem to be moving as much gas as we should be able to.&nbsp;</li>
+</ul>
+
+<p>-hot oil pump seal leak is about the same</p>
+$@MID@$: 4330
+Date: Thu, 17 Feb 2022 20:13:51 -0700
+Author: Blaine Harris
+Shift: Night Shift
+Operators: Blaine H | Jeff B
+Shift Handover Meeting: Jordan W | Pat B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: 
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather party cloudy +2</p>
+
+<p>North lpg pump west packing leaking badly, blocked pump in and depressured. Called Keylink to start the south pump. Work request 6050429 summited.</p>
+
+<p>There was no visible security issues at Braz North</p>
+
+<p>Completed the slips and trips inspection.</p>
+
+<p>Shut off the 2 speeed c3 fan and turned on the single speed fan.</p>
+
+<p>&nbsp;</p>

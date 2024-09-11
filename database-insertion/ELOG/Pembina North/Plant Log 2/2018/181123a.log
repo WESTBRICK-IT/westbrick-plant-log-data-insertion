@@ -1,0 +1,118 @@
+$@MID@$: 1899
+Date: Fri, 23 Nov 2018 01:46:32 -0700
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Chris P
+Shift Handover Meeting: Ryan G | Kyle S
+Start of Shift Meeting: Kevin T
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>Issues with glycol at start of shift after mode 2 in the afternoon. Flash tank hi leveled and glycol flow controller was not properly controlling ect. While out diagnosing issues noticed that both glycol injection pumps were running even though pump &#39;&#39;B&#39;&#39; hand switch was in off position. Stopped the VFD and work ordered. Glycol system started to line out after. WO#31174.</p>
+
+<p>Acid gas compressor recycle vave randomly cycles even with the process variable being above the setpoint. CURRENTLY RUNNING THE VALVE IN MANUAL. WO#31173.</p>
+
+<p>Acid gas after cooler temp rang in low. 4th stage discharge temp spiked up 20 degrees and suction pressure dropped way down. Noticed that the 4th stage suction scrubber dump valve was open. Manually closed valve on the DCS. Valve is set to close at 12% level. However, level wouldnt drop below 13% while dumping. WO#31175.</p>
+
+<p>Slowly increased the lean oil flow rate from 120m/day and increased de-eth bottoms temp from 93 degrees at start of shift. Currently flowing 160m/day at 98 degrees. No issues.</p>
+
+<p>Increased Lean amine flow rate to 171 m/day from 168m/day. (from 19 to 20% output on pump.)</p>
+
+<p>Amine reboiler TIC-4300 increased from 33% to 34% open to increase regen tops temp.</p>
+
+<p>Pinched trim cooler louvers slightly.</p>
+
+<p>Pinched K-203/203/208 louvers to increase amine contactor inlet gas tempature.</p>
+
+<p>HVO brought in a load of Baccalieu emulsion.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 1900
+Date: Fri, 23 Nov 2018 14:15:31 -0700
+Author: Kyle Shute
+Shift: Day Shift
+Operators: Ryan G | Kyle S
+Shift Handover Meeting: Tye M | Chris P
+Start of Shift Meeting: Daren F | Devin N | Kevin T
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Truck Offload
+Amine Concentration: 36%
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>-Topped up LPG lubricators.</p>
+
+<p>-Added glycol to K-206.</p>
+
+<p>-Swung recycle pump B into the truck offload line.</p>
+
+<p>-GGT (Rob) hauling in Braz &amp; Zeta water.</p>
+
+<p>-Avalanche integrity out to continue on UT scans around plant site (Acid gas compressor / Process).</p>
+
+<p>-Kevin T. working with Spectra Solutions (Matt) on vibration tests (Acid gas / C3 compressors).</p>
+
+<p>-Cycled methanol throught the HP cold sep dump line.&nbsp; Due to level climbing on the HP cold sep.</p>
+
+<p>-Amine concentration is 36%.</p>
+
+<p>-Devin N. pumped up the glycol leg on the 4th stage suction bottle of the acid gas compressor.</p>
+
+<p>-Devin N. replaced the scale inhibitor pump on the north side of V-107.</p>
+
+<p>-Increased de eth bottoms temp 1 degree.</p>
+
+<p>-Increased Amine flow rate to 173 from 171.&nbsp; Increased the pump speed 1%</p>
+
+<p>-Increased top temps on the amine regen from 34% to 35%.</p>
+
+<p>-Dropped trim tarps on the south side to get temps back up.</p>
+
+<p>-Cleaned out the treater heat exchanger basket.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 1901
+Date: Fri, 23 Nov 2018 23:24:10 -0700
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Chris P
+Shift Handover Meeting: Ryan G | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: Water Plant
+Pigging: 
+Recycle Pumps: Production | Truck Offload
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>V-101 level transmitter was reading inaccurate and dumping gas to the treater. Blew down capilaries twice to get it reading accurate again.</p>
+
+<p>Increased de-eth bottoms temp to 103 degrees to keep on spec.</p>
+
+<p>Added oil to lean oil lubricator tank.</p>
+
+<p>Skimmed amine charcoal filter. Clean.</p>
+
+<p>Blew down chiller deoiler. Lots of lube oil.</p>
+
+<p>Water plant filter pot bypass tripped due to DP. Changed filters.</p>
+
+<p>5-21 ESD rang in. Valve is in travel. No differential pressure accross ESD. Did not call field op.</p>
+
+<p>Pinched in louvers on K-208/208/203 abit more to increase amine contactor inlet tempature.</p>
+
+<p>&nbsp;</p>

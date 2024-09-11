@@ -1,0 +1,62 @@
+$@MID@$: 127
+Date: Tue, 02 Aug 2016 05:07:41 -0600
+Author: Ryan Bangle
+Shift: Night Shift
+Operators: Ryan B | Grant M
+Plant Status: Process Upset
+Equipment Outage: Glycol
+Filter Change: 
+Pigging: 
+Amine Concentration: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>Glycol bouncing all over the place.&nbsp; Added methanol to E-3101 and got some returns.&nbsp; Also because of reduced glycol flows, shut glycol injection at east end of E-3101 off and only injecting on west end.&nbsp; Hoping it helps with Atomization.&nbsp; Must of been an obstruction there of some kind.&nbsp; Flowed around 6 Roots for 10 mins then jumped to 8.5.</p>
+
+<p>Skimmed amine charcoal filter.&nbsp; Little bit of oil.</p>
+
+<p>Drained lube oils off bottom of chiller.</p>
+
+<p>Recycling out of the overflow tank.</p>
+
+<p>HVO hauled in load of oil and water.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 128
+Date: Tue, 02 Aug 2016 16:33:47 -0600
+Author: Nigel Renschler
+Shift: Day Shift
+Operators: Nigel R | Howard Q
+Plant Status: Steady
+Equipment Outage: Water Plant
+Filter Change: 
+Pigging: 
+Amine Concentration: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>-Added propane. 20%-0%</p>
+
+<p>-Ordered methanol for tomorrow</p>
+
+<p>-Darren worked on logic for the glycol flow. Right now on the dcs the vfd controll is actually the flow control and the glycol flow controll on dcs is going to be a pressure override. Just needs to be programmed to change the name. ran at 5.0 roots all day.</p>
+
+<p>- skimmed glycol accumulator. clean</p>
+
+<p>-TI4001 went to zero after the new update. Darren knows, and he also knows about the de-eth trends 2 the bottom buttons don&#39;t work.</p>
+
+<p>- Taggert is going to be out tomorrow. bringing magnacide</p>
+
+<p>- HVO hauled 2 loads of baccaleau oil</p>
+
+<p>- Rob hauled the water from the well, and hauled zeta water</p>
+
+<p>-<span style="color:#B22222"> Water plant is shut down. Suction bladder gone on water disposal pump. Boosters are in off.</span></p>
+
+<p>- PNA is swung through pig trap. Pig will come tomorrow morning.</p>
+
+<p>-slowed down k-201 because of oil temp, nightshift please speed back up. also speed back up k-103</p>
+
+<p>-De-eth all over the place today. turned both pumps back to auto. levelled out, all good see trends.</p>
+
+<p>-corelabs out doing month gas samples. Boot, treater, V-200 and acid gas all came in at a higher h2s conc. about double</p>

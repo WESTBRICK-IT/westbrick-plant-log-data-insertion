@@ -1,0 +1,60 @@
+$@MID@$: 737
+Date: Wed, 22 Aug 2018 17:04:22 -0600
+Author: Ryan Bangle
+Flow: 241
+Inlet Temp: 201
+Outlet Temp: 216
+Pump Press: 690
+Surge Tank Press: 340
+Surge Tank Level: 3
+Fuel Gas Press: 940
+Stack Temp: 239
+Flame Condition: Blue
+Shift: Day
+Month: Aug
+Day: 22
+Year: 2018
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 738
+Date: Wed, 22 Aug 2018 20:30:58 -0600
+Author: Gary Wright
+Flow: 239
+Inlet Temp: 202
+Outlet Temp: 220
+Pump Press: 700
+Surge Tank Press: 345
+Surge Tank Level: 4
+Fuel Gas Press: 940
+Stack Temp: 234
+Flame Condition: Blue
+Shift: Night
+Month: Aug
+Day: 21
+Year: 2018
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 739
+Date: Wed, 22 Aug 2018 20:34:20 -0600
+Author: Gary Wright
+Flow: 238
+Inlet Temp: 203
+Outlet Temp: 217
+Pump Press: 690
+Surge Tank Press: 345
+Surge Tank Level: 4
+Fuel Gas Press: 960
+Stack Temp: 231
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Aug
+Day: 22
+Year: 2018
+Attachment: 
+Encoding: HTML
+========================================
+

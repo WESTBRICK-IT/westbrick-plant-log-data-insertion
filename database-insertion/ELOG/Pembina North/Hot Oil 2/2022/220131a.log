@@ -1,0 +1,40 @@
+$@MID@$: 3138
+Date: Mon, 31 Jan 2022 07:18:34 -0700
+Author: chris platt
+Flow: 209
+Inlet Temp: 199
+Outlet Temp: 210
+Pump Press: 660
+Surge Tank Press: 330
+Surge Tank Level: 4.3
+Fuel Gas Press: 800
+Stack Temp: 211
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Jan
+Day: 31
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Preheat 23 celsuis</p>
+$@MID@$: 3139
+Date: Mon, 31 Jan 2022 19:38:56 -0700
+Author: Ryan Gilgan
+Flow: 205
+Inlet Temp: 198
+Outlet Temp: 210
+Pump Press: 660
+Surge Tank Press: 320
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 211
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Jan
+Day: 31
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+

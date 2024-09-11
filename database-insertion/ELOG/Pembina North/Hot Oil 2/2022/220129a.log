@@ -1,0 +1,40 @@
+$@MID@$: 3134
+Date: Sat, 29 Jan 2022 09:04:12 -0700
+Author: chris platt
+Flow: 211
+Inlet Temp: 199
+Outlet Temp: 210
+Pump Press: 670
+Surge Tank Press: 310
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 212
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Jan
+Day: 29
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Combustion air Preheat 21 degrees C.</p>
+$@MID@$: 3135
+Date: Sat, 29 Jan 2022 19:57:22 -0700
+Author: Ryan Gilgan
+Flow: 214
+Inlet Temp: 199
+Outlet Temp: 211
+Pump Press: 660
+Surge Tank Press: 315
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 212
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Jan
+Day: 29
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Air preheat temp 20&deg;c</p>

@@ -1,0 +1,126 @@
+$@MID@$: 3861
+Date: Tue, 29 Jun 2021 03:38:15 -0600
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Blaine H | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: K-201
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>+36 Degrees Cooling To +17 Degrees, Calm &amp; Clear</strong></em></u></p>
+
+<p>Sanitized control room PM and AM.</p>
+
+<p>Cut back suction on K-206 compressor from 600 KPA to 570 KPA at start of shift to keep it running. Back up to 750 KPA now and 800 RPM from 640 RPM.</p>
+
+<p>Turned the bulk cooler fan from &quot;slow&quot; to &quot;fast&quot; to take a load off the chiller.</p>
+
+<p>Sped up all compressors to around 800 RPM.</p>
+
+<p>Called Mark S out to open up the 8-24 ESD so Obsidian, Baccalieu and Vermilion could get in. Down on hi line pressure originally.</p>
+
+<p>16-04 Obsidian flowing into WPNE is shut in and flowing through the casing only to prevent the line from loading up with liquids again incase it has to be shut in again. Kim with Obsidian will be touching base reguarding this with Dayshift.</p>
+
+<p>Opened WPNA, WPNE and PNA sour back up.</p>
+
+<p>14-03 Westbrick ESD closed. Notified Wazzy and he opened it back up. His instrument guy is digging into the ESD issues.</p>
+
+<p>On the phone with Mancal, Baccalieu, Vermilion and Obsidian ops getting production brought back on.</p>
+
+<p>Swung recycle pump &quot;B&quot; into the overflow tank. Water plant level was just under 8 feet. its builfing level faster than it can pump but we have enough room.</p>
+
+<p>Treater main burner flame fail. Pinched valve to get to light. <strong>WO#39545.</strong></p>
+
+<p>Lost K-201 due to faulty disharge pressure transmitter (PT 201-02 top right side of panel) verified with other 2 pressure transmitters on compressor and with manaul guage. This transmitter if for differential only. The other 2 disch pressure transmitters are for hi discharge pressure SD. Watched DP all night and was all good. Will have to get Devin to replace first thing.<strong> WO#39546.</strong></p>
+
+<p>Blew down the sullair K/O scrubber.</p>
+
+<p>Raised V-101 inlet pressure controller back up from 1100 to 1200 KPA.</p>
+
+<p>Raised the setpoint on the glycol injection pumps from 4 to 6 roots (11.20 m3)</p>
+
+<p>Manually dumped the de eth suction scrubber.</p>
+
+<p>Opened up the amine reboiler temp control valve from 30% to 35% through the night. Keeping tops temp to around 97-98 degrees. Amine reboiler level building nicely.</p>
+
+<p>Restarted the wall mount AC unit in the amine MCC. Assuming it was froze off again as it was pouring out lots of water while it was down.</p>
+
+<p>Sanitized truck for shift handover.</p>
+$@MID@$: 3862
+Date: Tue, 29 Jun 2021 16:20:50 -0600
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Kyle S
+Shift Handover Meeting: Tye M | Bryan N
+Start of Shift Meeting: 
+Plant Status: Lost Compressor(s)
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><strong>Start of shift warm +18 warning to a torrid +38 in the afternoon</strong></u></p>
+
+<p>Devin calibrated both analyzers</p>
+
+<p>Pulled and cleaned the treater filter basket</p>
+
+<p>Called all the producers to inform the about the July 5th 2 hour shutdown</p>
+
+<p>Pulled the wpne pig.</p>
+
+<p>Slowed down all compression</p>
+
+<p>Cut 206 suction to 600 from 750 kpa</p>
+
+<p>12:35 k202 down on low cooling glycol pressure.</p>
+
+<p>13:50 k206 went down on high glycol temp. Left down and swung K-203 into K-206 mode</p>
+
+<p>14-3 esd shut in, called Wazzy to inform him. He will start up later tonight.</p>
+
+<p>Obsidion (Kim) shut in both Pna wells</p>
+
+<p>Ppm&#39;s started to climb, shut in V-200 production.</p>
+
+<p>Closed V-101 gas to the mp header to direct all flow to K-204</p>
+
+<p>Decreased V-101 inlet set pressure to 1000 from 1200 kpa</p>
+
+<p>Closed K-206 main fuel gas</p>
+
+<p>Wpne gas shut in due to high ppm&#39;s</p>
+
+<p>Braker triped in the amine mcc the was running the stand alone condition and the wall mounted condition froze off again. Lost vfd 4900 on overload a few times</p>

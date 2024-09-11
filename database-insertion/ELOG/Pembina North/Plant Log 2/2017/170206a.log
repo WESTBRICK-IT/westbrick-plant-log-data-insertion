@@ -1,0 +1,60 @@
+$@MID@$: 524
+Date: Mon, 06 Feb 2017 04:50:48 -0700
+Author: Dayton Mohr
+Shift: Night Shift
+Operators: Dayton M | Dallas L
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Amine Concentration: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>3rd stage suction scrb on k202 had no level when checked</p>
+
+<p>lost level in gylcol accumilater, gylcol sep dump valve was plugged, pumped methanel both ways, broke free, gylcol come back to normal</p>
+
+<p>lost lean oil pump on high discharge, restarted, flow pounced around, put back pressure &amp; recylce on manual, had it flowing consistantly, put back on auto, then lost on motor vibration, restarted again slowing bring back on at end of shift</p>
+
+<p>recycle pump B went down, restarted speed up a touch</p>
+
+<p>gas flows up &amp; down all night, cold cold cold out side</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+$@MID@$: 525
+Date: Mon, 06 Feb 2017 15:40:32 -0700
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Justin E | Tye M | Kevin N
+Plant Status: Process Upset | Lost Compressor(s)
+Equipment Outage: C3-A
+Filter Change: 
+Pigging: 
+Amine Concentration: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>HVO bringing 120 m3 of Baccalieu emulsion tomorrw.</p>
+
+<p>Lean oil went down this am, due to low level in the accumulator. Blew down the lvl trasmitter, It was reading 50% but was empty. restarted system once a level was built. Had to hit reset on the DCS to get the inlet valve (to the accumulator) to open even though it was reading as open on the DCS.</p>
+
+<p>Added C3 to the surge tank this morning</p>
+
+<p>Shut off C3 fans, to bring up inlet temp.</p>
+
+<p>Fought with glycol this morning. Raised pressure in the flash tank from 125 to 160 Kpa to get it to dump without issue. added EG</p>
+
+<p>Lost C3 once this morning on hi scrubber level, pumped it out and restarted.</p>
+
+<p>Mike M. did PM on C3-A</p>
+
+<p>Adjusted 4th stage louver on K-202, it was stuck open.</p>
+
+<p>Slowed down the De-bute cooler fans to bring up De-Bute tower pressure. Couldn&#39;t dump to the Lean Oil accumualtor</p>
+
+<p>Kristina C. reset some systems today (SCADA) Underground amine tank hi level alarm rang in</p>
+
+<p>Tye up to Braz for a bit today</p>

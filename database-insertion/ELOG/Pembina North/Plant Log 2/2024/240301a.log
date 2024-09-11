@@ -1,0 +1,76 @@
+$@MID@$: 5792
+Date: Fri, 01 Mar 2024 04:51:13 -0700
+Author: Pat Brown
+Shift: Night Shift
+Operators: Pat B
+Shift Handover Meeting: Kevin N
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Production Tank Level: 3.28
+LPG Bullet Peak Level: 159.88
+LPG Bullet Peak Pressure: 223
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: Yes
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: Yes
+Regulatory Requirements: Yes
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather was cool with some snow all night low around -15</p>
+
+<p>No security issues with the braz north site</p>
+
+<p>tank level was 3.28m and confirmed with a temp gun</p>
+
+<p>We have been getting loss comms with the DCS in the plant ,I called Daren out at 7:30 , When he got here he was able to get&nbsp; the water plant talking back to the DCS, Daren hung out for another 40 mins</p>
+
+<p>everything was good until about After midnight then the DCS was ringing in with loss of comms&nbsp; and is still doing it this morning</p>
+$@MID@$: 5793
+Date: Fri, 01 Mar 2024 17:37:10 -0700
+Author: Ryan Gilgan
+Shift: Day Shift
+Operators: Ryan G
+Shift Handover Meeting: Pat B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Production Tank Level: 3.94
+LPG Bullet Peak Level: 157
+LPG Bullet Peak Pressure: 207
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: -17 in the morning warming to -14 in the afternoon</p>
+
+<p>Morning meeting</p>
+
+<p>Phil with Surepoint out to get compressor oil samples</p>
+
+<p>Shaun with Surepoint on site to grease motors</p>
+
+<p>Fusion controls did meter calibrations, back on Wednesday to finish up</p>
+
+<p>Daren replaced CPU and poer supply in the water plant PLC and seemed to fix the comms issue.</p>

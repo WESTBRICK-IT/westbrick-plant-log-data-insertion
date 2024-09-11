@@ -1,0 +1,102 @@
+$@MID@$: 3660
+Date: Sun, 21 Mar 2021 05:11:20 -0600
+Author: Chad Quinn
+Shift: Day Shift
+Operators: Jordan W | Chad Q
+Shift Handover Meeting: Tye M | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><strong>Weather -2</strong></p>
+
+<p>Pinched in some louvres on K-201 and 202</p>
+
+<p>Miktye hauled out two loads of oil from sales tank</p>
+
+<p>Nelson Bros hauled in process water</p>
+
+<p>Dumped suction scrubber on K-203 and 201</p>
+
+<p>Pumped floor sump in water plant building</p>
+
+<p>Blew through LPG lubricators</p>
+$@MID@$: 3661
+Date: Sun, 21 Mar 2021 13:18:42 -0600
+Author: Kyle Shute
+Shift: Day Shift
+Operators: Tye M | Kyle S
+Shift Handover Meeting: Jordan W | Chad Q
+Start of Shift Meeting: Tyson T | Nathan P
+Plant Status: Lost Compressor(s)
+Equipment Outage: K-202 | K-205 | C3-B
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><strong><em><u>-7 Degrees Warming to +5 Degrees Slight Wind &amp; Overcast</u></em></strong></p>
+
+<p>- Duvera out to finish up line drawings and assisted as needed.</p>
+
+<p>- K-205 had 1 cold cylinder this morning, shut it down due to detonation, called Tyson to come out and diagnose, after he did some troubleshooting we still could not get spark to cylinder 6 left bank. Had Nathan check voltages off of main wiring harness and everything appeared to be good. Tyson contacted Bob&#39;s ignition technical services to assist with troubleshooting, after talking with Bob, Tyson headed to Bigoray to grab a CPU-95 output module from K-307. Tyson and Nathan replaced the output module on K-205 with the one from Bigoray. After firing the compressor up we still had the same issues, upon further troubleshooting it was found that the cylinder before #6LB in the firing order&#39;s coil was drawing all the power from number 6LB coil causing it to not fire. Replaced #6RB coil, everything back to normal.</p>
+
+<p>- Switched K-204 from V-101 mode (disch to K-201/203) to Sales mode to replace K-205, <strong>Back online in V-101 mode at the end of the day.</strong></p>
+
+<p>- C3 &quot;B&quot; compressor cyl #2 res gas disch outboard valve failed. Called out Nathan P. to rack out the 4160 breaker. Shutdown, purge, LOTO and replaced valve. BOL.</p>
+
+<p>- Ran glycol pumps as long as possible to prevent restriction in the gas/gas exchanger. Had to cycle methanol through the exchanger as we were not able to keep glycol level in the accumulator for as long as needed for the front end of plant to warm up.</p>
+
+<p>- Raised the level in the HP cold sep from 45% to 50% due to the glycol accumulator level being full. Was showing as high as 105% but now maintaining around 95%.</p>
+
+<p>- Pinched the amine reboiler temp control valve from 39.5% to 39% to cool down the regen tops temp and lower the reflux rate abit due to lower gas flow. Gas flows back up at shift change, valve back at 39.5% <strong>FYI this valve is kept in manual.</strong></p>
+
+<p><strong>- </strong>Called all producers to notify them of compressor issues, called them back again to notify them that issues were resolved.</p>
+
+<p>- Blew down chiller deoiler.</p>
+
+<p>- Pin holding K-202 louvers open fell out and closed louver causing compressor to go down on hi JW temp. Secured pin better and BOL.</p>
+
+<p>- Turned the 2-speed c3 condenser fan on &quot;slow&quot;.</p>
+
+<p>-<strong> Still pulling down linepack at shift change, V-103 inlet control valve currently in manual to bring line pressure down.</strong></p>
+
+<p>- Sped up K-101 and 102 and increased suction pressure on K-103 at braz to help pull down splitter line pack due to K-205 being down, <strong>setpoints are now back to normal.</strong></p>
+
+<p>- PNA pig will be sent tomorrow.</p>
+
+<p>- 2-7 ESD alarmed in, currently in &quot;travel&quot;, <strong>Notified Mark Spelrem.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

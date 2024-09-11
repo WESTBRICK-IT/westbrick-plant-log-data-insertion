@@ -1,0 +1,63 @@
+$@MID@$: 4551
+Date: Mon, 04 Mar 2024 01:01:02 -0700
+Author: Pat Brown
+Flow: 213
+Inlet Temp: 206
+Outlet Temp: 210
+Pump Press: 740
+Surge Tank Press: 340
+Surge Tank Level: 2
+Fuel Gas Press: 850
+Stack Temp: 187
+Air Temp: 16
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Mar
+Day: 3
+Year: 2024
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 4552
+Date: Mon, 04 Mar 2024 09:12:34 -0700
+Author: Ryan Gilgan
+Flow: 211
+Inlet Temp: 205
+Outlet Temp: 210
+Pump Press: 740
+Surge Tank Press: 340
+Surge Tank Level: 2
+Fuel Gas Press: 850
+Stack Temp: 184
+Air Temp: 18
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Mar
+Day: 3
+Year: 2024
+Attachment: 
+Encoding: HTML
+========================================
+<p>Missed entry for the 3rd.</p>
+$@MID@$: 4553
+Date: Mon, 04 Mar 2024 16:45:04 -0700
+Author: Ryan Gilgan
+Flow: 212
+Inlet Temp: 205
+Outlet Temp: 210
+Pump Press: 760
+Surge Tank Press: 350
+Surge Tank Level: 2
+Fuel Gas Press: 860
+Stack Temp: 192
+Air Temp: 25
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Mar
+Day: 4
+Year: 2024
+Attachment: 
+Encoding: HTML
+========================================
+

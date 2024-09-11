@@ -1,0 +1,40 @@
+$@MID@$: 110
+Date: Sun, 08 Oct 2017 10:31:35 -0600
+Author: Gary Wright
+Flow: 234
+Inlet Temp: 200
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 345
+Surge Tank Level: 2
+Fuel Gas Press: 950
+Stack Temp: 235
+Flame Condition: Blue
+Shift: Day
+Month: Oct
+Day: 8
+Year: 2017
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 111
+Date: Sun, 08 Oct 2017 21:48:57 -0600
+Author: Blaine Harris
+Flow: 236
+Inlet Temp: 200
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 345
+Surge Tank Level: 2
+Fuel Gas Press: 950
+Stack Temp: 240
+Flame Condition: Blue
+Shift: Night
+Month: Oct
+Day: 8
+Year: 2017
+Attachment: 
+Encoding: HTML
+========================================
+

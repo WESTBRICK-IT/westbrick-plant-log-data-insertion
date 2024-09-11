@@ -1,0 +1,40 @@
+$@MID@$: 1017
+Date: Sat, 12 Jan 2019 13:52:52 -0700
+Author: Romeo Tobias
+Flow: 239
+Inlet Temp: 201
+Outlet Temp: 223
+Pump Press: 720
+Surge Tank Press: 350
+Surge Tank Level: 3
+Fuel Gas Press: 830
+Stack Temp: 253
+Flame Condition: Blue
+Shift: Day
+Month: Jan
+Day: 12
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 1018
+Date: Sat, 12 Jan 2019 23:44:59 -0700
+Author: Blaine Harris
+Flow: 239
+Inlet Temp: 201
+Outlet Temp: 223
+Pump Press: 720
+Surge Tank Press: 350
+Surge Tank Level: 3
+Fuel Gas Press: 820
+Stack Temp: 252
+Flame Condition: Blue
+Shift: Night
+Month: Jan
+Day: 12
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+

@@ -1,0 +1,84 @@
+$@MID@$: 5947
+Date: Fri, 17 May 2024 05:24:10 -0600
+Author: Ryan Gilgan
+Shift: Night Shift
+Operators: Ryan G
+Shift Handover Meeting: Kevin N
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Production Tank Level: 3.2
+LPG Bullet Peak Level: 159
+LPG Bullet Peak Pressure: 358
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: 10 degrees at the start of shift cooling to 4 in the morning</p>
+
+<p>Noticed the DCS wasn&#39;t comunicating to the PLC panel.&nbsp; Called out Devin and notified Jarrod.</p>
+
+<p>Devin found the issue but didn&#39;t hsve parts and was houred out.&nbsp; PLC still funcioning and shut downs still work so Devin will reapair in the morning.&nbsp; Can tell if the compressor goes down by surge tank pressure.&nbsp; Periodic check through out the night.</p>
+
+<p>Submitted Service request for C3 work</p>
+
+<p>No other issues throughout the night.</p>
+$@MID@$: 5948
+Date: Fri, 17 May 2024 16:58:19 -0600
+Author: Kevin Nicol
+Shift: Day Shift
+Operators: Kevin N
+Shift Handover Meeting: Ryan G
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Production Tank Level: 3.15
+LPG Bullet Peak Level: 159
+LPG Bullet Peak Pressure: 357
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Production tank 3.15, checked</p>
+
+<p>Mezei inspection out for UT on H2O lines</p>
+
+<p>Bailys out preping for H2O install</p>
+
+<p>Devin repaired C3 coms</p>
+
+<p>PIC 207, sales recyle controler not working, Devin repaired</p>
+
+<p>control computer locked up, deleted NADS and restarted computer</p>
+
+<p>Chris P working on H2O line LOTO</p>
+
+<p>Elite Andi Robb working on DCS</p>
+
+<p>Devin woking on V-3101 H2O level column, needs to get parts next week,&nbsp; Column is LOTO</p>
+
+<p>Westbrick is now the Prime Contractor for the Pem North plant</p>

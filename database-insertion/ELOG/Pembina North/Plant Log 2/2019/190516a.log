@@ -1,0 +1,112 @@
+$@MID@$: 2255
+Date: Thu, 16 May 2019 05:24:25 -0600
+Author: Ryan Bangle
+Shift: Night Shift
+Operators: Ryan Ba | Romeo T | Chris P
+Shift Handover Meeting: Blaine H | Bryan N
+Start of Shift Meeting: Kristina C | Devin N | Mike M
+Plant Status: Lost Compressor(s)
+Equipment Outage: C3-A
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>C3A res gas cylinder 2&nbsp;stem backed way out and leaking gas.&nbsp; Shut down and called Tyson.&nbsp; Chris P repaired as per Tyson.&nbsp; Restarted with no issues.</p>
+
+<p>Amine level control for amine contactor plugged.&nbsp; Kristina, Devin and Mike M pulled and cleaned a lot of debris out of it.&nbsp; Re-installed and fuction tested.&nbsp; All good.</p>
+
+<p>Started up amine plant.&nbsp; Lowered levels in all vessels to maintain level in amine reboiler.&nbsp; Added&nbsp;12 inches of amine from the&nbsp;overhead tank (12 inchs left in tank).&nbsp; Increased amine make-up water to 25 from 10.</p>
+
+<p>Found tubing line disconnected for hot oil flow transmitter for amine reboiler.&nbsp; Re-connected and blew down.&nbsp; Back in service.</p>
+
+<p>Blew down amine regen reflux flow meter.&nbsp; Was plugged.&nbsp; Reading good now.</p>
+
+<p>Opened lines for amine charge pump flow meter and blew down.&nbsp; Reading good now.</p>
+
+<p>Set up amine trim cooler temps.&nbsp; Set amine louvers to 36, amine fan speed&nbsp;to 35 and acid gas louvers to 25.</p>
+
+<p>Bleed off amine charcoal filter and set rate to 100m3 per day.</p>
+
+<p>Blew down amine flash tank sight glass.&nbsp; Level was not in the sight glass.&nbsp; Blew down level transmitter.&nbsp; Liquid leg plugged.&nbsp; Pulled apart and blew out with compressed air and cleaned up with brake clean. &nbsp;Put back together and filled liquid leg with amine.&nbsp; Back in service, reading better.</p>
+
+<p>Low level for glycol accumulator rang in.&nbsp; Added from overhead tank.&nbsp; Level is not in the sightglass for the overhead. Need to order more.</p>
+
+<p>High level rang in on production tank.&nbsp; Called Pembina.&nbsp; They said they will be sending someone out in the morning to purge their pumps.&nbsp; Equalized with the overflow.&nbsp; Back to normal at shift change.&nbsp; Also the sales line to the Pembina pump is still locked out.</p>
+
+<p>Blew down lean oil leg and sightglass.&nbsp; Lean oil flow meter reading 400m3/day.&nbsp; Need instrumentation to look at and calibrate.&nbsp; Left lean oil down for the night.</p>
+
+<p>Set up amine flash tank relief to flare for 800 KPA off the Big Joe regulator.&nbsp; Blew down flare line&nbsp;off the Big Joe&nbsp;and got lots of liquids pushed out.&nbsp; Then set up the other Big Joe to compression to maintain 600 KPA on the flash tank.</p>
+
+<p>Increased Heatec set point from 190 degrees to 200 degrees.</p>
+
+<p>Purged acid gas compressor with fuel gas to atmosphere.&nbsp; While purging, inspected flanges and PSV&#39;s.&nbsp; Found one loose nut on 3rd stage scrubber, AND ONE PSV THAT HAD ONE TIGHT NUT AND TWO NUTS NOT EVEN THREADED TIGHT AND ONE MISSING COMPLETELY.&nbsp; Recommend complete re-tourqe of all flanges where integrity was broken.&nbsp; Left compressor down with both suction valves closed and both pipeline valves closed.</p>
+
+<p>Found solinoid on pipeline to flare ESD (ESDV-5810)&nbsp;for acid gas&nbsp;making a lot of noise while valve was closed.&nbsp; Valve still functions, just doesn&#39;t sound healthly.</p>
+
+<p>Function tested 4th stage to flare on the acid gas (PIC-5850) and got no movement.&nbsp; Have Instrumentation look at it.</p>
+
+<p>No process variable showing for cooler VFD and recirc temp for acid gas.&nbsp; Have Instrumentation look at it.</p>
+$@MID@$: 2256
+Date: Thu, 16 May 2019 05:48:41 -0600
+Author: Ryan Bangle
+Shift: Night Shift
+Operators: Ryan Ba | Romeo T | Chris P
+Shift Handover Meeting: Blaine H | Bryan N
+Start of Shift Meeting: 
+Plant Status: 
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: 
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>Pipeline ESD (RCM-5800) leaking out of the valve stem.&nbsp; Needs greasing possibly.</p>
+
+<p>All 4 valves on cylinder 4 discharge for C3A are leaking.&nbsp; Notified Brandon.</p>
+$@MID@$: 2257
+Date: Thu, 16 May 2019 18:08:55 -0600
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Dayton M | Bryan N
+Shift Handover Meeting: Ryan Ba | Romeo T | Chris P
+Start of Shift Meeting: 
+Plant Status: Process Upset
+Equipment Outage: K-5000 | C3-A
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;-Tyson repaired the Ac3 2nd stage cap leaks restarted.</p>
+
+<p>-Daren eleminated the water disposal pump out of the sequence so we can run just the charge pumps until the psv comes back for P1</p>
+
+<p>-Tri-Energy scaffolders on site dismantling in process.</p>
+
+<p>-Pembina was out to start their pumps.</p>
+
+<p>-Rob hauled in 80/20 glycol</p>
+
+<p>-Rob hauled in 1 load of water from Zeta.</p>
+
+<p>-Hvo hauled in Baccaleau emulsion</p>
+
+<p>-Tried to get the acid gas going but the 3rd stage differential kept ringing in, Tyson and Ops pulled the witches hat into the third suction scrubber and it was clean, he also change out all 4 valves that didnt pass the liquid test. In the end we found the 4th stage manual dump opened a hair sending it to flare.</p>
+
+<p>-Kevin&nbsp; Tonne changed out the solinoid on the acid gas pipline esd valve.</p>
+
+<p>-Started the lean oil and just nicely got it lined out when Jim Garrison called to&nbsp;say we need to shut in the lean oil because of the high ethane.</p>
+
+<p>-</p>
+
+<p>&nbsp;</p>

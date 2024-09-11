@@ -1,0 +1,106 @@
+$@MID@$: 3509
+Date: Wed, 06 Jan 2021 04:48:52 -0700
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Dallas L
+Shift Handover Meeting: Jordan W | Chad Q
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: Yes
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>-1 Mostly Cloudy &amp; Calm</strong></em></u></p>
+
+<p>Sanitized control room PM and AM.</p>
+
+<p>Skimmed amine charcoal filter. Clean.</p>
+
+<p>Al with HVO hauled in the 13-18 Mancal load around 20:30 PM. Volume, cuts and density seem to be accurate.</p>
+
+<p>Added nitrgoen to V-200 pump.</p>
+
+<p>Recycling out of both production and overflow tank through the night. Pembina pumped 95 m3 through the night and density was around 780.</p>
+
+<p>Manually dumped 1st stg suct scrubber on K-202 compressor.</p>
+
+<p>Opened up the LP to boot makeup slightly on K-202 compressor. First stg suct pressure from -7 kpa to -2 kpa.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3510
+Date: Wed, 06 Jan 2021 14:17:29 -0700
+Author: Jordan Wilson
+Shift: Day Shift
+Operators: Jordan W | Chad Q
+Shift Handover Meeting: Tye M | Dallas L
+Start of Shift Meeting: 
+Plant Status: 
+Equipment Outage: 
+Filter Change: 
+Pigging: 05-14 | 05-21
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>-sanitize start and end of shift</p>
+
+<p>-field ops sent sw 8&quot; pig this morning.&nbsp;&nbsp;</p>
+
+<p>-Morning meeting.&nbsp;<span style="color:#FF0000">Field ops mentioned an outage at 15-7 next tuesday (Jan 12)&nbsp;for a riser install.&nbsp; Flows will be down for some time</span></p>
+
+<p><span style="color:#FF0000">-WO 38219&nbsp;</span><span style="color:#000000">submitted for troubleshooting 4-7 well issues in truck offload meter</span></p>
+
+<p><span style="color:#000000">-working on training guide</span></p>
+
+<p><span style="color:#000000">-working on CMDS</span></p>
+
+<p><span style="color:#000000">-Devin calibrating flare meters</span></p>
+
+<p><span style="color:#000000">-Pembina getting samples</span></p>
+
+<p><span style="color:#000000">-Field ops sent WPNE pig to see if we can bump first pig in.&nbsp;</span></p>
+
+<p><span style="color:#000000">-2 orientations for cathodic solutions to pull corrosion coupon on V-200 inlet</span></p>
+
+<p><font color="#000000">-</font><span style="color:#FF0000">LEL and H2S bypassed for v-200 corrosion coupon pull.&nbsp; Bypassed at 13:15, bypass off at 13:44</span></p>
+
+<p>-PPL dropped our density to 785kg/m3.&nbsp; 785 is where we have been running for density lately.&nbsp; the 775 density that we see on the DCS is not temperature corrected.&nbsp; PPL put in work order so that they can make changes to allow us to see the temperature corrected density on the DCS.</p>
+
+<p>-slowed down K-203 to see if it will help with valve temps.&nbsp; Slowed down to 790 rpm, made a minor difference of 4 degrees, but temp differentials&nbsp;are still way out</p>
+
+<p>-Devin and Kristina looked at truck in meter issues.&nbsp; Seems like its only an issue with 4-7 well and the issue&nbsp;is potentially due to a spartan upgrade in november.&nbsp;&nbsp;</p>
+
+<p>-drain de-oiler</p>
+
+<p>-drain inlet coalescer, clean</p>
+
+<p>-sped K-203 back up to 850 rpm</p>
+
+<p>-MOC has been entered by for looking into issues and potential fixes for the valve temp spread on K-203</p>

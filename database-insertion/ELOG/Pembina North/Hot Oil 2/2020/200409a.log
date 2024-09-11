@@ -1,0 +1,40 @@
+$@MID@$: 1857
+Date: Thu, 09 Apr 2020 16:35:28 -0600
+Author: Ryan Gilgan
+Flow: 244
+Inlet Temp: 195
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 330
+Surge Tank Level: 5
+Fuel Gas Press: 720
+Stack Temp: 225
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Apr
+Day: 9
+Year: 2020
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 1858
+Date: Thu, 09 Apr 2020 19:59:00 -0600
+Author: Kevin Nicol
+Flow: 245
+Inlet Temp: 196
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 310
+Surge Tank Level: 4
+Fuel Gas Press: 760
+Stack Temp: 220
+Flame Condition: Blue
+Shift: Night
+Month: Apr
+Day: 9
+Year: 2020
+Attachment: 
+Encoding: HTML
+========================================
+

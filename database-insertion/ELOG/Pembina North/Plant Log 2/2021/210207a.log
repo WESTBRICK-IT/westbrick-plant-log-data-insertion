@@ -1,0 +1,130 @@
+$@MID@$: 3574
+Date: Sun, 07 Feb 2021 04:44:56 -0700
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Kyle S | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: Water Plant
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>-25 cooling to -37 degrees Calm &amp; Clear</strong></em></u></p>
+
+<p>Sanitized control room PM and AM.</p>
+
+<p>Blew down de eth suction scrubber.</p>
+
+<p>Changed filters in both filter pots at water plant.</p>
+
+<p>Closed louvers on South side of bulk cooler.</p>
+
+<p>Lowered tarps on North and South side of the trim cooler.</p>
+
+<p>K-206 JW and recycle louvers were open. Loosened linkage and closed top JW louvers and opened the internal recycles to warm up 2nd stg disch. <strong>May need Devin to look at today.</strong></p>
+
+<p>Raised tarp further up cooler bank on K-204 compressor.</p>
+
+<p>K-205 louvers will<strong> need to be looked at by devin today</strong>. JW, recyles and top and bottom louvers all opened too much. Also, the PV temp reading on the louver control on the PLC is showing over 70 degrees whichg is false.</p>
+
+<p>Flows up and down through the night. Clearveiw 5-23 NW 6&quot; lost most of his production around 01:00 AM. He was fighting to get it back up. Pressures climbed up around 04:00 but have not seen much for flows yet. (Cliff Ellis)</p>
+
+<p>Glycol recycle flow control started to chase itself. Put on manual, lined it out then back to auto.</p>
+
+<p>Noticed the hot oil flow control valve it opened 100% from around 60% and flows are cycling but averaging around 336 m3/day. De eth, debute and glycol reboiler are open more than usual and believe this is why. Looked over the system and didnt see anything odd. Surge tank pressure cycles abit with the flow swings. Should line out once it warms up through the day. Keep an eye on it.</p>
+
+<p>Debute reboiler temp is flaking out and the hot oil flow control was opening when temps were hot and closing when temps were cold. <strong>Will have to get Devin to look at it today</strong>. Running in manual and monitoring.</p>
+
+<p>Closed K-201 louvers.</p>
+
+<p>Talked with Mark S, and he will batch a cube of methanol at 15-07 today.</p>
+
+<p><strong>If flows dont come back soon K-201 may need to be shut down to help maintain the contacot inlet temp as we are cooling a little too much with all compression going.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3575
+Date: Sun, 07 Feb 2021 15:15:04 -0700
+Author: Kyle Shute
+Shift: Day Shift
+Operators: Kyle S | Jordan W
+Shift Handover Meeting: Tye M | Romeo T
+Start of Shift Meeting: Devin N
+Plant Status: Steady
+Equipment Outage: K-201
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><strong>-39&deg;C this morning, warmed up to -20&deg;C this afternood, clear and calm.</strong></u></p>
+
+<p>- Devin N out first thing this morning to diagnose the flow rate issues on the hot oil system, blew it down a few times and found it had jelled off due to the cold temps and it not being insulated well, currently flowing 210m<sup>3</sup>/hour, doesn&#39;t seem accurate, have been monitoring reboiler temps through the day, everything is acting normally.</p>
+
+<p>- Had Devin diagnose the issues nightshift was having with the debute reboiler hot oil valve programming, he cycled the power to the valve and now it seems to be acting normal, back in &quot;Auto&quot;.</p>
+
+<p>- Shut down K-201 due to the lack of gas flows and cold inlet temp this morning, started back up around noon, gas flows started to pick up a little.</p>
+
+<p>- Devin also adjusted louvers on K-206 (internal and external recycles) and K-205 (Internal and external recycles). Thanks for all the help today Devin!!!</p>
+
+<p>- K-205 cooler discharge temp dropped down to 1&deg;C, went through the PLC and found that the louvers are set based on discharge temp and not cooler exit temperature, Workordered for Daren to fix. W.O #38671. <span style="color:#FF0000">Nighshift will need to adjust the louvers locally if the cooler discharge temp starts dropping.</span></p>
+
+<p>- Building heaters in the tool crib and welding shop were not staying lit, thinking it was due to the low temperature of the fuel gas to the plant, restarted this afternoon and have been running since.</p>
+
+<p>- HVO did not make it out today to haul 4-7 Mancal emulsion due to truck issues.</p>
+
+<p>- Shovel snow throughout battery and compressor buildings.</p>
+
+<p>- Clean up minor staining in acid gas injection well building, cleaned up some fittings and pails from there as well.</p>
+
+<p>- Worked on list from thursday&#39;s site inspection.</p>
+
+<p>- Put the residue gas cooler louver temp control back in &quot;Auto&quot;.</p>
+
+<p>- Called Mark this morning to inform him about Cliff having issues with 5-23 Clearview, said he was going to hold off on the pigging and had to get a steamer out to steam some drain lines in the field.</p>
+
+<p>- Wrapped some extra insulation around the hot oil flow meter in hopes of it warming up enough to read accurately.</p>
+
+<p>- Called Don with Polard insulation, he will be out tomorrow morning to install a box around the hot oil flow meter, hoping to solve the issues with the meter jelling off.</p>
+
+<p>- Pinched the amine reboiler hot oil valve from 39.5% to 39% to lower the regen tops temp.</p>
+
+<p>- Added Mancal 4-7-49-12W5 into the truck in meter for Kristina, she figures there may be issues with the one that is currently entered into the truck in meter.</p>
+
+<p>- Main gate is frozen up, disconnected the clutch and opened it manually, will have to leave it open until it warms up.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

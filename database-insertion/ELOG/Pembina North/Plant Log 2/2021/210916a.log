@@ -1,0 +1,108 @@
+$@MID@$: 4020
+Date: Thu, 16 Sep 2021 05:01:22 -0600
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Dallas L
+Shift Handover Meeting: Kyle S | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>+15 Degrees, Cooling To +3 Degrees. Clear &amp; Windy</strong></em></u></p>
+
+<p>Sanitized control room PM and AM.</p>
+
+<p>DCS was glitching out. Alarm banner not responding and most controller faceplates would not open and the ones that open wouldnt close. Closed Wonderware and restarted. Back to Normal except cant inhibit Braz alarms to get them off the alarm banner.</p>
+
+<p>Skimmed amine skim tank.</p>
+
+<p>Turned the single speed condencer fan off and turned the 2 speed from &quot;slow&quot; to &quot;fast&quot; to raise contactor inlet temp and raise c3 surge tank pressure.</p>
+
+<p>Miktye hauling in Vermilion 12-19 emulsion. <strong>Will be recieving the second load after shift change.</strong></p>
+
+<p>Blew down the horizontal coalescer.</p>
+
+<p>Adjusted debute cooler fan speeds. From 45% to 35%.</p>
+
+<p>Pinched louvers on K-202 compressor abit.</p>
+$@MID@$: 4021
+Date: Thu, 16 Sep 2021 16:55:26 -0600
+Author: Kyle Shute
+Shift: Day Shift
+Operators: Kyle S | Jordan W
+Shift Handover Meeting: Romeo T | Dallas L
+Start of Shift Meeting: Daren F | Nathan P
+Plant Status: Steady
+Equipment Outage: K-201 | K-204
+Filter Change: 
+Pigging: Vermilion | 05-21
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>7&deg;C this morning, warming up to 14&deg;C this afternoon</strong></em></u></p>
+
+<p>9:00AM Mancal pulled out their production and sent it to zeta creek.</p>
+
+<p>Mark S. pigged 5-21 to the plant, then shut in the Bigoray production coming to pem north at around 10:00AM (Pig pulled and clean)</p>
+
+<p>Bypassed fire detection for the welder working outside the fence at the new Mancal riser, returned the bypass to normal.</p>
+
+<p>Cut some temp out of the regen tops, adjusted the reboiler temp control from 37% this morning to 34%.</p>
+
+<p>Shut down K-204 and K-201 due to decreased flows.</p>
+
+<p>Lowered the glycol injection rate from 5.6 roots (11.00m3/day) to 5.3 roots (9.90m3/day).</p>
+
+<p>Daren F worked on the Braz north alarms that were showing on the alarm banner.</p>
+
+<p>Daren also worked on K-201 alarms, making sure they don&#39;t continuously ring in while the unit is down.</p>
+
+<p>Mik-Tye hauled in a load of Vermillion emulsion from 12-3-50-13W5, entered the well into the mass flow meter.</p>
+
+<p>HVO hauled in 2 loads of Mancal 14-34 emulsion.</p>
+
+<p>Kristina will be out tomorrow to change the sales orifice plate with the decreased flows.</p>
+
+<p>Added barrier fluid to V-200.</p>
+
+<p>Recycle pump &quot;B&quot; down this morning, Jordi cleaned the basket strainer and pulled the meter as it was plugged with plastic.</p>
+
+<p>Slowed down the debute fans a little to help build some pressure on the tower.</p>
+
+<p>John with Vermillion pigged their 9-16 pipeline, he will be on site to pull the pig tomorrow.</p>
+
+<p>Jordi worked on building a site specific online orientation for Zeta.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

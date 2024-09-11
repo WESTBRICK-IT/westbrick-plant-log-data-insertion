@@ -1,0 +1,86 @@
+$@MID@$: 2780
+Date: Thu, 23 Jan 2020 05:58:13 -0700
+Author: Blaine Harris
+Shift: Night Shift
+Operators: Blaine H | Bryan N
+Shift Handover Meeting: Tye M | Dallas L
+Start of Shift Meeting: 
+Plant Status: Process Upset
+Equipment Outage: K-201 | K-202 | K-203 | K-204 | K-205 | K-206 | K-208 | K-5000 | C3-B
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;-The plant in the process of being started up at the start of shift.</p>
+
+<p>-Added c3 to the surge tank.</p>
+
+<p>-Tyson repaired 2 bad valves on Cyl 2 on and K-202, he also found a lot of liquids in the cylinder that he had to clean out. He also pull valves on 3rd stage and and found a lot of liquids that he cleaned out. Tyson checked for liquids on the 1st and 4th stages but they were dry.</p>
+
+<p>Tried starting the compressor and it was still making a horrible knocking sound so left it down.</p>
+
+<p>-Tried running K-208 but it was running a very high vacuum, pulled the first stage suction screen, found it plugged so cleaned it and put it back in. Still running high vacuum so left it down.</p>
+
+<p>-Pumped out the flare ko drum.</p>
+
+<p>-Changed the amine bag filter.</p>
+
+<p>-Acid gas compressor wont stay running, it kept going down on high pipline differential.</p>
+
+<p>-Started recycle b pump.</p>
+
+<p>-Cut heat out of the amine reboiler to 33% from 35%</p>
+$@MID@$: 2781
+Date: Thu, 23 Jan 2020 17:40:47 -0700
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Tye M | Kyle S
+Shift Handover Meeting: Blaine H | Jeff B
+Start of Shift Meeting: Daren F | Kristina C | Devin N | Kevin T | Chris N | Brandon G
+Plant Status: Steady
+Equipment Outage: K-202
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 51%
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>LOTO K-202 compressor. Nagy and Brandon pulled appart cyclinder #2 and buffed the piston. Fired compressor back up.</p>
+
+<p>Lost K-202 on lubricator flow issues. Lube oil was cold from compressor being down. Pumped through lubricator with Trabon gun and got flow again.</p>
+
+<p>Amine concentration is at 51%. Was 53.6% 2 days ago. Left makeup pump at 20% for now and will sample again tomorrow.</p>
+
+<p>Nagy and Brandon repaired mechanical seals on P-4510 amine reflux pump and P-4550 amine booster pump. Purged and tested after.</p>
+
+<p>Cleaned screen on recycle pump &#39;&#39;B&#39;&#39; twice.</p>
+
+<p>Increased amine reboiler temp controller from 33% to 34% once flows came back.</p>
+
+<p>Opened up V-104 inlet.</p>
+
+<p>Opened up V-200 sour production. Had to get Darren and Devin to tune the inlet control valves to V-200. 2% open on the DCS was like 30% and would flow too hard. Still opening at shift change and flowing around 16 e3m3.</p>
+
+<p>Notified LP producers of their production coming back online.</p>
+
+<p>Recived 3 loads of Baccalieu emulsion.</p>
+
+<p>Changed the tape on the sales analyzer.</p>
+
+<p>Acid gas compressor cooler fan VFD speeds, recycle louvers, 4th stage intercooler fan VFD speed, acid gas cooler/condencer fan speed&nbsp;and discharge to pipeline cooler faceplates were blank on the DCS. Got Kristina to fix and rebooted computer. Acid gas stayed running all day.</p>
+
+<p>Blew down de eth overhead suction scrubber.</p>
+
+<p>Sped up K-203, K-204 and K-202 compressors.</p>
+
+<p>Increased LP to boot makeup on K-202.</p>
+
+<p>Pace Tech out to take the c3 compressor starter away for repair/inspection.</p>
+
+<p>&nbsp;</p>

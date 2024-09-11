@@ -1,0 +1,100 @@
+$@MID@$: 3538
+Date: Wed, 20 Jan 2021 02:23:53 -0700
+Author: Jordan Wilson
+Shift: Night Shift
+Operators: Bryan N | Jordan W
+Shift Handover Meeting: Tye M | Chad Q
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: -2 degrees.&nbsp; high wind with snow and rain mix early in evening, cleared up around 10pm</p>
+
+<p>-sanitized control room start and end of shift</p>
+
+<p>-TR101 H2S head rang in at -9 ppm.&nbsp; bypassed alarm and it immediately went back to 0 ppm.&nbsp; took bypass off and has been fine since</p>
+
+<p>-Added EG to accumulator</p>
+
+<p>-Drain K-202 1st and 2nd stage scrubbers</p>
+
+<p>-topped up LPG lubricator tank</p>
+
+<p>-K-203 and K-201 top and bottom louvers controls&nbsp;changed from 33-35 degrees to help with contactor inlet temp</p>
+
+<p>-v-103 gas meter (FQI-1) flatlined on DCS.&nbsp; Local readout seems accurate and is changing.&nbsp; <span style="color:#FF0000">Work order #38480 submitted.&nbsp;&nbsp;</span>May not push through gas volume&nbsp;to books so may need to read locally until meter is fixed.&nbsp;</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3539
+Date: Wed, 20 Jan 2021 17:35:08 -0700
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Tye M | Chad Q
+Shift Handover Meeting: Bryan N | Jordan W
+Start of Shift Meeting: Daren F | Tyson T | Devin N
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: Mancal | Splitter | 05-21
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Sanitized control room AM and PM.</p>
+
+<p>Added c3 to the acumulator.</p>
+
+<p>80% to 62% in storage tank.</p>
+
+<p>Skimmed amine charcoal filter. Clean.</p>
+
+<p>Blew down chiller deoiler. Lots of lube oil.</p>
+
+<p>Manually dumped de eth suction scrubber.</p>
+
+<p>Mancal pigged and batched into V-103.</p>
+
+<p>Kenny and Mark pigged the Splitter line .</p>
+
+<p>Kenny and Mark sent 15-07 to 7-7 pig. Then from 7-7 to 5-21.</p>
+
+<p>Hi Flow out to prove the Keylink meter.</p>
+
+<p>Lindon and Keabrey out to check on the water plant piping. UT scan shows that the pin hole seems to be an isolated area.</p>
+
+<p>Put a Band-Aid on the water plant filter drain line. Will have to keep an eye on it.</p>
+
+<p>V-103 flow boss flat lined. Pulled power and comms and reset.</p>
+
+<p>Worked on water plant MOC&#39;s.</p>
+
+<p>MOC training today.</p>

@@ -1,0 +1,106 @@
+$@MID@$: 2260
+Date: Sat, 18 May 2019 05:19:22 -0600
+Author: Ryan Bangle
+Shift: Night Shift
+Operators: Ryan Ba | Jeff B
+Shift Handover Meeting: Tye M
+Start of Shift Meeting: 
+Plant Status: Lost Compressor(s)
+Equipment Outage: K-202 | K-208 | C3-A
+Filter Change: 
+Pigging: 
+Recycle Pumps: 
+Amine Concentration: Dfmhjb
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 2261
+Date: Sat, 18 May 2019 05:34:56 -0600
+Author: Ryan Bangle
+Shift: Night Shift
+Operators: Ryan Ba | Jeff B
+Shift Handover Meeting: Tye M | Jeff B
+Start of Shift Meeting: 
+Plant Status: Lost Compressor(s)
+Equipment Outage: K-202 | K-208 | C3-A
+Filter Change: Water Plant | Amine Bag | Glycol
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;Glycol flow dropped off.&nbsp; After further inspection found PSV passing on south pump discharge.&nbsp; Only putting out 5200 KPA.&nbsp; Reset VFD for North pump and started.&nbsp; Putting out 6000 KPA.&nbsp; PSV and flow seems good.</p>
+
+<p>DP pinned on North glycol filter.&nbsp; Changed out and put south pot in service.</p>
+
+<p>Changed amine bag filter.&nbsp; Took amine sample and is very dirty.&nbsp; Installed oil absorbing bag and stocked skid with bags.</p>
+
+<p>Water plant filter DP rang in.&nbsp; Found both filter pots in service.&nbsp; Changed both and put the east on in service and purged the west one.</p>
+
+<p>Lowered tops temp controller to 21 from 30 and increased amine flow from 160 to 170.&nbsp; Still maintaining good reflux.</p>
+
+<p>Increased amine make-up water to 50.&nbsp; Raised amine contactor level to 80%, flash tank to 60% and lowered reflux to 25%&nbsp;to free up more room to add water to the reboiler to help get concentration down.</p>
+
+<p>Bulk cooler VFD only Idoling.&nbsp; Process Variable on DCS says 0 and when on Manual at a 100, does not speed up.&nbsp; Daren issue.</p>
+
+<p>Found horizontal coalescer DP transmitter blocked in.&nbsp; Blew down and opened up.</p>
+
+<p>Help dayshift get plant straightened out at start of shift.&nbsp; Sales ESD closed due to unknow reason.&nbsp; Called Daren out due to issue and also had AI-3800 fire detection ring in in the battery.&nbsp; Checked battery, no fire.</p>
+
+<p>Lost K-202, K-208 and C3A when sales ESD closed.&nbsp; Restarted with no issues.</p>
+$@MID@$: 2262
+Date: Sat, 18 May 2019 17:22:15 -0600
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Ryan Ba | Jeff B
+Start of Shift Meeting: 
+Plant Status: Lost Compressor(s)
+Equipment Outage: K-205 | C3-A
+Filter Change: Amine Bag
+Pigging: 
+Recycle Pumps: Overflow
+Amine Concentration: 57.5% @ 09:00 => 55% @ 13:00 and dropping
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>Lost c3 &#39;&#39;A&#39;&#39; at the start of shift. Went down on low compressor oil level. Level in the kenco was approx 40%. Verified the fill line from the overhead tank was open. Big door was open, maybe the oil was cold and too thick to flow fast enough? Added 1/2 a drum of oil. Will monitor kenco level.</p>
+
+<p>Changed the amine bag filter twice. Still running the diaper bags. Amine&nbsp;is still fairly dark.</p>
+
+<p>Took an amine concentration around 09:00&nbsp;AM. It was around 9.6 or 57.5%. Dropped the makeup pump to 40% from 50%.&nbsp;Took another sample around 13:00 PM. It&nbsp;dropped to 9.2 or 55%. Dropped the makeup pump from 40% to 30% as our reboiler and contactor level ect are 80% +.</p>
+
+<p>Skimmed amine charcoal filter. Did not see any oil skim.</p>
+
+<p>Increased amine regen tops temp controller from 21% to 23%.</p>
+
+<p>Increased de-eth bottoms temp from 87 to 89 degrees to maintain spec.</p>
+
+<p>Added barrier fluid to V-200 pump.</p>
+
+<p>Recieved three loads of Baccalieu oil from HVO.</p>
+
+<p>Worked on weekend checks.</p>
+
+<p>K-208 4th stage scrubber dump was not cycling properly. The level got above the HLSD switch but did not shut compressor down. Set it up properly and kept going back to check on it and found 1st stg scrubber level above the HLSD switch and compressor still running. Scrubber pump would not kick on in auto. Called out instrumentation to dig into the issue further.</p>
+
+<p>Recycled off of the shipping tank and boot this AM. Both pumps currently in the overflow.</p>
+
+<p>Lost K-205 around 16:30 PM. First alarm in was hi comp oil temp. Had to temperarily bypass the alarm to get it to pre lube and fire up. Verified all louvers were open. Slowed it down to 800 RPM from 860 ish. Lost c3 compressor in the mean time. Fired back up fine.</p>
+
+<p>Had a load of 5-35 Velvet emulsion delivered from HVO.</p>
+
+<p>Lowered K-206 suction pressure from 900 to 875 KPA due to the lifters ticking pretty hard due to load.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

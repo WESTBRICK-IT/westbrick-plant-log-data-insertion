@@ -1,0 +1,40 @@
+$@MID@$: 1003
+Date: Sat, 05 Jan 2019 16:23:26 -0700
+Author: Ryan Gilgan
+Flow: 239
+Inlet Temp: 201
+Outlet Temp: 223
+Pump Press: 720
+Surge Tank Press: 345
+Surge Tank Level: 3
+Fuel Gas Press: 840
+Stack Temp: 252
+Flame Condition: Blue
+Shift: Day
+Month: Jan
+Day: 5
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 1004
+Date: Sat, 05 Jan 2019 20:10:58 -0700
+Author: Kevin Nicol
+Flow: 240
+Inlet Temp: 202
+Outlet Temp: 224
+Pump Press: 720
+Surge Tank Press: 350
+Surge Tank Level: 3
+Fuel Gas Press: 840
+Stack Temp: 250
+Flame Condition: Blue
+Shift: Night
+Month: Jan
+Day: 5
+Year: 2019
+Attachment: 
+Encoding: HTML
+========================================
+

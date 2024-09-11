@@ -1,0 +1,42 @@
+$@MID@$: 3513
+Date: Tue, 16 Aug 2022 07:13:40 -0600
+Author: Kevin Nicol
+Flow: 221
+Inlet Temp: 200
+Outlet Temp: 210
+Pump Press: 660
+Surge Tank Press: 315
+Surge Tank Level: 6
+Fuel Gas Press: 770
+Stack Temp: 211
+Air Temp: 21
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Aug
+Day: 15
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 3514
+Date: Tue, 16 Aug 2022 23:59:33 -0600
+Author: chris platt
+Flow: 227
+Inlet Temp: 202
+Outlet Temp: 212
+Pump Press: 660
+Surge Tank Press: 310
+Surge Tank Level: 6
+Fuel Gas Press: 780
+Stack Temp: 210
+Air Temp: 28
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Aug
+Day: 16
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+

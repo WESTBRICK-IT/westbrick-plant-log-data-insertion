@@ -1,0 +1,138 @@
+$@MID@$: 4750
+Date: Sun, 18 Sep 2022 04:51:06 -0600
+Author: chris platt
+Shift: Night Shift
+Operators: Kyle S | Chris P
+Shift Handover Meeting: Blaine H | Travis B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather +18 to 4</p>
+
+<p>Help with Zeta issues</p>
+
+<p>Scope debute to stabilizer comversion options</p>
+
+<p>Work on PO&#39;s</p>
+
+<p>C3 2speed fan to off</p>
+
+<p>&nbsp;</p>
+$@MID@$: 4751
+Date: Sun, 18 Sep 2022 16:23:20 -0600
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Travis B
+Shift Handover Meeting: Kyle S | Chris P
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 05-14
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather sunny high +17</p>
+
+<p>Rob Thirsk and Glen Gunderson both hauled in 2 loads of Cynthia water</p>
+
+<p>Changed 2 sets of water plant filters.</p>
+
+<p>Leveled out some ruts in the plant with the skid steer.</p>
+
+<p>Mark pigged wpne, pig is pulled clean</p>
+
+<p>Obsidean started the 11-22 well</p>
+
+<p>Water plant down on high discharge pressure, it will need a reset when the pressure comes down.</p>
+
+<p>Started the c3 2 speed fan on fast.</p>
+
+<p>Dumped the chiller de-oiler.</p>
+
+<p>Finished weekend checks</p>
+
+<p>Talked with night shift about pulling wpne, 1-21 and 9-16 production out of V-107 tonight to make room for splitter gas tomorrow morning.</p>
+$@MID@$: 4752
+Date: Sun, 18 Sep 2022 20:34:37 -0600
+Author: chris platt
+Shift: Night Shift
+Operators: Kyle S | Chris P
+Shift Handover Meeting: Blaine H | Travis B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: Yes
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather +17 to 8, light rain</p>
+
+<p>Move 1-21 gas to V-200 @ 9PM</p>
+
+<p>Move 9-16 and WPNE to V3101 @ 9PM</p>
+
+<p>Change V-107 orifice plate to 2.750 inch diameter from 1.375 Please update DCS - SR #6059900</p>
+
+<p>ESD 208 on splitter line not functioning SR # 6059899</p>
+
+<p>Found K-204 flare ball valve handle left loose on stem and caused fretting on fuel gas piping Event # 28135</p>
+
+<p>K-208</p>
+
+<p>&nbsp; &nbsp; &nbsp;-Set up to run if necessary</p>
+
+<p>&nbsp; &nbsp; &nbsp;-Opened 2nd, 3rd, and 4th stage&nbsp;Scrubbers to boot</p>
+
+<p>&nbsp; &nbsp; &nbsp;-Applied fuel gas pressure to stop liquids from back feeding</p>
+
+<p>&nbsp; &nbsp; &nbsp;-Boot scrubber pump is still in off and needs to be opened up to boot</p>
+
+<p>DCS froze up</p>
+
+<p>&nbsp; &nbsp; &nbsp;-Restart control room server to get it back up running, restarting program resulted in nothing communicating</p>

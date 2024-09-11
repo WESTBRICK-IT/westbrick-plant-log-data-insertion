@@ -1,0 +1,122 @@
+$@MID@$: 4384
+Date: Thu, 17 Mar 2022 00:06:06 -0600
+Author: Blaine Harris
+Shift: Night Shift
+Operators: Blaine H | Bryan N
+Shift Handover Meeting: Chris P | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather sunny and +9 at the start of shift cooling down to -1</p>
+
+<p>Completed a slips and trips inspection</p>
+
+<p>Added c3 to the surge tank from storage</p>
+
+<p>Closed the valve to recyce out of the boot.</p>
+
+<p>Dumped oil from the chiller</p>
+
+<p>Equalized a little oil to the overflow tank from the production tank to raise the level off the low level alarm set point.</p>
+
+<p>Started the 2 speed debute fan on fast and increased the VFD set point to 60%</p>
+$@MID@$: 4385
+Date: Thu, 17 Mar 2022 15:36:03 -0600
+Author: Jordan Wilson
+Shift: Day Shift
+Operators: Chris P | Jordan W | Pat B
+Shift Handover Meeting: Blaine H | Jeff B
+Start of Shift Meeting: 
+Plant Status: Lost Compressor(s) | ESD
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: +9, mix of cloudy and sunny</p>
+
+<p>-Schneider electric on site to replace amine main breaker</p>
+
+<p>-During job prep it was found that we would lose additional equipment with amine breaker swap.&nbsp; Decision made to go with a full plant outage</p>
+
+<p>-Called producers to inform them of outage.&nbsp;</p>
+
+<ul>
+	<li>Terence with Vermillion</li>
+	<li>Derek with Westbrick</li>
+	<li>Sid with Whitecap</li>
+	<li>Vern with Baccalieau</li>
+	<li>Kim with obsidian</li>
+	<li>Dave with Ridgeback</li>
+	<li>Dalton with Vermillion</li>
+	<li><span style="color:#FF0000">Please call producers when we are starting to get flows through the plant (numbers are in my logbook)</span></li>
+</ul>
+
+<p>-Equipment that was shut down as follows</p>
+
+<ul>
+	<li>Amine charge pump</li>
+	<li>Amine booster pump</li>
+	<li>Amine reflux pump</li>
+	<li>RO make-up water pump</li>
+	<li>Rich amine valve closed from contactor to flash tank</li>
+	<li>Acid gas compressor down for service.&nbsp; Pipeline bypass timer is active until we get our line pressure back to normal, then bypass can be removed</li>
+	<li>K-202, K-203, K-204, K-205, K-206 compressors down</li>
+	<li>Inlet&#39;s ESD&#39;d and manual 0 for control valves</li>
+	<li>C3 compressor down</li>
+	<li>Glycol pumps off</li>
+	<li>H-400 hot oil heater down</li>
+	<li>Both recycle pumps are off</li>
+	<li>de-eth reflux pump</li>
+	<li>de-butanizer reflux pump</li>
+</ul>
+
+<p><span style="color:#FF0000">-We can start increasing amine concentration to 40% as per Kelly</span></p>
+
+<p>-Isolate V-101 and depressure, pull high level switch, full of wax, cleaned and re-installed</p>
+
+<p>-Mechanics did service on K-5000, then started cooler fan inspections.&nbsp; Found issues with C3 condensor 2 speed fan, currently locked out and replacing bearings</p>
+
+<p>-K-206 engine oil temp sensor was fixed</p>
+
+<p>-Daren worked on ESD checks while facility down</p>
+
+<p>-Devin&nbsp;went and looked as some greenpath leak detection checks</p>
+
+<p>-Issues with couplers on K-205 lube pump on startup, mechanics working on it. all fixed up</p>
+
+<p>-Issues with getting air to pre lube pump on K-203 on start up, instrumentation fixed it up</p>
+
+<p>-&nbsp; Thank you to everyone for the hard work today!</p>

@@ -1,0 +1,40 @@
+$@MID@$: 2919
+Date: Wed, 13 Oct 2021 02:52:58 -0600
+Author: Tye Mastre
+Flow: 231
+Inlet Temp: 200
+Outlet Temp: 209
+Pump Press: 700
+Surge Tank Press: 320
+Surge Tank Level: 6
+Fuel Gas Press: 820
+Stack Temp: 207
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Oct
+Day: 12
+Year: 2021
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 2920
+Date: Wed, 13 Oct 2021 10:30:12 -0600
+Author: Jordan Wilson
+Flow: 223
+Inlet Temp: 200
+Outlet Temp: 211
+Pump Press: 700
+Surge Tank Press: 317
+Surge Tank Level: 6
+Fuel Gas Press: 810
+Stack Temp: 208
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Oct
+Day: 13
+Year: 2021
+Attachment: 
+Encoding: HTML
+========================================
+<p>pump seal changed last night, investigating motor issues today</p>

@@ -1,0 +1,42 @@
+$@MID@$: 4001
+Date: Tue, 02 May 2023 16:51:07 -0600
+Author: Ryan Gilgan
+Flow: 223
+Inlet Temp: 205
+Outlet Temp: 209
+Pump Press: 720
+Surge Tank Press: 310
+Surge Tank Level: 3
+Fuel Gas Press: 740
+Stack Temp: 214
+Air Temp: 21
+Flame Condition: Blue / Orange
+Shift: Day
+Month: May
+Day: 2
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 4002
+Date: Tue, 02 May 2023 19:55:44 -0600
+Author: Kevin Nicol
+Flow: 230
+Inlet Temp: 205
+Outlet Temp: 211
+Pump Press: 720
+Surge Tank Press: 290
+Surge Tank Level: 5
+Fuel Gas Press: 780
+Stack Temp: 200
+Air Temp: 24
+Flame Condition: Blue / Orange
+Shift: Night
+Month: May
+Day: 2
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+

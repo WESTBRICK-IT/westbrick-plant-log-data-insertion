@@ -1,0 +1,78 @@
+$@MID@$: 3298
+Date: Fri, 25 Sep 2020 05:09:51 -0600
+Author: Dayton Mohr
+Shift: Night Shift
+Operators: Dayton M | Romeo T
+Shift Handover Meeting: Ryan G | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady | Lost Compressor(s)
+Equipment Outage: K-201
+Filter Change: 
+Pigging: 
+Recycle Pumps: Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;HVO-Dallas hauled in Mancal oil</p>
+
+<p>Recycle pump B switched into overflow tank</p>
+
+<p>C3 Condensor 2 speed fan switched to slow</p>
+
+<p>K201 alarmed in as low JW pressure, unit down, high JW temp, it showed running, had to shut unit down manually, Local gauge on JW read 107 deg C, Dayshift to get Mechanis to look at, workordered the not shutting down on high JW temp. WO-37581</p>
+$@MID@$: 3299
+Date: Fri, 25 Sep 2020 15:04:04 -0600
+Author: Ryan Gilgan
+Shift: Day Shift
+Operators: Ryan G | Jordan W
+Shift Handover Meeting: Dayton M | Romeo T
+Start of Shift Meeting: Devin N
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Sanitize control room.</p>
+
+<p>Chris N came and repaired the broken belts off K-201 water pump.&nbsp; WO#37582.</p>
+
+<p>Devin went through the DCS to see why K-201 didn&#39;t shut down.&nbsp; Found a hold out in the logic that should have never even let the compressor to start.&nbsp; Undid the hold out and verified unit would shut down by running the compressor depressuring the jacket water shut down the unit shut down.</p>
+
+<p>Started up K-201, put back online.</p>
+
+<p>Submitted MITS for k-201 incident.</p>
+
+<p>Added propane to surge tank, from 1 bolt to 10 bolts.</p>
+
+<p>Put recycle back into production tank.</p>
+
+<p>Pizza meeting today.</p>
+
+<p>&nbsp;</p>

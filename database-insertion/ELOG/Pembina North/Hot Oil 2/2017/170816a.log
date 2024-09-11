@@ -1,0 +1,60 @@
+$@MID@$: 4
+Date: Wed, 16 Aug 2017 01:15:38 -0600
+Author: Tye Mastre
+Flow: 234
+Inlet Temp: 199
+Outlet Temp: 217
+Pump Press: 660
+Surge Tank Press: 345
+Surge Tank Level: 3
+Fuel Gas Press: 940
+Stack Temp: 241
+Flame Condition: Blue
+Shift: Night
+Month: Aug
+Day: 15
+Year: 2017
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 5
+Date: Wed, 16 Aug 2017 15:41:16 -0600
+Author: Ryan Bangle
+Flow: 239
+Inlet Temp: 200
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 345
+Surge Tank Level: 3
+Fuel Gas Press: 950
+Stack Temp: 239
+Flame Condition: Blue
+Shift: Day
+Month: Aug
+Day: 16
+Year: 2017
+Attachment: 
+Encoding: HTML
+========================================
+<p>Stack temp - 239</p>
+$@MID@$: 6
+Date: Wed, 16 Aug 2017 19:38:12 -0600
+Author: Tye Mastre
+Flow: 235
+Inlet Temp: 199
+Outlet Temp: 218
+Pump Press: 660
+Surge Tank Press: 940
+Surge Tank Level: 3
+Fuel Gas Press: 345
+Stack Temp: 240
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Aug
+Day: 16
+Year: 2017
+Attachment: 
+Encoding: HTML
+========================================
+<p>Stack tempature is at 240 degrees.</p>

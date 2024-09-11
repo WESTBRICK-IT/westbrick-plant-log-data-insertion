@@ -1,0 +1,40 @@
+$@MID@$: 3016
+Date: Thu, 02 Dec 2021 04:48:42 -0700
+Author: Ryan Gilgan
+Flow: 234
+Inlet Temp: 199
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 315
+Surge Tank Level: 5
+Fuel Gas Press: 820
+Stack Temp: 206
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Dec
+Day: 1
+Year: 2021
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 3017
+Date: Thu, 02 Dec 2021 07:22:15 -0700
+Author: Kevin Nicol
+Flow: 235
+Inlet Temp: 200
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 315
+Surge Tank Level: 5
+Fuel Gas Press: 810
+Stack Temp: 211
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Dec
+Day: 2
+Year: 2021
+Attachment: 
+Encoding: HTML
+========================================
+

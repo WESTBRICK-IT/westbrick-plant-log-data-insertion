@@ -1,0 +1,82 @@
+$@MID@$: 5456
+Date: Sun, 17 Sep 2023 03:12:21 -0600
+Author: Chris Platt (Contractor)
+Shift: Night Shift
+Operators: Romeo T | Chris P (Contractor)
+Shift Handover Meeting: Blaine H | Brad T
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: 
+Production Tank Level: 3.7
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather 22 to 5, Smokey</p>
+
+<p>Amine system</p>
+
+<p>&nbsp; &nbsp; &nbsp;-Drain low points</p>
+
+<p>&nbsp; &nbsp; &nbsp;-LOTO prep</p>
+
+<p>C3 2 speed fan to low</p>
+
+<p>Speed up compression</p>
+
+<p>DCS locked up on board op station, password would not work to log in on restart</p>
+$@MID@$: 5457
+Date: Sun, 17 Sep 2023 16:13:45 -0600
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Brad T
+Shift Handover Meeting: Romeo T | Chris P (Contractor)
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Production Tank Level: 3.91
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather sunny cool in the am warming to a sunny/smoky +22</p>
+
+<p>Called out Daren to trouble shoot DSC issues, there was no alarms board. It turned out the scada sytem glitched and needed to be reset.</p>
+
+<p>Finished monthly checks</p>
+
+<p>Pulled the Wolf Creek pig. Clean</p>
+
+<p>C3 2 speed fan on fast from slow</p>
+
+<p>Added oil to K-203 and K-204 govenors</p>
+
+<p>Slowed down K-203 to 690 from 750</p>

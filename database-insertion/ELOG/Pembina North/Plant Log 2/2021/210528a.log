@@ -1,0 +1,94 @@
+$@MID@$: 3796
+Date: Fri, 28 May 2021 00:02:23 -0600
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Romeo T
+Shift Handover Meeting: Blaine H | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: Yes
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>+23 Degrees Cooling To +6 Degrees, Thunder Storm &amp; Rain</strong></em></u></p>
+
+<p>Sanitized control room PM and AM.</p>
+
+<p>Manually dumped de eth suction scrubber.</p>
+
+<p>Turned off the 2 speed condencer fan due to drop in ambiant temp.</p>
+
+<p>Had a bad Thunder Storm roll through. Had some transmitters and trends flatline and stop displaying after some lightning. The storm may have been irrelevent and could have been a fluke. Powered down 4 Digi&#39;s, 3 in maintenace office and 1 in battery MCC. No luck. Reset SCADA/EFM manager on NP1 server in maintenace office and still no luck. Daren will look into it tomorrow. May be an issue with the Digi in the battery MCC.</p>
+
+<p>Bypassed fire eyes for the duration of the light show. Restored once it cleared up.</p>
+
+<p>Will probably have to order up R/O water for tomorrow night.</p>
+
+<p>Inspected jack skrews on c3 &quot;B&quot; compressor. Looking good.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3797
+Date: Fri, 28 May 2021 16:37:27 -0600
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Kyle S
+Shift Handover Meeting: Tye M | Romeo T
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><strong><u>Weater cloudy in the am and windy with rain in the afternoon</u></strong></p>
+
+<p>Morning meeting</p>
+
+<p>Tiger Calcius out applying calcium to the roads for dust control</p>
+
+<p>Kyle spent the morning doing Braz North production and reading</p>
+
+<p>Darren got IP channel 8 reading again. Trends and meters are back working</p>
+
+<p>Mark pigged the Wolf Creek line</p>
+
+<p>Adjusted c3 fan speeds throughout the day with the temp swings, at shift change the single speed fan is on and the 2 speed fan is on slow</p>
+
+<p>Pulled the fuse on the ft battey flare meter as per Daren&#39;s request</p>
+
+<p>Gas Track out doing the fugitive emissions inspection</p>
+
+<p>Did a SVI package for V-107 orfice change tomorrow morning</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

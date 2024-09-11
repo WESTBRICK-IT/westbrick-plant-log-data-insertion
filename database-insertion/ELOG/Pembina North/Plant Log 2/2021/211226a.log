@@ -1,0 +1,113 @@
+$@MID@$: 4223
+Date: Sun, 26 Dec 2021 09:24:03 -0700
+Author: Jordan Wilson
+Shift: Day Shift
+Operators: Jordan W | Pat B
+Shift Handover Meeting: Blaine H | Jeff B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: H-400
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 34%
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather: -30, clear.</p>
+
+<p>-called shawn to come out this morning.&nbsp;</p>
+
+<p>-hot oil heater went down on flame fail, started up</p>
+
+<p>-Shawn showed up and we were able to see what happens when it went down, found there was ice in air intake obstructing control of fuel/ air mix.&nbsp;</p>
+
+<ul>
+	<li>there was hot oil going to the air preheater, but not enough.&nbsp; valve showed open but there was issues with the actuator.&nbsp; removed actuator, no spare parts.&nbsp; Devin will look for parts on monday.&nbsp;</li>
+	<li><span style="color:#FF0000">control oil to air heater with manual valve, will just have to monitor temps, there is temp shutdowns for the air temperature high (60 degrees)&nbsp; just adjust valve needed.</span></li>
+</ul>
+
+<p>-Pull wolf creek pig</p>
+
+<p>-Amine concentration at 34%</p>
+
+<p>-cut new filters for hot oil heater air intake and replaced the old ones</p>
+
+<p>-adjusted res gas louvers so they close completely</p>
+
+<p>-weekend checks</p>
+
+<p>-Rob T hauled in 2 loads of condensate from Zeta</p>
+
+<p>-Rob hauled out the remainer of water from water tank, opened up the spill over line again.&nbsp; Hauled fluid to disposal</p>
+
+<p>-cleared some snow around hot oil heater with skid steer</p>
+
+<p>-shovelled some snow around plant</p>
+
+<p>&nbsp;</p>
+$@MID@$: 4224
+Date: Sun, 26 Dec 2021 23:44:52 -0700
+Author: Blaine Harris
+Shift: Night Shift
+Operators: Blaine H | Jeff B
+Shift Handover Meeting: Jordan W | Pat B
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Weather at start of shift -29 and cloudy cooling to -34</p>
+
+<p>Filled the lpg lubricator</p>
+
+<p>Opened up the heating coil in the amine pump packing drip tank, no flow through the coil.</p>
+
+<p>Hot oil heater ran good throughout the night with no issues.</p>
+
+<p>There was no security issues at Braz North</p>
+
+<p>Monitored the volcanoe boiler serveral times due to being down to 1 pump and not having a critical spare.</p>
+
+<p>Completed the slips and trips inspection, no issues</p>
+
+<p>Keylink pump down, called control and they have a pipline ESD shut down stream of Zeta. They will restart the pumps when ESD valve is reopened.</p>
+
+<p>Added barrier fluid to V-200 pump.</p>
+
+<p>K-206 down at 04:10 on lubricator no flow, missed on the dcs because there was no audible alarm, tried to restart but couldnt get oil flow on either side. Tried starting up k-203 but could not get the engine prelube pump to pump. Called Tyson to come out.</p>
+
+<p>Lost the acid gas compressor.</p>
+
+<p>Lost the c3 compressor</p>
+
+<p>Shut off the glycol pump</p>
+
+<p>Shut the c3 fan off.</p>

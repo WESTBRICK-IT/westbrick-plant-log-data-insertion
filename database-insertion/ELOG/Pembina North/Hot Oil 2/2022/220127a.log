@@ -1,0 +1,40 @@
+$@MID@$: 3130
+Date: Thu, 27 Jan 2022 16:47:08 -0700
+Author: Kevin Nicol
+Flow: 208
+Inlet Temp: 197
+Outlet Temp: 210
+Pump Press: 635
+Surge Tank Press: 320
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 212
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Jan
+Day: 27
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Preheat was 19 celsuis</p>
+$@MID@$: 3131
+Date: Thu, 27 Jan 2022 20:54:42 -0700
+Author: Kevin Nicol
+Flow: 212
+Inlet Temp: 199
+Outlet Temp: 211
+Pump Press: 630
+Surge Tank Press: 320
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 212
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Jan
+Day: 27
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Air preheat temp 21&deg;</p>

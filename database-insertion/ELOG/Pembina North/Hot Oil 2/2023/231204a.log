@@ -1,0 +1,42 @@
+$@MID@$: 4370
+Date: Mon, 04 Dec 2023 04:33:27 -0700
+Author: Ryan Gilgan
+Flow: 221
+Inlet Temp: 206
+Outlet Temp: 210
+Pump Press: 740
+Surge Tank Press: 320
+Surge Tank Level: 3
+Fuel Gas Press: 810
+Stack Temp: 193
+Air Temp: 23
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Dec
+Day: 3
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 4371
+Date: Mon, 04 Dec 2023 06:56:16 -0700
+Author: Kevin Nicol
+Flow: 220
+Inlet Temp: 206
+Outlet Temp: 210
+Pump Press: 740
+Surge Tank Press: 320
+Surge Tank Level: 3
+Fuel Gas Press: 810
+Stack Temp: 194
+Air Temp: 21
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Dec
+Day: 4
+Year: 2023
+Attachment: 
+Encoding: HTML
+========================================
+<p>added 1 bbl of heat transfer fluid Y day</p>

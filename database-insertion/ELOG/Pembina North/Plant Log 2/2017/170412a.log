@@ -1,0 +1,124 @@
+$@MID@$: 661
+Date: Wed, 12 Apr 2017 04:26:39 -0600
+Author: Kevin Nicol
+Shift: Night Shift
+Operators: Kevin N | Ryan B
+Plant Status: Process Upset
+Equipment Outage: K-5000 | C3-A
+Filter Change: Amine Bag
+Pigging: 
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 
+Encoding: HTML
+========================================
+<p>recycle to overflow</p>
+
+<p>lean oil down low level</p>
+
+<p>methanol pump to deeth vapor locked</p>
+
+<p>shut off 2 speed C3 fan</p>
+
+<p>amine flows bouncing, flash tank high leveled, blew back on exchanger, changed bag filter, cleaned y strainer</p>
+
+<p>acid gas comp down, liquids fron flash tank,</p>
+
+<p>blocked in gas off amine flash tank going to acid gas comp</p>
+
+<p>load of oil from HVO</p>
+
+<p>methanol tank is empty, called out KPA for methanol</p>
+
+<p>injecting methanol into condencer an deeth reflux</p>
+
+<p>lowered boot make up on k202, boot relief was opening</p>
+
+<p>shut off AC3 to warm up plant</p>
+
+<p>&nbsp;</p>
+$@MID@$: 662
+Date: Wed, 12 Apr 2017 16:21:56 -0600
+Author: Justin Ewing
+Shift: Day Shift
+Operators: Justin E | Ryan G
+Plant Status: Process Upset | Lost Compressor(s)
+Equipment Outage: K-203 | K-204 | C3-A | Amine | Glycol
+Filter Change: Amine Bag
+Pigging: 
+Amine Concentration: 
+Roustabout Utilization: 
+Attachment: 170412_172203_SJ.jpg
+Encoding: HTML
+========================================
+<p><u><strong>Amine Pant:</strong></u></p>
+
+<p>Flash tank wouldn&#39;t dump this morning, nightshift raised pressure, cleaned Y screen and back dumped the amine plate exchanger.</p>
+
+<p>Changed Amine bag filter today</p>
+
+<p>Added 2L of antifoam to the amine regen this morning. Soon afterwards Regen D/P dropped, Regen Tops temp swings stabilized and level returned to the reboiler.</p>
+
+<p>Skimmed the amine reboiler this morning, shut down amine make up water pump to skim the reboiler. Pump is running again.</p>
+
+<p>&nbsp;</p>
+
+<p><u><strong>Refridge Plant:</strong></u></p>
+
+<p>Struggled with the refridge plant all morning. Could not get C3 from the surge tank to the chiller.</p>
+
+<p>LOTO&#39;d C3-A. Pulled 1st stage suc valve on C3-A to ensure they were good. Checked out fine</p>
+
+<p>Add C3 from the storage tank</p>
+
+<p>Ended up doing a 4 hour warm up today. Blew down the chiller de-oiler during the warm up and got a ton of nasty looking lube oil. Did this multiple times. Need Rob to empty the containment.</p>
+
+<p>2 speed fan is on slow.</p>
+
+<p>Pumped some liquids out of the C3 suction scrubber on start up</p>
+
+<p>Slowed down the De-Bute fan to 0%</p>
+
+<p>Lean Oil system was down today during the issues. Still down a shift change.</p>
+
+<p>&nbsp;</p>
+
+<p><u><strong>Glycol Plant:</strong></u></p>
+
+<p>Added a bit from the reclaimation tank today.</p>
+
+<p>Stopped getting glycol returns this morning. Lowered level in the glycol sep a bit, raised pressure of the flash tank to get it to start dumping.</p>
+
+<p>Glycol levels returned shortly afterwards.</p>
+
+<p>Shut down the glycol pump during the warm up today. Pump is back online.</p>
+
+<p><span style="color:#000080"><strong>Had to put the glycol pump recycle control valve in manual today due to it bouncing around a lot. Still in manual</strong></span></p>
+
+<p>Gave the gas to gas exchanger a shot of methanol this morning during the issues</p>
+
+<p>&nbsp;</p>
+
+<p><u><strong>Rest of the Day:</strong></u></p>
+
+<p>Mike M. Reinstalled the nice clean S/G on the amine contactor, Trouble shoot temps on K-203 / K-204 compressors on the bad PLC and rescaled, Checked the recycle valve on the A/G compressor and fixed the level transmitter on the Methanol tank</p>
+
+<p>Dan K. pulled and insoected 1st stage valves on C3-A and took the flat tire from the Gator into town for repair.</p>
+
+<p>Bigoray back up today and took our V-101 gas back. Redirected flows accordingly and shut down K-204 and K-203 and sped up K-201.</p>
+
+<p>Wednesday Meeting today</p>
+
+<p>Zeta meeting today</p>
+
+<p>Carl with MRC out today</p>
+
+<p>Worked with Kristina on issues with Production Report today, numbers not rolling over etc.</p>
+
+<p>Kristina and Daren out to the field to troubleshoot comms issues with line ESD station (07-11?)</p>
+
+<p>Newest workstation computer in the control room lost it&#39;s internet connection today, Daren fixed it.</p>
+
+<p>Pumped up A/G downhole well ESD, it was tripped today</p>
+
+<p>One recycle pump on the production tank one on the overflow tank.</p>

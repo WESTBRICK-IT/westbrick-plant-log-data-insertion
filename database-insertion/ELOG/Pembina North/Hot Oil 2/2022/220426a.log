@@ -1,0 +1,63 @@
+$@MID@$: 3306
+Date: Tue, 26 Apr 2022 01:51:20 -0600
+Author: Ryan Gilgan
+Flow: 243
+Inlet Temp: 198
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 210
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 215
+Air Temp: 20
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Apr
+Day: 25
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 3307
+Date: Tue, 26 Apr 2022 15:37:18 -0600
+Author: Blaine Harris
+Flow: 243
+Inlet Temp: 195
+Outlet Temp: 210
+Pump Press: 720
+Surge Tank Press: 305
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 217
+Air Temp: 19
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Apr
+Day: 26
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+
+$@MID@$: 3308
+Date: Tue, 26 Apr 2022 23:52:57 -0600
+Author: Jordan Wilson
+Flow: 239
+Inlet Temp: 197
+Outlet Temp: 211
+Pump Press: 720
+Surge Tank Press: 310
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 212
+Air Temp: 19
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Apr
+Day: 26
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+

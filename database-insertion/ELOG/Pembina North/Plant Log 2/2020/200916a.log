@@ -1,0 +1,151 @@
+$@MID@$: 3279
+Date: Wed, 16 Sep 2020 02:17:23 -0600
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Dallas L
+Shift Handover Meeting: Blaine H | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady | Process Upset
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+Draft: TMastre
+========================================
+<p>Sanitized control room PM and AM.</p>
+
+<p>HP cold sep rang in hi level. Sight glass was empty but level was reading 60% and climbing. Didnt see a level until the seperator transmitter was reading 65%. Level in sight glass continued to climb and couldnt dump. Cycled methanol through dump valve but still it wouldnt dump. Checked downstream at the glycol sep and noticed the pressure gauge on the&nbsp;sep was equalized with the&nbsp;HP cold sep and the pressure on the DCS was showing 0 KPA.&nbsp;Found a blown fuse due to the pressure&nbsp;transmitter being fried. Replaced transmitter and fuse and got the pressure back down to 2500 KPA setpoint and the HP cold sep started to dump. Checked the trends and the pressure transmitter failed just before the HP cold sep hi leveled.</p>
+
+<p>Pumped up the wet leg with 50/50 glycol on the HP cold sep. Level used to run half way up the fist sight glass at 50% setpoint. Changed the setpoint from 50% to 45% and its running half way up the second glass now. Will have to monitor.</p>
+
+<p>Called Devin out for transmitter and fuse swaps. Thank you Devin.</p>
+
+<p>Changed the tape on the sales analyzer.</p>
+
+<p>Lowered the suction/speed setpoint on K-206 from 770 KPA to 720 KPA to speed it up.</p>
+
+<p>No glycol interface in the glycol sep. Raised the level abit so its visible in the glass.</p>
+
+<p>Lowered the level in the glycol flash tank abit as it was running into the bottom of the second glass (6 bolts) after the process upset.</p>
+
+<p>Will have to keep an eye on the chiler level transmitter. Seems to be overshooting its setpoint a little more than usual and hard to keep within the 3-5 degree temp span on the chiller. More than likely from the issues in process earlier.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3280
+Date: Wed, 16 Sep 2020 05:21:36 -0600
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Dallas L
+Shift Handover Meeting: Blaine H | Jordan W
+Start of Shift Meeting: 
+Plant Status: Steady | Process Upset
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Sanitized control room PM and AM.</p>
+
+<p>HP cold sep rang in hi level. Sight glass was empty but level was reading 60% and climbing. Didnt see a level until the seperator transmitter was reading 65%. Level in sight glass continued to climb and couldnt dump. Cycled methanol through dump valve but still it wouldnt dump. Checked downstream at the glycol sep and noticed the pressure gauge on the&nbsp;sep was equalized with the&nbsp;HP cold sep and the pressure on the DCS was showing 0 KPA.&nbsp;Found a blown fuse due to the pressure&nbsp;transmitter being fried. Replaced transmitter and fuse and got the pressure back down to 2500 KPA setpoint and the HP cold sep started to dump. Checked the trends and the pressure transmitter failed just before the HP cold sep hi leveled.</p>
+
+<p>Pumped up the wet leg with 50/50 glycol on the HP cold sep. Level used to run half way up the fist sight glass at 50% setpoint. Changed the setpoint from 50% to 45% and its running half way up the second glass now. Will have to monitor.</p>
+
+<p>Called Devin out for transmitter and fuse swaps. Thank you Devin.</p>
+
+<p>Changed the tape on the sales analyzer.</p>
+
+<p>Lowered the suction/speed setpoint on K-206 from 770 KPA to 720 KPA to speed it up.</p>
+
+<p>No glycol interface in the glycol sep. Raised the level abit so its visible in the glass.</p>
+
+<p>Lowered the level in the glycol flash tank abit as it was running into the bottom of the second glass (6 bolts) after the process upset.</p>
+
+<p>Will have to keep an eye on the chiler level transmitter. Seems to be overshooting its setpoint a little more than usual and hard to keep within the 3-5 degree temp span on the chiller. More than likely from the issues in process earlier.</p>
+
+<p>Noticed the HP cold sep dump controller is running around 23% to maintain level. Used to run in the 40% range before the level issues. Verified the bypass was closed tight. Methanol may have free&#39;d up a restriction?</p>
+
+<p>Plant steady otherwise.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3281
+Date: Wed, 16 Sep 2020 17:32:50 -0600
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Jordan W
+Shift Handover Meeting: Tye M | Dallas L
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>&nbsp;-Cut back the amine make up water pump to 15% from 20%.</p>
+
+<p>-Dumped the amine skim tank.</p>
+
+<p>-GGT hauled in 1200 LTS of 80/20 glycol</p>
+
+<p>-Hvo hauled in 2 loads of Mancal emulsion.</p>
+
+<p>-Sped up the debute fan speed to 45% from 40%</p>
+
+<p>-Esdy 200 and Esdy 300 shut in at 12-19, Called Mark Spelrem to let him know.</p>
+
+<p>-Brandon with Elite worked on LEL calibrations.</p>
+
+<p>-Daren delivered a assortment of filters from Bigoray plant.</p>
+
+<p>-Skimmed the amine charcoal filter, very little oil.</p>
+
+<p>-Swung recycle B pump into to overflow tank.</p>
+
+<p>-Added barrier fluid to V-200 pump.</p>
+
+<p>-Tyson adjust the lube rates on the north lpg pump.</p>
+
+<p>-Disinfected the control room</p>
+
+<p>-Rob Thirsk in 1 load of Zeta water.</p>

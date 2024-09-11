@@ -1,0 +1,187 @@
+$@MID@$: 3599
+Date: Fri, 19 Feb 2021 04:59:48 -0700
+Author: Jordan Wilson
+Shift: Night Shift
+Operators: Jeff B | Jordan W
+Shift Handover Meeting: Tye M | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: N/A
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><strong><u>weather: -5. clear and calm</u></strong></p>
+
+<p>-Sanitize control room start and end of shift</p>
+
+<p>-Add glycol to K-203 with Tyson</p>
+
+<p>-<strong>K-206 suction control setpoint back at 900 kpa from 850 kpa</strong></p>
+
+<p><strong>-Light out on north side of K-202</strong> <span style="color:#FF0000">WO#38704 submitted</span></p>
+
+<p><strong>-V-103, 5-14, 14-3 lines back down to normal pressure and are in auto</strong></p>
+
+<p><strong>-Leaky fitting on amine flash tank level transmitter </strong><span style="color:#FF0000">WO#38703 submitted.&nbsp; </span><strong>Will need to get devin to fix today</strong></p>
+
+<p>-pumped fluid from compressor underground tank to used lube oil tank</p>
+
+<p>-14-3 ESD closed at 01:30, called west brick operator to let them know, ESD opened back up at 03:20</p>
+
+<p>-regen tops temp dropping down below 97 degrees, opened temp control valve from 40.5 to 41</p>
+
+<p><strong>-blow down glycol heat loop through amine drip tank 3 times last night, line seems obstructed, can&#39;t get much flow through there.&nbsp; valve opened up a bit more to see if that helps flow</strong></p>
+
+<p>-Hot oil building temp seems fine throughout the night</p>
+$@MID@$: 3600
+Date: Fri, 19 Feb 2021 17:02:13 -0700
+Reply to: 3601
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Tye M | Kyle S
+Shift Handover Meeting: Kyle S | Jordan W
+Start of Shift Meeting: Nathan P | Chris C
+Plant Status: Steady
+Equipment Outage: K-203
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p><u><em><strong>-15 Degrees Warming To +2 Degrees Calm And Clear</strong></em></u></p>
+
+<p>Sanitized control room AM and PM.</p>
+
+<p>Blew down de eth suction scrubber.</p>
+
+<p>Chris Cartwright out. Replaced tubing on the amine flash tank level transmitter. BOL and all good.</p>
+
+<p>Cylinder #4 LB on K-203 compressor running 100 degrees cooler than the rest of the cylinders. RPM fluctuating about 15 RPM. Called Nagy to diagnose. Shutdown and replaced plug, lead and coil. RPM stedy now but cyl #4 still running cooler. All air fuel ratios etc checked out ok. We will monitor and have Apecs dig into it further after Tuesdays K-206 outage.</p>
+
+<p>Mancal new well production will probably be trucked in tonight. Nightshift could you grab a sample off the truck tonight and record what the mass flow meter was reading for density and water cut etc at the time the sample was taken. We can spin it in the AM and see what it looks like.</p>
+
+<p>Nathan got the vent fan working in the hot oil heater building. Electric motor thermal switch was tripped. We put an air mover at the door to blow cool air up to the celing to prevent the thermal switch from tripping again. Nightshift please monitor the building temp tonight incase it gets too cold with that blower going. May need to turn off.</p>
+
+<p>Adjusted North JW/recycle louvers on K-203 compressor to try and cool it down some.</p>
+
+<p>Kyle assisting with Brazeau North as Romeo was busy with crews.</p>
+
+<p>Called producers about K-206 compressor service for Tuesday. Clearview, Daylight, Mancal, Vermilion, Ridgeback and West Brick.</p>
+
+<p>Recycled from the boot.</p>
+
+<p>Swung recycle pump into the overflow tank and slowed down the pump to 35% output approix 45-50 m3 flow to slowly recycle the Light mancal fluid. We will have to monitor density closely.</p>
+
+<p>Raised the chiller level from 9.5 to 10% to lower the tempature differential on the chiller and stay between 3 to 5 degrees. May need to adjust as needed.</p>
+
+<p>Lowered the amine reboiler tempature controller from 41% to 40.5% as we started to reflux hard and the tops temp was climbing.</p>
+
+<p>Slowed down the amine makeup water pump from 23 to 21 to maintain reboiler level. Will get a concentration tomorrow.</p>
+
+<p>Worked on weekend checks.</p>
+
+<p>&nbsp;</p>
+$@MID@$: 3601
+Date: Fri, 19 Feb 2021 17:35:11 -0700
+In reply to: 3600
+Author: Tye Mastre
+Shift: Day Shift
+Operators: Tye M | Kyle S
+Shift Handover Meeting: Kyle S | Jordan W
+Start of Shift Meeting: Nathan P | Chris C
+Plant Status: Steady
+Equipment Outage: K-203
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production | Overflow
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: Yes
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: Yes
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Spartan Panel Drive gain error was found on the last Mancal load causing the ticket cuts and volumes to read way out. Chris C will send info in to Spartan. Estimated todays ticket. And will sample and spin next load.</p>
+
+<table align="center" cellspacing="1" style="border:1px solid #486090; width:98%">
+	<tbody>
+		<tr>
+			<td style="background-color:#486090">Tye Mastre wrote:</td>
+		</tr>
+		<tr>
+			<td style="background-color:#FFFFB0">
+			<p><u><em><strong>-15 Degrees Warming To +2 Degrees Calm And Clear</strong></em></u></p>
+
+			<p>Sanitized control room AM and PM.</p>
+
+			<p>Blew down de eth suction scrubber.</p>
+
+			<p>Chris Cartwright out. Replaced tubing on the amine flash tank level transmitter. BOL and all good.</p>
+
+			<p>Cylinder #4 LB on K-203 compressor running 100 degrees cooler than the rest of the cylinders. RPM fluctuating about 15 RPM. Called Nagy to diagnose. Shutdown and replaced plug, lead and coil. RPM stedy now but cyl #4 still running cooler. All air fuel ratios etc checked out ok. We will monitor and have Apecs dig into it further after Tuesdays K-206 outage.</p>
+
+			<p>Mancal new well production will probably be trucked in tonight. Nightshift could you grab a sample off the truck tonight and record what the mass flow meter was reading for density and water cut etc at the time the sample was taken. We can spin it in the AM and see what it looks like.</p>
+
+			<p>Nathan got the vent fan working in the hot oil heater building. Electric motor thermal switch was tripped. We put an air mover at the door to blow cool air up to the celing to prevent the thermal switch from tripping again. Nightshift please monitor the building temp tonight incase it gets too cold with that blower going. May need to turn off.</p>
+
+			<p>Adjusted North JW/recycle louvers on K-203 compressor to try and cool it down some.</p>
+
+			<p>Kyle assisting with Brazeau North as Romeo was busy with crews.</p>
+
+			<p>Called producers about K-206 compressor service for Tuesday. Clearview, Daylight, Mancal, Vermilion, Ridgeback and West Brick.</p>
+
+			<p>Recycled from the boot.</p>
+
+			<p>Swung recycle pump into the overflow tank and slowed down the pump to 35% output approix 45-50 m3 flow to slowly recycle the Light mancal fluid. We will have to monitor density closely.</p>
+
+			<p>Raised the chiller level from 9.5 to 10% to lower the tempature differential on the chiller and stay between 3 to 5 degrees. May need to adjust as needed.</p>
+
+			<p>Lowered the amine reboiler tempature controller from 41% to 40.5% as we started to reflux hard and the tops temp was climbing.</p>
+
+			<p>Slowed down the amine makeup water pump from 23 to 21 to maintain reboiler level. Will get a concentration tomorrow.</p>
+
+			<p>Worked on weekend checks.</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>

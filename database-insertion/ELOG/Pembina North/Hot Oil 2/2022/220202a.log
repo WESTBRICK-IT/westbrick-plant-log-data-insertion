@@ -1,0 +1,40 @@
+$@MID@$: 3141
+Date: Wed, 02 Feb 2022 00:53:08 -0700
+Author: Jordan Wilson
+Flow: 199
+Inlet Temp: 198
+Outlet Temp: 210
+Pump Press: 660
+Surge Tank Press: 340
+Surge Tank Level: 4
+Fuel Gas Press: 800
+Stack Temp: 214
+Flame Condition: Blue / Orange
+Shift: Night
+Month: Feb
+Day: 1
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+<p>Air temp 22 degrees</p>
+$@MID@$: 3142
+Date: Wed, 02 Feb 2022 19:02:17 -0700
+Author: chris platt
+Flow: 199
+Inlet Temp: 197
+Outlet Temp: 210
+Pump Press: 670
+Surge Tank Press: 345
+Surge Tank Level: 4
+Fuel Gas Press: 805
+Stack Temp: 212
+Flame Condition: Blue / Orange
+Shift: Day
+Month: Feb
+Day: 2
+Year: 2022
+Attachment: 
+Encoding: HTML
+========================================
+

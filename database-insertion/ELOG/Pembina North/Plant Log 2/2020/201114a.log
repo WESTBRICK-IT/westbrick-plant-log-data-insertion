@@ -1,0 +1,96 @@
+$@MID@$: 3399
+Date: Sat, 14 Nov 2020 05:16:49 -0700
+Author: Tye Mastre
+Shift: Night Shift
+Operators: Tye M | Dallas L
+Shift Handover Meeting: Blaine H | Kyle S
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: Yes
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>Sanitized control room PM and AM.</p>
+
+<p>Gas flows stared to drop off on V-3101 around 18:30 PM, Noticed 5-14 and 8-24 pressures dropping but pressure upstream of 7-7 ESD started to climb. Called Mark S and he came out to get 7-7 ESD opened. Had a fair amount of line pack to pull down after ESD opened.</p>
+
+<p>Will have to continue to keep a close eye on V-3101 gas flows as there is no alarm for any ESD status other that 8-24 and 5-14 on the Dominion line. We drop approx 120 e3m3 when 7-7 closes.</p>
+
+<p>FQI-3003 inlet flow to contactor trend started painting abit, then stopped after gas flows dropped off from 7-7 ESD issue. Assumed maybe some liquids were affecting meter accuracy. Started doing it again after the flows came back. Noticed the DP transmitter trend was mirroring the swing of FQI-3003. Dug into it further and found K-203 recycle valve was fighting itself and cycling opened and closed every few seconds from higher discharge pressure from the line pack.</p>
+
+<p>K-203 discharge recycle setpoint set to open at 6000 KPA which is too low for the current gas flows. Bumped it up to 6300 KPA to prevent it from recycling so easily. Shutdown is set for 7000 KPA.</p>
+
+<p>K-203 RPM was swining abit and starting to detonate due to the extra line pack and issues with recycle. RPM started swinging less and less after pulling line pressure down and pyro temps started to tighten up as well. (min 600, max 665) and RPM cycling within 5-7 RPM now and it sounds better. Recycle was only cycling for about 30 mins before issue was found. Will continue to watch exhaust temps and listen for detonation.</p>
+
+<p>Brought new tape down to the sales analyzer. Still a couple days worth of tape on the roll. Didnt change.</p>
+
+<p>Turned the single speed res gas fan off and the 2 speed fan from &quot;slow&quot; to &quot;fast&quot; to warm up contactor inlet gas and increased c3 accumulator pressure.</p>
+
+<p>Adjusted debute overhead fan speed as needed with swinging flows.</p>
+
+<p>Amine skim tank rang in hi level. Skimmed and lowered level.</p>
+
+<p>Manually dumped de eth suction scrubber and K-202 1st stg suction scrubber.</p>
+
+<p>K-202 engine oil level at the bottom of the top line that Tyson marked. Maintained that level all night. Checked multiple times.</p>
+
+<p>Submitted work order for K-203 recycle as it reacts too fast and starts&nbsp;swinging.&nbsp;WO#37999.</p>
+$@MID@$: 3400
+Date: Sat, 14 Nov 2020 17:21:55 -0700
+Author: Blaine Harris
+Shift: Day Shift
+Operators: Blaine H | Kyle S
+Shift Handover Meeting: Tye M | Dallas L
+Start of Shift Meeting: 
+Plant Status: Steady
+Equipment Outage: 
+Filter Change: 
+Pigging: 
+Recycle Pumps: Production
+Amine Concentration: 37%
+Roustabout Utilization: 
+Berm Water Samples Taken: No
+Plant Process Discussion: Yes
+Operational Targets: N/A
+Overrides or Safeties Bypassed: N/A
+Upcoming Activities: N/A
+HSE Concerns: Yes
+Regulatory Requirements: N/A
+Staff Discussion: N/A
+Weather & Effects on Operations: No
+Permit Extensions/Critical Tasks: N/A
+Attachment: 
+Encoding: HTML
+========================================
+<p>-Amine concentration 37%</p>
+
+<p>-Added some C3 to the surge tank</p>
+
+<p>-Spread gravel around the plant.</p>
+
+<p>-Cleaned up around the compressor building, hauled out empty pails, rags and soaker pads.</p>
+
+<p>-Did some worksite inspections.</p>
+
+<p>-Worked on weekend checks.</p>
+
+<p>-Mark pigged the east gathering line to 5-21, little liquids came in from the pig. Set up the reciever to recieve the pig tomorrow.</p>
+
+<p>-Sanitized the control room</p>
+
+<p>-Pumped up the wetleg on K-202 4th stage, 4th stage was condensing a bunch of liquids, pinched the louvers 1 notch.</p>

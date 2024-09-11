@@ -1,0 +1,11 @@
+$@MID@$: 1
+Date: Wed, 05 Oct 2016 10:44:23 -0600
+Author: Justin Ewing
+Asset: PLC system
+Duration: Permanent
+Attachment: 
+Encoding: HTML
+========================================
+<p>Allow alarm suppression for nuisance alarms.</p>
+
+<p>Suppressed alarms to be tracked in the Saftey Bypass Log, when suppressed and when re-enabled.</p>
