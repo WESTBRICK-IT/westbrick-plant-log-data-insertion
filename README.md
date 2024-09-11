@@ -1,1 +1,2 @@
-# westbrick-plant-log-data-insertion
+# Westbrick Plant Log Data Insertion
+- programmed by Christopher Barber September 2024
