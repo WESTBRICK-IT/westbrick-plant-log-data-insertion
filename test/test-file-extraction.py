@@ -84,7 +84,7 @@ def insert_data_into_database(one_page_data):
     print(mydb)
     print(one_page_data)
     mycursor = mydb.cursor()
-    sql = "INSERT INTO hot_oil2 (id, date, author, flow, inlet_temperature, outlet_temperature, pump_pressure, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, stack_temperature, flame_condition, shift, month, day, year) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO hot_oil2 (id, date_of_log, author, flow, inlet_temperature, outlet_temperature, pump_pressure, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, stack_temperature, flame_condition, shift, month, day, year, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (one_page_data)
     mycursor.execute(sql, val)
     mydb.commit()
@@ -164,22 +164,30 @@ def resize_list_to_16(one_page_data):
     print(len(one_page_data))
     return one_page_data
 
-def add_date_and_time(one_page_data):
+def add_date_and_time(one_page_data):    
+    current_datetime = datetime.now()    
+    date = current_datetime.strftime('%Y-%m-%d')    
+    time = current_datetime.strftime('%H:%M:%S')
+    print(date, time)
+    one_page_data.append(date)
+    one_page_data.append(time)
+    return one_page_data
 
 
 def process_file(file_path):    
     one_page_data = []
     with open(file_path, 'r') as file:
-        content = file.readlines()   
+        content = file.readlines()        
     for line in content:
         one_page_data.append(get_data_into_variable(line))
 
     one_page_data = resize_list_to_16(one_page_data)
     one_page_data = add_date_and_time(one_page_data)
-    insert_data_into_database(one_page_data)    
+    insert_data_into_database(one_page_data)
 
 def main():
     file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/170813a.log'
+    
     print(process_file(file_path))
 
 
