@@ -1,4 +1,5 @@
 import mysql.connector
+import os
 from mysql.connector import Error
 from datetime import datetime
 
@@ -169,6 +170,7 @@ def add_date_and_time(one_page_data):
     return one_page_data
 
 def find_number_of_pages(number_of_lines):       
+    number_of_pages = 0
     if(number_of_lines < 22):
         number_of_pages = 1
     elif(number_of_lines < 43):
@@ -201,7 +203,28 @@ def get_page2(content, number_of_lines):
     while i < half_way_point:
         del page2[0]
         i = i + 1        
-    return page2    
+    return page2
+
+def get_page2_of3(content, number_of_lines):
+    page2 = []
+    page2 = content.copy()
+    one_third_way_point = number_of_lines / 3    
+    i = 0
+    while i < one_third_way_point:
+        del page2[0]
+        i = i + 1        
+    return page2
+
+def get_page3(content, number_of_lines):
+    page3 = []
+    page3 = content.copy()
+    one_third_way_point = number_of_lines / 3
+    two_third_way_point = one_third_way_point * 2
+    i = 0
+    while i < two_third_way_point:
+        del page3[0]
+        i = i + 1        
+    return page3    
 
 def process_file(file_path):    
     first_page_data = [] 
@@ -210,7 +233,9 @@ def process_file(file_path):
     with open(file_path, 'r') as file:
         content = file.readlines()         
         number_of_lines = find_number_of_lines(content)           
-        number_of_pages = find_number_of_pages(number_of_lines)        
+        number_of_pages = find_number_of_pages(number_of_lines) 
+    if(number_of_pages == 0):
+        return     
     if(number_of_pages == 1):
         for line in content:
             first_page_data.append(get_data_into_variable(line))
@@ -226,7 +251,7 @@ def process_file(file_path):
     elif(number_of_pages == 3):
         #split pages
         page1 = get_page1(content, number_of_lines)
-        page2 = get_page2(content, number_of_lines)
+        page2 = get_page2_of3(content, number_of_lines)
         page3 = get_page3(content, number_of_lines)
         for line in page1:
             first_page_data.append(get_data_into_variable(line))
@@ -240,17 +265,30 @@ def process_file(file_path):
     insert_data_into_database(first_page_data)
     if(number_of_pages > 1):
         second_page_data =  resize_list_to_16(second_page_data)
-        second_page_data = add_date_and_time(second_page_data)
+        second_page_data = add_date_and_time(second_page_data)        
         insert_data_into_database(second_page_data)        
     if(number_of_pages > 2):
         third_page_data =  resize_list_to_16(third_page_data)
-        third_page_data = add_date_and_time(third_page_data)
+        third_page_data = add_date_and_time(third_page_data)        
         insert_data_into_database(third_page_data)
 
-def main():
-    # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/170813a.log'
-    file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171230a.log'    
-    process_file(file_path)
+def process_folder_of_files(folder_path):      
+     # Get a list of all files in the folder
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        print("inserting " + filename + " from " + file_path)        
+        process_file(file_path)  
+    # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171232a.log'    
+    # process_file(file_path)
+def process_folder_of_folders_of_files(folder_of_folders_path):
+    for folder_path in os.listdir(folder_of_folders_path):
+        folder_path = os.path.join(folder_of_folders_path, folder_path)
+        process_folder_of_files(folder_path)
+
+def main():    
+    folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2'
+    # process_folder_of_folders_of_files(folder_of_folders_path)
+    process_file('../database-insertion/ELOG/Pembina North/Hot Oil 2/2018/108309a.log')
 
 if __name__ == "__main__":
     main()
