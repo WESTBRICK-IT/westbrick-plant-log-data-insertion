@@ -74,18 +74,16 @@ def get_data_after_name(words_from_line, length_of_name):
         i = i + 1
     return data_after_name
 
-def insert_data_into_database(one_page_data):
+def insert_data_into_database(page_data):
     mydb = mysql.connector.connect(
         host='198.12.216.121',
         database='WestbrickPlantLogDB',
         user='cbarber',
         password='!!!Dr0w554p!!!'
-    )
-    print(mydb)
-    print(one_page_data)
+    )    
     mycursor = mydb.cursor()
     sql = "INSERT INTO hot_oil2 (id, date_of_log, author, flow, inlet_temperature, outlet_temperature, pump_pressure, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, stack_temperature, flame_condition, shift, month, day, year, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-    val = (one_page_data)
+    val = (page_data)
     mycursor.execute(sql, val)
     mydb.commit()
     print(mycursor.rowcount, "record inserted.")
@@ -156,40 +154,103 @@ def get_data_into_variable(line):
         return data
 
 def resize_list_to_16(one_page_data):
-    print(len(one_page_data))
     i = len(one_page_data)
     while i > 16:
         one_page_data.pop()
-        i = i - 1
-    print(len(one_page_data))
+        i = i - 1        
     return one_page_data
 
 def add_date_and_time(one_page_data):    
     current_datetime = datetime.now()    
     date = current_datetime.strftime('%Y-%m-%d')    
-    time = current_datetime.strftime('%H:%M:%S')
-    print(date, time)
+    time = current_datetime.strftime('%H:%M:%S')    
     one_page_data.append(date)
     one_page_data.append(time)
     return one_page_data
 
+def find_number_of_pages(number_of_lines):       
+    if(number_of_lines < 22):
+        number_of_pages = 1
+    elif(number_of_lines < 43):
+        number_of_pages = 2
+    elif(number_of_lines < 66):
+        number_of_pages = 3
+    return number_of_pages
+
+def find_number_of_lines(content):
+    number_of_lines = 0
+    for line in content:
+        number_of_lines = number_of_lines + 1
+    return number_of_lines
+
+def get_page1(content, number_of_lines):
+    page1 = []
+    page1 = content.copy()
+    half_way_point = number_of_lines / 2        
+    i = 0
+    while i < half_way_point:
+        page1.pop()    
+        i = i + 1       
+    return page1
+
+def get_page2(content, number_of_lines):
+    page2 = []
+    page2 = content.copy()
+    half_way_point = number_of_lines / 2            
+    i = 0
+    while i < half_way_point:
+        del page2[0]
+        i = i + 1        
+    return page2    
 
 def process_file(file_path):    
-    one_page_data = []
+    first_page_data = [] 
+    second_page_data = []
+    third_page_data = []   
     with open(file_path, 'r') as file:
-        content = file.readlines()        
-    for line in content:
-        one_page_data.append(get_data_into_variable(line))
-
-    one_page_data = resize_list_to_16(one_page_data)
-    one_page_data = add_date_and_time(one_page_data)
-    insert_data_into_database(one_page_data)
+        content = file.readlines()         
+        number_of_lines = find_number_of_lines(content)           
+        number_of_pages = find_number_of_pages(number_of_lines)        
+    if(number_of_pages == 1):
+        for line in content:
+            first_page_data.append(get_data_into_variable(line))
+    elif(number_of_pages == 2):
+        #split pages
+        page1 = get_page1(content, number_of_lines)
+        page2 = get_page2(content, number_of_lines)
+        #put data into separate files
+        for line in page1:
+            first_page_data.append(get_data_into_variable(line))
+        for line in page2:
+            second_page_data.append(get_data_into_variable(line))
+    elif(number_of_pages == 3):
+        #split pages
+        page1 = get_page1(content, number_of_lines)
+        page2 = get_page2(content, number_of_lines)
+        page3 = get_page3(content, number_of_lines)
+        for line in page1:
+            first_page_data.append(get_data_into_variable(line))
+        for line in page2:
+            second_page_data.append(get_data_into_variable(line))
+        for line in page3:
+            third_page_data.append(get_data_into_variable(line))
+    
+    first_page_data = resize_list_to_16(first_page_data)
+    first_page_data = add_date_and_time(first_page_data)    
+    insert_data_into_database(first_page_data)
+    if(number_of_pages > 1):
+        second_page_data =  resize_list_to_16(second_page_data)
+        second_page_data = add_date_and_time(second_page_data)
+        insert_data_into_database(second_page_data)        
+    if(number_of_pages > 2):
+        third_page_data =  resize_list_to_16(third_page_data)
+        third_page_data = add_date_and_time(third_page_data)
+        insert_data_into_database(third_page_data)
 
 def main():
-    file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/170813a.log'
-    
-    print(process_file(file_path))
-
+    # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/170813a.log'
+    file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171230a.log'    
+    process_file(file_path)
 
 if __name__ == "__main__":
     main()
