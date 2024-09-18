@@ -83,7 +83,7 @@ def insert_data_into_database(log_data):
         password='!!!Dr0w554p!!!'
     )    
     mycursor = mydb.cursor()
-    sql = "INSERT INTO hot_oil2 (id, date_of_log, author, flow, inlet_temperature, outlet_temperature, pump_pressure, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, stack_temperature, flame_condition, shift, month, day, year, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO hot_oil2 (id, date_of_log, author, flow, inlet_temperature, outlet_temperature, pump_pressure, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, stack_temperature, air_temperature, flame_condition, shift, month, day, year, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (log_data)
     print(log_data)
     mycursor.execute(sql, val)
@@ -137,9 +137,9 @@ def get_data_into_variable(line):
         elif(words_from_line[0] == 'Stack' and words_from_line[1] == 'Temp:'):
             stack_temperature = get_data_at_end_of_array(words_from_line)            
             data = stack_temperature
-        #   elif(words_from_line[0] == 'Air' and words_from_line[1] == 'Temp:'):
-        #   air_temperature = get_data_at_end_of_array(words_from_line)
-        #   data = air_temperature                        
+        elif(words_from_line[0] == 'Air' and words_from_line[1] == 'Temp:'):
+            air_temperature = get_data_at_end_of_array(words_from_line)
+            data = air_temperature                        
         elif(words_from_line[0] == 'Flame' and words_from_line[1] == 'Condition:'):
             flame_condition = get_data_after_name(words_from_line, 2)            
             data = flame_condition
@@ -161,9 +161,9 @@ def get_data_into_variable(line):
             data = ""        
         return data
 
-def resize_list_to_16(one_log_data):
+def resize_list_to_17(one_log_data):
     i = len(one_log_data)
-    while i > 16:
+    while i > 17:
         one_log_data.pop()
         i = i - 1        
     return one_log_data
@@ -226,19 +226,19 @@ def get_log2_of_middle(content, number_of_lines):
     return log2
 
 def get_log3_of_middle(content, number_of_lines):
-    log2 = []
-    log2 = content.copy()
+    log3 = []
+    log3 = content.copy()
     #get indexes of id
-    indices_of_ID = [index for index, item in enumerate(log2) if item.startswith('$@MID@$')]    
+    indices_of_ID = [index for index, item in enumerate(log3) if item.startswith('$@MID@$')]    
     i = 0
     while i < indices_of_ID[2]:
-        del log2[0]
+        del log3[0]
         i = i + 1 
     i = number_of_lines
     while i >= indices_of_ID[3]:
-        log2.pop()    
+        log3.pop()    
         i = i - 1
-    return log2
+    return log3
 
 def get_log3(content, number_of_lines):
     log3 = []
@@ -251,6 +251,21 @@ def get_log3(content, number_of_lines):
         i = i + 1        
     return log3
 
+def get_log4_of_middle(content, number_of_lines):
+    log4 = []
+    log4 = content.copy()
+    #get indexes of id
+    indices_of_ID = [index for index, item in enumerate(log4) if item.startswith('$@MID@$')]    
+    i = 0
+    while i < indices_of_ID[3]:
+        del log4[0]
+        i = i + 1 
+    i = number_of_lines
+    while i >= indices_of_ID[4]:
+        log4.pop()    
+        i = i - 1
+    return log4
+
 def get_log4(content, number_of_lines):
     log4 = []
     log4 = content.copy()   
@@ -262,11 +277,23 @@ def get_log4(content, number_of_lines):
         i = i + 1        
     return log4
 
+def get_log5(content, number_of_lines):
+    log5 = []
+    log5 = content.copy()   
+    #get indexes of id
+    indices_of_ID = [index for index, item in enumerate(log5) if item.startswith('$@MID@$')]    
+    i = 0
+    while i < indices_of_ID[4]:
+        del log5[0]
+        i = i + 1        
+    return log5
+    
 def process_file(file_path):    
     first_log_data = [] 
     second_log_data = []
     third_log_data = []  
-    fourth_log_data = [] 
+    fourth_log_data = []
+    fifth_log_data = [] 
     with open(file_path, 'r') as file:
         content = file.readlines() 
         number_of_lines = find_number_of_lines(content)           
@@ -315,30 +342,60 @@ def process_file(file_path):
             third_log_data.append(get_data_into_variable(line))
         for line in log4:
             fourth_log_data.append(get_data_into_variable(line))
-
+    elif(number_of_logs == 5):
+        print("inserting 5 logs")
+        #split logs
+        log1 = get_log1(content, number_of_lines)
+        log2 = get_log2_of_middle(content, number_of_lines)
+        log3 = get_log3_of_middle(content, number_of_lines)
+        log4 = get_log4_of_middle(content, number_of_lines)  
+        log5 = get_log5(content, number_of_lines)      
+        for line in log1:
+            first_log_data.append(get_data_into_variable(line))
+        for line in log2:
+            second_log_data.append(get_data_into_variable(line))
+        for line in log3:
+            third_log_data.append(get_data_into_variable(line))
+        for line in log4:
+            fourth_log_data.append(get_data_into_variable(line))
+        for line in log5:
+            fifth_log_data.append(get_data_into_variable(line))
     
-    first_log_data = resize_list_to_16(first_log_data)
+    first_log_data = resize_list_to_17(first_log_data)
     first_log_data = add_date_and_time(first_log_data)    
     insert_data_into_database(first_log_data)
     if(number_of_logs > 1):
-        second_log_data =  resize_list_to_16(second_log_data)
+        second_log_data =  resize_list_to_17(second_log_data)
         second_log_data = add_date_and_time(second_log_data)        
         insert_data_into_database(second_log_data)        
     if(number_of_logs > 2):
-        third_log_data =  resize_list_to_16(third_log_data)
+        third_log_data =  resize_list_to_17(third_log_data)
         third_log_data = add_date_and_time(third_log_data)        
         insert_data_into_database(third_log_data)
     if(number_of_logs > 3):
-        fourth_log_data =  resize_list_to_16(fourth_log_data)
+        fourth_log_data =  resize_list_to_17(fourth_log_data)
         fourth_log_data = add_date_and_time(fourth_log_data)        
         insert_data_into_database(fourth_log_data)
+    if(number_of_logs > 4):
+        fifth_log_data =  resize_list_to_17(fifth_log_data)
+        fifth_log_data = add_date_and_time(fifth_log_data)        
+        insert_data_into_database(fifth_log_data)
+
+def get_filename_number(filename):
+    filename_number = filename[:len(filename) - 5]
+    filename_number = int(filename_number)
+    return filename_number
 
 def process_folder_of_files(folder_path):      
      # Get a list of all files in the folder then insert using process file
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
-        print("inserting " + filename + " from " + file_path)        
-        process_file(file_path)  
+        print("inserting " + filename + " from " + file_path)
+        filename_number = get_filename_number(filename)
+        # Only add logs that have air temp
+        # if(filename_number >= 220208):
+        if(filename_number >= 221031):
+            process_file(file_path)  
     # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171232a.log'    
     # process_file(file_path)
 def process_folder_of_folders_of_files(folder_of_folders_path):
