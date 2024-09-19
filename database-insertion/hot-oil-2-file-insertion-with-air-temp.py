@@ -1,3 +1,4 @@
+# Written by Christopher Barber September 2024
 import mysql.connector
 import os
 from mysql.connector import Error

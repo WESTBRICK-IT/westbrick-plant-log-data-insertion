@@ -1,3 +1,4 @@
+# Written by Christopher Barber September 2024
 import mysql.connector
 import os
 from mysql.connector import Error
@@ -226,20 +227,20 @@ def get_log2_of_middle(content, number_of_lines):
     return log2
 
 def get_log3_of_middle(content, number_of_lines):
-    log2 = []
-    log2 = content.copy()
+    log3 = []
+    log3 = content.copy()
     #get indexes of id
-    indices_of_ID = [index for index, item in enumerate(log2) if item.startswith('$@MID@$')]    
+    indices_of_ID = [index for index, item in enumerate(log3) if item.startswith('$@MID@$')]    
     i = 0
     while i < indices_of_ID[2]:
-        del log2[0]
+        del log3[0]
         i = i + 1 
     i = number_of_lines
     while i >= indices_of_ID[3]:
-        log2.pop()    
+        log3.pop()    
         i = i - 1
-    return log2
-
+    return log3
+    
 def get_log3(content, number_of_lines):
     log3 = []
     log3 = content.copy()   

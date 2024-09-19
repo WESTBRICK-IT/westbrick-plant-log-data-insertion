@@ -1,3 +1,4 @@
+# Written by Christopher Barber September 2024
 import os
 import mysql.connector
 import re
