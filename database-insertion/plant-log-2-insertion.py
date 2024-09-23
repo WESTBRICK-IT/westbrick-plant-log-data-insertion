@@ -91,10 +91,12 @@ def insert_data_into_database(log_data):
         host='198.12.216.121',
         database='WestbrickPlantLogDB',
         user='cbarber',
-        password='!!!Dr0w554p!!!'
+        password='!!!Dr0w554p!!!',
+        connection_timeout=300
     )    
+    
     mycursor = mydb.cursor()
-    sql = "INSERT INTO np_daily_production2 (id, date_of_log, author, inlet, sales, lpg, oil, production_month, production_day, production_year, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO westbrick_plant_log1 (id, date_of_log, author, category, plant_status, amine_bag_filter_changed, glycol_regen_filter_changed, shift, operators, shift_handover_meeting, start_of_shift_meeting, equipment_outage, filter_change, pigging, recycle_pumps, production_tank_level, lpg_bullet_peak_level, lpg_bullet_peak_pressure, berm_water_samples_taken, plant_process_discussion, operational_targets, overrides_or_safeties_bypassed, upcoming_activities, hse_concerns, regulatory_requirements, staff_discussion, weather_and_effects_on_operations, permit_extensions_critical_tasks, roustabout_utilization, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (log_data)    
     mycursor.execute(sql, val)
     mydb.commit()
@@ -240,6 +242,21 @@ def get_third_log_from_content_of_middle(content, number_of_lines):
         i = i - 1
     return log3
 
+def get_fourth_log_from_content_of_middle(content, number_of_lines):
+    log4 = []
+    log4 = content.copy()
+    #get indexes of id
+    indices_of_ID = [index for index, item in enumerate(log4) if item.startswith('$@MID@$')]    
+    i = 0
+    while i < indices_of_ID[3]:
+        del log4[0]
+        i = i + 1 
+    i = number_of_lines
+    while i >= indices_of_ID[4]:
+        log4.pop()    
+        i = i - 1
+    return log4
+
 def get_fourth_log_from_content_of4(content, number_of_lines):
     log4 = []
     log4 = content.copy()   
@@ -250,6 +267,17 @@ def get_fourth_log_from_content_of4(content, number_of_lines):
         del log4[0]
         i = i + 1        
     return log4
+
+def get_fifth_log_from_content_of5(content, number_of_lines):
+    log5 = []
+    log5 = content.copy()   
+    #get indexes of id
+    indices_of_ID = [index for index, item in enumerate(log5) if item.startswith('$@MID@$')]    
+    i = 0
+    while i < indices_of_ID[4]:
+        del log5[0]
+        i = i + 1        
+    return log5
 
 def get_id(content):
     #Find ID by going through each line
@@ -576,6 +604,7 @@ def get_log_data(content):
     log_data = []
     # get ID    
     ID = get_id(content)
+    ID = int(ID)
     log_data.append(ID)
     print("ID: " + str(ID))
     # get Date    
@@ -634,18 +663,31 @@ def get_log_data(content):
     recycle_pumps = get_recycle_pumps(content)
     log_data.append(recycle_pumps)
     print("Recycle Pumps: " + str(recycle_pumps))
+    
     # get Production Tank Level
     production_tank_level = get_production_tank_level(content)
+    # if(production_tank_level == ""):
+    #     production_tank_level = None
+    # production_tank_level = float(production_tank_level)
     log_data.append(production_tank_level)
     print("Production Tank Level: " + str(production_tank_level))
+    
     # get lpg bullet peak level
     lpg_bullet_peak_level = get_lpg_bullet_peak_level(content)
+    # if(lpg_bullet_peak_level == ""):
+    #     lpg_bullet_peak_level = None
+    # lpg_bullet_peak_level = float(lpg_bullet_peak_level)
     log_data.append(lpg_bullet_peak_level)
     print("LPG Bullet Peak Level: " + str(lpg_bullet_peak_level))
+    
     # LPG Bullet Peak Pressure
     lpg_bullet_peak_pressure = get_lpg_bullet_peak_pressure(content)
+    # if(lpg_bullet_peak_pressure == ""):
+    #     lpg_bullet_peak_pressure = None
+    # lpg_bullet_peak_pressure = float(lpg_bullet_peak_pressure)
     log_data.append(lpg_bullet_peak_pressure)
     print("LPG Bullet Peak Pressure: " + str(lpg_bullet_peak_pressure))
+    
     # Berm water samples taken
     berm_water_samples_taken = get_berm_water_samples_taken(content)
     berm_water_samples_taken = yes_no_to_boolean(berm_water_samples_taken)
@@ -702,10 +744,8 @@ def get_log_data(content):
     remark = get_remark(content)
     log_data.append(remark)
     print("Remark: " + str(remark))
-    
 
-
-    print(log_data)
+    print(log_data)    
     return log_data
 
 def process_file(file_path):    
@@ -724,7 +764,7 @@ def process_file(file_path):
     if(number_of_logs == 1):
         print("inserting 1 log")
         # fill log_data with data from content line by line and each data piece at the end of the line
-        log_data = get_log_data(content)  
+        log_data1 = get_log_data(content)  
     elif(number_of_logs == 2):
         print("Inserting 2 logs")
         # split logs
@@ -759,65 +799,31 @@ def process_file(file_path):
         log_data3 = get_log_data(log_data3)
         log_data4 = get_log_data(log_data4)
         log_data5 = get_log_data(log_data5)
-
-    # if(number_of_logs == 2):
-    #     print("inserting 2 logs")
-    #     log1 = get_first_log_from_content(content, number_of_lines)
-    #     log2 = get_second_log_from_content_of2(content, number_of_lines)
-    #     for line in log1:
-    #         log_data.append(get_data_into_variable(line))
-    #     for line in log2:
-    #         log_data2.append(get_data_into_variable(line))    
-    # if(number_of_logs == 3):
-    #     print("inserting 3 logs")
-    #     log1 = get_first_log_from_content(content, number_of_lines)
-    #     log2 = get_second_log_from_content_of_middle(content, number_of_lines)
-    #     log3 = get_third_log_from_content_of3(content, number_of_lines)
-    #     for line in log1:
-    #         log_data.append(get_data_into_variable(line))
-    #     for line in log2:
-    #         log_data2.append(get_data_into_variable(line))
-    #     for line in log3:
-    #         log_data3.append(get_data_into_variable(line))
-    # if(number_of_logs == 4):
-    #     print("inserting 4 logs")
-    #     log1 = get_first_log_from_content(content, number_of_lines)
-    #     log2 = get_second_log_from_content_of_middle(content, number_of_lines)
-    #     log3 = get_third_log_from_content_of_middle(content, number_of_lines)
-    #     log4 = get_fourth_log_from_content_of4(content, number_of_lines)
-    #     for line in log1:
-    #         log_data.append(get_data_into_variable(line))
-    #     for line in log2:
-    #         log_data2.append(get_data_into_variable(line))
-    #     for line in log3:
-    #         log_data3.append(get_data_into_variable(line))
-    #     for line in log4:
-    #         log_data4.append(get_data_into_variable(line))
-
     
-    # log_data = resize_list_to_10(log_data)
-    # log_data = change_null_items_to_string(log_data)    
-    # log_data = add_date_and_time(log_data)    
-    # insert_data_into_database(log_data)    
-    # if(number_of_logs > 1):
-    #     log_data2 = resize_list_to_10(log_data2)
-    #     log_data2 = change_null_items_to_string(log_data2)    
-    #     log_data2 = add_date_and_time(log_data2)
-    #     insert_data_into_database(log_data2)    
-    # if(number_of_logs > 2):
-    #     log_data3 = resize_list_to_10(log_data3)
-    #     log_data3 = change_null_items_to_string(log_data3)    
-    #     log_data3 = add_date_and_time(log_data3)    
-    #     insert_data_into_database(log_data3) 
-    # if(number_of_logs > 3):
-    #     log_data4 = resize_list_to_10(log_data4)
-    #     log_data4 = change_null_items_to_string(log_data4)    
-    #     log_data4 = add_date_and_time(log_data4)    
-    #     insert_data_into_database(log_data4) 
+    
+    log_data1 = add_date_and_time(log_data1)    
+    
+    insert_data_into_database(log_data1)    
+    if(number_of_logs > 1):    
+        log_data2 = add_date_and_time(log_data2)
+        insert_data_into_database(log_data2)    
+    if(number_of_logs > 2):    
+        log_data3 = add_date_and_time(log_data3)    
+        insert_data_into_database(log_data3) 
+    if(number_of_logs > 3):    
+        log_data4 = add_date_and_time(log_data4)    
+        insert_data_into_database(log_data4)
+    if(number_of_logs > 4):    
+        log_data5 = add_date_and_time(log_data5)    
+        insert_data_into_database(log_data5)
 
 def get_filename_number(filename):
     filename_number = filename[:len(filename) - 5]
-    filename_number = int(filename_number)
+    try:
+        filename_number = int(filename_number)
+    except ValueError:
+        print("this file name is not a number dude")
+        return 0
     return filename_number
 
 def process_folder_of_files(folder_path):      
@@ -825,10 +831,11 @@ def process_folder_of_files(folder_path):
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
         print("inserting " + filename + " from " + file_path)
+        
         filename_number = get_filename_number(filename)
         # Only add logs that have air temp
-        # if(filename_number >= 220208):        
-        process_file(file_path)  
+        if(filename_number >= 240216):        
+            process_file(file_path)  
     # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171232a.log'    
     # process_file(file_path)
 def process_folder_of_folders_of_files(folder_of_folders_path):
@@ -838,8 +845,8 @@ def process_folder_of_folders_of_files(folder_of_folders_path):
 
 def main():    
     folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Plant Log 2'
-    #process_folder_of_folders_of_files(folder_of_folders_path)
-    process_file('../database-insertion/ELOG/Pembina North/Plant Log 2/2022/220107a.log')
+    process_folder_of_folders_of_files(folder_of_folders_path)
+    #process_file('../database-insertion/ELOG/Pembina North/Plant Log 2/2024/240317a.log')
 
 if __name__ == "__main__":
     main()
