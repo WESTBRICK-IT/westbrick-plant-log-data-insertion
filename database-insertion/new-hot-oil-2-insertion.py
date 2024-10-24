@@ -96,7 +96,7 @@ def insert_data_into_database(log_data):
     )    
     
     mycursor = mydb.cursor()
-    sql = "INSERT INTO plant_log2 (id, date_of_log, author, category, plant_status, amine_bag_filter_changed, glycol_regen_filter_changed, shift, operators, shift_handover_meeting, start_of_shift_meeting, equipment_outage, filter_change, pigging, recycle_pumps, production_tank_level, lpg_bullet_peak_level, lpg_bullet_peak_pressure, berm_water_samples_taken, plant_process_discussion, operational_targets, overrides_or_safeties_bypassed, upcoming_activities, hse_concerns, regulatory_requirements, staff_discussion, weather_and_effects_on_operations, permit_extensions_critical_tasks, roustabout_utilization, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO volcano_2 (id, date_of_log, author, surge_tank_temperature, surge_tank_pressure, surge_tank_level, pump_pressure, outlet_temperature, stack_temperature, flame_condition, shift, month, day, year, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (log_data)    
     mycursor.execute(sql, val)
     mydb.commit()
@@ -389,9 +389,12 @@ def get_shift(content):
         if(len(line_split_up) > 1):
             if(line_split_up[0] == "Shift:"):
                 shift = line_split_up[1:]
-                shift = ' '.join(shift)
+                shift = ' '.join(shift)                
+                if(shift == ""):
+                    return None
+                shift = day_night_to_boolean(shift)                
                 return shift
-    return ""
+    return None
 
 def get_shift_handover_meeting(content):
     for line in content:
@@ -460,10 +463,8 @@ def get_production_tank_level(content):
             if(line_split_up[0] == "Production" and line_split_up[1] == "Tank" and line_split_up[2] == "Level:"):                
                 production_tank_level = line_split_up[3:]
                 production_tank_level = ' '.join(production_tank_level)
-                if(production_tank_level == ''):
-                    return None
                 return production_tank_level
-    return None
+    return ""
 
 def get_lpg_bullet_peak_level(content):
     for line in content:
@@ -471,11 +472,9 @@ def get_lpg_bullet_peak_level(content):
         if(len(line_split_up) > 4):
             if(line_split_up[0] == "LPG" and line_split_up[1] == "Bullet" and line_split_up[2] == "Peak" and line_split_up[3] == "Level:"):
                 lpg_bullet_peak_level = line_split_up[4:]
-                lpg_bullet_peak_level = ' '.join(lpg_bullet_peak_level)
-                if(lpg_bullet_peak_level == ""):
-                    return None
+                lpg_bullet_peak_level = ' '.join(lpg_bullet_peak_level)            
                 return lpg_bullet_peak_level
-    return None
+    return ""
 
 def get_lpg_bullet_peak_pressure(content):
     for line in content:
@@ -484,10 +483,8 @@ def get_lpg_bullet_peak_pressure(content):
             if(line_split_up[0] == "LPG" and line_split_up[1] == "Bullet" and line_split_up[2] == "Peak" and line_split_up[3] == "Pressure:"):
                 lpg_bullet_peak_pressure = line_split_up[4:]
                 lpg_bullet_peak_pressure = ' '.join(lpg_bullet_peak_pressure)  
-                if(lpg_bullet_peak_pressure == ''):
-                    return None
                 return lpg_bullet_peak_pressure
-    return None
+    return ""
 
 def get_berm_water_samples_taken(content):
     for line in content:
@@ -605,19 +602,248 @@ def get_roustabout_utilization(content):
                 return roustabout_utilization
     return ""
 
-# def put_date_in_mysql_format(date):
-#     date = date.split()
+def get_date_time_of_bypass(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 5):
+            if(line_split_up[0] == "Date" and line_split_up[1] == "/" and line_split_up[2] == "Time" and line_split_up[3] == "of" and line_split_up[4] == "Bypass:"):
+                date_time_of_bypass = line_split_up[5:]
+                date_time_of_bypass = ' '.join(date_time_of_bypass)  
+                return date_time_of_bypass
+    return ""
 
-# def get_log_date(content):
-#     for line in content:
-#         line_split_up = line.split()
-#         if(len(line_split_up) > 1):
-#             if(line_split_up[0] == "Date:"):
-#                 date = line_split_up[1:]
-#                 date = ' '.join(date)            
-#                 date = put_date_in_mysql_format(date)
-#                 return date
-#     return ""
+def get_equipment_name(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Equipment" and line_split_up[1] == "Name:"):
+                equipment_name = line_split_up[2:]
+                equipment_name = ' '.join(equipment_name)
+                return equipment_name
+    return ""
+
+def get_device_tag(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Device" and line_split_up[1] == "Tag:"):
+                device_tag = line_split_up[2:]
+                device_tag = ' '.join(device_tag)
+                return device_tag
+    return ""
+
+def get_estimated_bypass_renewal(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Estimated" and line_split_up[1] == "Bypass" and line_split_up[2] == "Renewal:"):
+                estimated_bypass_renewal = line_split_up[3:]
+                estimated_bypass_renewal = ' '.join(estimated_bypass_renewal)
+                return estimated_bypass_renewal
+    return ""
+
+def get_safe_work_permit_number(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 4):
+            if(line_split_up[0] == "Safe" and line_split_up[1] == "Work" and line_split_up[2] == "Permit" and line_split_up[3] == "#:"):
+                safe_work_permit_number = line_split_up[4:]
+                safe_work_permit_number = ' '.join(safe_work_permit_number) 
+                #print("Safe Work Permit Number: " + type(safe_work_permit_number))
+                if(safe_work_permit_number == ""):
+                    return None                
+                return safe_work_permit_number
+    return None
+
+def get_estimated_bypass_removal_date_time(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 6):
+            if(line_split_up[0] == "Estimated" and line_split_up[1] == "Bypass" and line_split_up[2] == "Removal" and line_split_up[3] == "Date" and line_split_up[4] == "/" and line_split_up[5] == "Time:"):
+                estimated_bypass_removal_date_time = line_split_up[6:]
+                estimated_bypass_removal_date_time = ' '.join(estimated_bypass_removal_date_time)  
+                return estimated_bypass_removal_date_time
+    return ""
+
+def get_date_time_of_bypass_removal(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 6):
+            if(line_split_up[0] == "Date" and line_split_up[1] == "/" and line_split_up[2] == "Time" and line_split_up[3] == "of" and line_split_up[4] == "Bypass" and line_split_up[5] == "Removal:"):
+                date_time_of_bypass_removal = line_split_up[6:]
+                date_time_of_bypass_removal = ' '.join(date_time_of_bypass_removal)  
+                return date_time_of_bypass_removal
+    return ""
+
+def get_bypass_form_number(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Bypass" and line_split_up[1] == "Form" and line_split_up[2] == "#:"):
+                bypass_form_number = line_split_up[3:]
+                bypass_form_number = ' '.join(bypass_form_number)
+                return bypass_form_number
+    return ""
+
+def get_pressure(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 1):
+            if(line_split_up[0] == "Pressure:"):
+                pressure = line_split_up[1:]
+                pressure = ' '.join(pressure)
+                if(pressure == ""):
+                    return None
+                return pressure
+    return None
+
+def get_temperature(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 1):
+            if(line_split_up[0] == "Temperature:"):
+                temperature = line_split_up[1:]
+                temperature = ' '.join(temperature)
+                if(temperature == ""):
+                    return None
+                return temperature
+    return None
+
+def get_front_water_level(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Front" and line_split_up[1] == "Water" and line_split_up[2] == "Lvl:"):
+                front_water_level = line_split_up[3:]
+                front_water_level = ' '.join(front_water_level)
+                if(front_water_level == ""):
+                    return None
+                return front_water_level
+    return None
+
+def get_back_water_level(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Back" and line_split_up[1] == "Water" and line_split_up[2] == "Lvl:"):
+                back_water_level = line_split_up[3:]
+                back_water_level = ' '.join(back_water_level)
+                if(back_water_level == ""):
+                    return None
+                return back_water_level
+    return None
+
+def get_flame_condition(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Flame" and line_split_up[1] == "Condition:"):
+                flame_condition = line_split_up[2:]
+                flame_condition = ' '.join(flame_condition)
+                return flame_condition
+    return ""
+
+def get_month(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 1):
+            if(line_split_up[0] == "Month:"):
+                month = line_split_up[1:]
+                month = ' '.join(month)                
+                return month
+    return ""
+
+def get_day(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 1):
+            if(line_split_up[0] == "Day:"):
+                day = line_split_up[1:]
+                day = ' '.join(day)                
+                return day
+    return ""
+
+def get_year(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 1):
+            if(line_split_up[0] == "Year:"):
+                year = line_split_up[1:]
+                year = ' '.join(year)
+                return year
+    return ""
+
+def get_surge_tank_temperature(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Surge" and line_split_up[1] == "Tank" and line_split_up[2] == "Temp:"):
+                surge_tank_temperature = line_split_up[3:]
+                surge_tank_temperature = ' '.join(surge_tank_temperature)
+                if(surge_tank_temperature == ""):
+                    return None
+                return surge_tank_temperature
+    return None
+
+def get_surge_tank_pressure(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Surge" and line_split_up[1] == "Tank" and line_split_up[2] == "Press:"):
+                surge_tank_pressure = line_split_up[3:]
+                surge_tank_pressure = ' '.join(surge_tank_pressure)
+                if(surge_tank_pressure == ""):
+                    return None
+                return surge_tank_pressure
+    return None
+
+def get_surge_tank_level(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Surge" and line_split_up[1] == "Tank" and line_split_up[2] == "Level:"):
+                surge_tank_level = line_split_up[3:]
+                surge_tank_level = ' '.join(surge_tank_level)
+                if(surge_tank_level == ""):
+                    return None
+                return surge_tank_level
+    return None
+
+def get_pump_pressure(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Pump" and line_split_up[1] == "Press:"):
+                pump_pressure = line_split_up[2:]
+                pump_pressure = ' '.join(pump_pressure)
+                if(pump_pressure == ""):
+                    return None
+                return pump_pressure
+    return None
+
+def get_outlet_temperature(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Outlet" and line_split_up[1] == "Temp:"):
+                outlet_temperature = line_split_up[2:]
+                outlet_temperature = ' '.join(outlet_temperature)
+                if(outlet_temperature == ""):
+                    return None
+                return outlet_temperature
+    return None
+
+def get_stack_temperature(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Stack" and line_split_up[1] == "Temp:"):
+                stack_temperature = line_split_up[2:]
+                stack_temperature = ' '.join(stack_temperature)
+                if(stack_temperature == ""):
+                    return None
+                return stack_temperature
+    return None
 
 def get_log_data(content):
     # get each data piece individually if there is no data return blank string        
@@ -629,145 +855,62 @@ def get_log_data(content):
     print("ID: " + str(ID))
     # get Date    
     date = get_date(content)
+    date= typecast_date_to_date_type(date)
     log_data.append(date)
     print("Date: " + str(date))
+
     # get Author
     author = get_author(content)
     log_data.append(author)
     print("Author: " + str(author))
-    # get Category
-    category = get_category(content)
-    log_data.append(category)
-    print("Category: " + str(category))
-    # get Plant Status
-    plant_status = get_plant_status(content)
-    log_data.append(plant_status)
-    print("Plant Status: " + str(plant_status))
-    # get amine bag filter changed
-    amine_bag_filter_changed = get_amine_bag_filter_changed(content)
-    log_data.append(amine_bag_filter_changed)
-    print("Amine Bag Filter Changed: " + str(amine_bag_filter_changed))
-    # get glycol filter changed
-    glycol_regen_filter_changed = get_glycol_regen_filter_changed(content)
-    log_data.append(glycol_regen_filter_changed)
-    print("Glycol regen filter changed: " + str(amine_bag_filter_changed))
-    # get Shift
+    #get Surge Tank Temperature
+    surge_tank_temperature = get_surge_tank_temperature(content)
+    log_data.append(surge_tank_temperature)
+    print("Surge Tank Temperature: " + str(surge_tank_temperature))
+    #get Surge Tank Pressure
+    surge_tank_pressure = get_surge_tank_pressure(content)
+    log_data.append(surge_tank_pressure)
+    print("Surge Tank Pressure: " + str(surge_tank_pressure))
+    #get Surge Tank Level
+    surge_tank_level = get_surge_tank_level(content)
+    log_data.append(surge_tank_level)
+    print("Surge Tank Level: " + str(surge_tank_level))
+    #get Pump Pressure
+    pump_pressure = get_pump_pressure(content)
+    log_data.append(pump_pressure)
+    print("Pump Pressure: " + str(pump_pressure))
+    #get Outlet Temperature
+    outlet_temperature = get_outlet_temperature(content)
+    log_data.append(outlet_temperature)
+    print("Outlet Temperature: " + str(outlet_temperature))
+    #get Stack Temperature
+    stack_temperature = get_stack_temperature(content)
+    log_data.append(stack_temperature)
+    print("Stack Temperature: " + str(stack_temperature))    
+    #get Flame Condition
+    flame_condition = get_flame_condition(content)
+    log_data.append(flame_condition)
+    print("Flame Condition: " + str(flame_condition))
+    #get Shift
     shift = get_shift(content)
     log_data.append(shift)
     print("Shift: " + str(shift))
-    # get Operators
-    operators = get_operators(content)
-    log_data.append(operators)
-    print("Operators: " + str(operators))
-    # get Shift Handover Meeting
-    shift_handover_meeting = get_shift_handover_meeting(content)
-    log_data.append(shift_handover_meeting)
-    print("Shift Handover Meeting: " + str(shift_handover_meeting))
-    # get start of shift meeting
-    start_of_shift_meeting = get_start_of_shift_meeting(content)
-    log_data.append(start_of_shift_meeting)
-    print("Start of Shift Meeting: " + str(start_of_shift_meeting))
-    # get equipment outage
-    equipment_outage = get_equipment_outage(content)
-    log_data.append(equipment_outage)
-    print("Equipment Outage: " + str(equipment_outage))
-    # get Filter Change
-    filter_change = get_filter_change(content)
-    log_data.append(filter_change)
-    print("Filter Change: " + str(filter_change))
-    # get Pigging
-    pigging = get_pigging(content)
-    log_data.append(pigging)
-    print("Pigging: " + str(pigging))
-    # get Recycle Pumps
-    recycle_pumps = get_recycle_pumps(content)
-    log_data.append(recycle_pumps)
-    print("Recycle Pumps: " + str(recycle_pumps))
-    
-    # get Production Tank Level
-    production_tank_level = get_production_tank_level(content)
-    # if(production_tank_level == ""):
-    #     production_tank_level = None
-    # production_tank_level = float(production_tank_level)
-    log_data.append(production_tank_level)
-    print("Production Tank Level: " + str(production_tank_level))
-    
-    # get lpg bullet peak level
-    lpg_bullet_peak_level = get_lpg_bullet_peak_level(content)
-    # if(lpg_bullet_peak_level == ""):
-    #     lpg_bullet_peak_level = None
-    # lpg_bullet_peak_level = float(lpg_bullet_peak_level)
-    log_data.append(lpg_bullet_peak_level)
-    print("LPG Bullet Peak Level: " + str(lpg_bullet_peak_level))
-    
-    # LPG Bullet Peak Pressure
-    lpg_bullet_peak_pressure = get_lpg_bullet_peak_pressure(content)
-    # if(lpg_bullet_peak_pressure == ""):
-    #     lpg_bullet_peak_pressure = None
-    # lpg_bullet_peak_pressure = float(lpg_bullet_peak_pressure)
-    log_data.append(lpg_bullet_peak_pressure)
-    print("LPG Bullet Peak Pressure: " + str(lpg_bullet_peak_pressure))
-    
-    # Berm water samples taken
-    berm_water_samples_taken = get_berm_water_samples_taken(content)
-    berm_water_samples_taken = yes_no_to_boolean(berm_water_samples_taken)
-    log_data.append(berm_water_samples_taken)
-    print("Berm Water Samples Taken: " + str(berm_water_samples_taken))
-    # get plant process discussion
-    plant_process_discussion = get_plant_process_discussion(content)
-    plant_process_discussion = yes_no_to_boolean(plant_process_discussion)
-    log_data.append(plant_process_discussion)
-    print("Plant Process Discussion: " + str(plant_process_discussion))
-    # get operational targets
-    operational_targets = get_operational_targets(content)
-    operational_targets = yes_no_to_boolean(operational_targets)
-    log_data.append(operational_targets)
-    print("Operational Targets: " + str(operational_targets))
-    # get Overrides or Safeties Bypassed
-    overrides_or_safeties_bypassed = get_overrides_or_safeties_bypassed(content)
-    log_data.append(overrides_or_safeties_bypassed)
-    print("Over-rides or safeties bypassed: " + str(overrides_or_safeties_bypassed))
-    # get Upcoming Activities
-    upcoming_activities = get_upcoming_activities(content)
-    upcoming_activities = yes_no_to_boolean(upcoming_activities)
-    log_data.append(upcoming_activities)
-    print("Upcoming activities: " + str(upcoming_activities))
-    # get HSE Concerns
-    hse_concerns = get_hse_concerns(content)
-    hse_concerns = yes_no_to_boolean(hse_concerns)
-    log_data.append(hse_concerns)
-    print("HSE Concerns: " + str(hse_concerns))
-    # get regulatory requirements
-    regulatory_requirements = get_regulatory_requirements(content)
-    regulatory_requirements = yes_no_to_boolean(regulatory_requirements)
-    log_data.append(regulatory_requirements)
-    print("Regulatory Requirements: " + str(regulatory_requirements))
-    # get staff discussion
-    staff_discussion = get_staff_discussion(content)
-    staff_discussion = yes_no_to_boolean(staff_discussion)
-    log_data.append(staff_discussion)
-    print("Staff Discussion: " + str(staff_discussion))
-    # get weather and effects on operations
-    weather_and_effects_on_operations = get_weather_and_effects_on_operations(content)
-    weather_and_effects_on_operations = yes_no_to_boolean(weather_and_effects_on_operations)
-    log_data.append(weather_and_effects_on_operations)
-    print("Weather and Effects on Operations: " + str(weather_and_effects_on_operations))
-    # get permit extensions/critical tasks
-    permit_extensions_critical_tasks = get_permit_extensions_critical_tasks(content)
-    log_data.append(permit_extensions_critical_tasks)
-    print("Permit Extensions/Critical Tasks: " + permit_extensions_critical_tasks)
-    # get Roustabout Utilization
-    roustabout_utilization = get_roustabout_utilization(content)
-    log_data.append(roustabout_utilization)
-    print("Roustabout Utilization: " + roustabout_utilization)
-    # get remark
+    #get Month
+    month = get_month(content)
+    log_data.append(month)
+    print("Month: " + str(month))
+    #get Day
+    day = get_day(content)
+    log_data.append(day)
+    print("Day: " + str(day))
+    #get Year
+    year = get_year(content)
+    log_data.append(year)
+    print("Year: " + str(year))
+    #get Remark
     remark = get_remark(content)
     log_data.append(remark)
     print("Remark: " + str(remark))
-    # get log_date
-    # log_date = get_log_date(content)
-    # log_data.append(log_date)
-    # print("Log Date: " + str(log_date))
 
     print(log_data)    
     return log_data
@@ -797,6 +940,7 @@ def process_file(file_path):
         log_data1 = get_log_data(log_data1)
         log_data2 = get_log_data(log_data2)
     elif(number_of_logs == 3):
+        print("Inserting 3 logs")
         log_data1 = get_first_log_from_content(content, number_of_lines)
         log_data2 = get_second_log_from_content_of_middle(content, number_of_lines)        
         log_data3 = get_third_log_from_content_of3(content, number_of_lines)
@@ -804,6 +948,7 @@ def process_file(file_path):
         log_data2 = get_log_data(log_data2)
         log_data3 = get_log_data(log_data3)
     elif(number_of_logs == 4):
+        print("Inserting 4 logs")
         log_data1 = get_first_log_from_content(content, number_of_lines)
         log_data2 = get_second_log_from_content_of_middle(content, number_of_lines)        
         log_data3 = get_third_log_from_content_of_middle(content, number_of_lines)
@@ -813,6 +958,7 @@ def process_file(file_path):
         log_data3 = get_log_data(log_data3)
         log_data4 = get_log_data(log_data4)
     elif(number_of_logs == 5):
+        print("Inserting 5 logs")
         log_data1 = get_first_log_from_content(content, number_of_lines)
         log_data2 = get_second_log_from_content_of_middle(content, number_of_lines)        
         log_data3 = get_third_log_from_content_of_middle(content, number_of_lines)
@@ -824,9 +970,8 @@ def process_file(file_path):
         log_data4 = get_log_data(log_data4)
         log_data5 = get_log_data(log_data5)
     
-    
-    log_data1 = add_date_and_time(log_data1)    
-    
+    #We have the log data now insert it into the database
+    log_data1 = add_date_and_time(log_data1)
     insert_data_into_database(log_data1)    
     if(number_of_logs > 1):    
         log_data2 = add_date_and_time(log_data2)
@@ -855,14 +1000,10 @@ def process_folder_of_files(folder_path):
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
         print("inserting " + filename + " from " + file_path)
-        #Check if it's the right type of file        
         
-        # Only add logs that have air temp
-        
-        if(filename[-4:] == '.log'):            
-            filename_number = get_filename_number(filename)
-            if(filename_number >= 190323):
-                process_file(file_path)
+        filename_number = get_filename_number(filename)        
+        if(filename_number >= 220601):
+            process_file(file_path)  
     # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171232a.log'    
     # process_file(file_path)
 def process_folder_of_folders_of_files(folder_of_folders_path):
@@ -870,10 +1011,10 @@ def process_folder_of_folders_of_files(folder_of_folders_path):
         folder_path = os.path.join(folder_of_folders_path, folder_path)
         process_folder_of_files(folder_path)
 
-def main():    
-    folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Plant Log 2'
+def main():        
+    folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Volcano 2'
     process_folder_of_folders_of_files(folder_of_folders_path)
-    #process_file('../database-insertion/ELOG/Pembina North/Plant Log 2/2023/230106a.log')
+    #process_file('../database-insertion/ELOG/Pembina North/Volcano 2/2017/170814a.log')
 
 if __name__ == "__main__":
     main()
