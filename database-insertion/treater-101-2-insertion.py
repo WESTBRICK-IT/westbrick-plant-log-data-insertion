@@ -211,7 +211,7 @@ def get_second_log_from_content_of_middle(content, number_of_lines):
         del log2[0]
         i = i + 1 
     i = number_of_lines
-    while i >= indices_of_ID[2]:
+    while i > indices_of_ID[2]:
         log2.pop()    
         i = i - 1
     return log2
@@ -237,7 +237,7 @@ def get_third_log_from_content_of_middle(content, number_of_lines):
         del log3[0]
         i = i + 1 
     i = number_of_lines
-    while i >= indices_of_ID[3]:
+    while i > indices_of_ID[3]:
         log3.pop()    
         i = i - 1
     return log3
@@ -252,7 +252,7 @@ def get_fourth_log_from_content_of_middle(content, number_of_lines):
         del log4[0]
         i = i + 1 
     i = number_of_lines
-    while i >= indices_of_ID[4]:
+    while i > indices_of_ID[4]:
         log4.pop()    
         i = i - 1
     return log4

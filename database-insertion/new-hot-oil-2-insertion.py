@@ -96,7 +96,7 @@ def insert_data_into_database(log_data):
     )    
     
     mycursor = mydb.cursor()
-    sql = "INSERT INTO volcano_2 (id, date_of_log, author, surge_tank_temperature, surge_tank_pressure, surge_tank_level, pump_pressure, outlet_temperature, stack_temperature, flame_condition, shift, month, day, year, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO hot_oil2 (id, date_of_log, author, flow, inlet_temperature, surge_tank_temperature, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, pump_pressure, outlet_temperature, stack_temperature, flame_condition, shift, month, day, year, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (log_data)    
     mycursor.execute(sql, val)
     mydb.commit()
@@ -211,7 +211,7 @@ def get_second_log_from_content_of_middle(content, number_of_lines):
         del log2[0]
         i = i + 1 
     i = number_of_lines
-    while i >= indices_of_ID[2]:
+    while i > indices_of_ID[2]:
         log2.pop()    
         i = i - 1
     return log2
@@ -237,7 +237,7 @@ def get_third_log_from_content_of_middle(content, number_of_lines):
         del log3[0]
         i = i + 1 
     i = number_of_lines
-    while i >= indices_of_ID[3]:
+    while i > indices_of_ID[3]:
         log3.pop()    
         i = i - 1
     return log3
@@ -252,7 +252,7 @@ def get_fourth_log_from_content_of_middle(content, number_of_lines):
         del log4[0]
         i = i + 1 
     i = number_of_lines
-    while i >= indices_of_ID[4]:
+    while i > indices_of_ID[4]:
         log4.pop()    
         i = i - 1
     return log4
@@ -728,7 +728,7 @@ def get_back_water_level(content):
             if(line_split_up[0] == "Back" and line_split_up[1] == "Water" and line_split_up[2] == "Lvl:"):
                 back_water_level = line_split_up[3:]
                 back_water_level = ' '.join(back_water_level)
-                if(back_water_level == ""):
+                if(back_water_level == "" or back_water_level == "-"):
                     return None
                 return back_water_level
     return None
@@ -845,6 +845,42 @@ def get_stack_temperature(content):
                 return stack_temperature
     return None
 
+def get_flow(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 1):
+            if(line_split_up[0] == "Flow:"):
+                flow = line_split_up[1:]
+                flow = ' '.join(flow)
+                if(flow == ""):
+                    return None
+                return flow
+    return None
+
+def get_inlet_temperature(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Inlet" and line_split_up[1] == "Temp:"):
+                inlet_temperature = line_split_up[2:]
+                inlet_temperature = ' '.join(inlet_temperature)
+                if(inlet_temperature == ""):
+                    return None
+                return inlet_temperature
+    return None
+
+def get_fuel_gas_pressure(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 3):
+            if(line_split_up[0] == "Fuel" and line_split_up[1] == "Gas" and line_split_up[2] == "Press:"):
+                fuel_gas_pressure = line_split_up[3:]
+                fuel_gas_pressure = ' '.join(fuel_gas_pressure)
+                if(fuel_gas_pressure == ""):
+                    return None
+                return fuel_gas_pressure
+    return None
+
 def get_log_data(content):
     # get each data piece individually if there is no data return blank string        
     log_data = []
@@ -854,15 +890,21 @@ def get_log_data(content):
     log_data.append(ID)
     print("ID: " + str(ID))
     # get Date    
-    date = get_date(content)
-    date= typecast_date_to_date_type(date)
+    date = get_date(content)    
     log_data.append(date)
     print("Date: " + str(date))
-
     # get Author
     author = get_author(content)
     log_data.append(author)
     print("Author: " + str(author))
+    #get flow
+    flow = get_flow(content)
+    log_data.append(flow)
+    print("Flow: " + str(flow))
+    #get Inlet Tnlet Temperature
+    inlet_temperature = get_inlet_temperature(content)
+    log_data.append(inlet_temperature)
+    print("Inlet Temperature: " + str(inlet_temperature))
     #get Surge Tank Temperature
     surge_tank_temperature = get_surge_tank_temperature(content)
     log_data.append(surge_tank_temperature)
@@ -875,6 +917,10 @@ def get_log_data(content):
     surge_tank_level = get_surge_tank_level(content)
     log_data.append(surge_tank_level)
     print("Surge Tank Level: " + str(surge_tank_level))
+    #get Fuel Gas Pressure
+    fuel_gas_pressure = get_fuel_gas_pressure(content)
+    log_data.append(fuel_gas_pressure)
+    print("Fuel Gas Pressure: " + str(fuel_gas_pressure))
     #get Pump Pressure
     pump_pressure = get_pump_pressure(content)
     log_data.append(pump_pressure)
@@ -999,11 +1045,12 @@ def process_folder_of_files(folder_path):
      # Get a list of all files in the folder then insert using process file
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
-        print("inserting " + filename + " from " + file_path)
+        print("inserting " + filename + " from " + file_path)        
         
-        filename_number = get_filename_number(filename)        
-        if(filename_number >= 220601):
-            process_file(file_path)  
+        if(filename[-4:] == '.log'):            
+            filename_number = get_filename_number(filename)
+            if(filename_number >= 0):
+                process_file(file_path)  
     # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171232a.log'    
     # process_file(file_path)
 def process_folder_of_folders_of_files(folder_of_folders_path):
@@ -1012,9 +1059,9 @@ def process_folder_of_folders_of_files(folder_of_folders_path):
         process_folder_of_files(folder_path)
 
 def main():        
-    folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Volcano 2'
+    folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2'
     process_folder_of_folders_of_files(folder_of_folders_path)
-    #process_file('../database-insertion/ELOG/Pembina North/Volcano 2/2017/170814a.log')
+    # process_file('../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/170818a.log')
 
 if __name__ == "__main__":
     main()
