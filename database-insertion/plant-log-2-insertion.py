@@ -96,7 +96,7 @@ def insert_data_into_database(log_data):
     )    
     
     mycursor = mydb.cursor()
-    sql = "INSERT INTO plant_log2 (id, date_of_log, author, category, plant_status, amine_bag_filter_changed, glycol_regen_filter_changed, shift, operators, shift_handover_meeting, start_of_shift_meeting, equipment_outage, filter_change, pigging, recycle_pumps, production_tank_level, lpg_bullet_peak_level, lpg_bullet_peak_pressure, berm_water_samples_taken, plant_process_discussion, operational_targets, overrides_or_safeties_bypassed, upcoming_activities, hse_concerns, regulatory_requirements, staff_discussion, weather_and_effects_on_operations, permit_extensions_critical_tasks, roustabout_utilization, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO plant_log2 (id, date_of_log, author, category, plant_status, amine_bag_filter_changed, glycol_regen_filter_changed, shift, operators, shift_handover_meeting, start_of_shift_meeting, equipment_outage, filter_change, pigging, amine_concentration, recycle_pumps, production_tank_level, lpg_bullet_peak_level, lpg_bullet_peak_pressure, berm_water_samples_taken, plant_process_discussion, operational_targets, overrides_or_safeties_bypassed, upcoming_activities, hse_concerns, regulatory_requirements, staff_discussion, weather_and_effects_on_operations, permit_extensions_critical_tasks, roustabout_utilization, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (log_data)    
     mycursor.execute(sql, val)
     mydb.commit()
@@ -605,6 +605,18 @@ def get_roustabout_utilization(content):
                 return roustabout_utilization
     return ""
 
+def get_amine_concentration(content):    
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Amine" and line_split_up[1] == "Concentration:"):
+                amine_concentration = line_split_up[2:]
+                amine_concentration = ' '.join(amine_concentration)
+                if(amine_concentration == ""):
+                    return None
+                return amine_concentration
+    return None
+
 # def put_date_in_mysql_format(date):
 #     date = date.split()
 
@@ -679,6 +691,10 @@ def get_log_data(content):
     pigging = get_pigging(content)
     log_data.append(pigging)
     print("Pigging: " + str(pigging))
+    # get Amine Concentration
+    amine_concentration = get_amine_concentration(content)
+    log_data.append(amine_concentration)
+    print("Amine Concentration: " + str(amine_concentration))
     # get Recycle Pumps
     recycle_pumps = get_recycle_pumps(content)
     log_data.append(recycle_pumps)
@@ -861,7 +877,7 @@ def process_folder_of_files(folder_path):
         
         if(filename[-4:] == '.log'):            
             filename_number = get_filename_number(filename)
-            if(filename_number >= 190523):
+            if(filename_number >= 0):
                 process_file(file_path)
     # file_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/171232a.log'    
     # process_file(file_path)
@@ -873,7 +889,7 @@ def process_folder_of_folders_of_files(folder_of_folders_path):
 def main():    
     folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Plant Log 2'
     process_folder_of_folders_of_files(folder_of_folders_path)
-    #process_file('../database-insertion/ELOG/Pembina North/Plant Log 2/2023/230106a.log')
+    #process_file('../database-insertion/ELOG/Pembina North/Plant Log 2/2017/170217a.log')
 
 if __name__ == "__main__":
     main()

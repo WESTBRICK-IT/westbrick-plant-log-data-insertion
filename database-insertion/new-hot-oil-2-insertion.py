@@ -96,7 +96,7 @@ def insert_data_into_database(log_data):
     )    
     
     mycursor = mydb.cursor()
-    sql = "INSERT INTO hot_oil2 (id, date_of_log, author, flow, inlet_temperature, surge_tank_temperature, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, pump_pressure, outlet_temperature, stack_temperature, flame_condition, shift, month, day, year, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "INSERT INTO hot_oil2 (id, date_of_log, author, flow, inlet_temperature, surge_tank_temperature, surge_tank_pressure, surge_tank_level, fuel_gas_pressure, pump_pressure, outlet_temperature, stack_temperature, air_temperature, flame_condition, shift, month, day, year, remark, date, time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     val = (log_data)    
     mycursor.execute(sql, val)
     mydb.commit()
@@ -881,6 +881,18 @@ def get_fuel_gas_pressure(content):
                 return fuel_gas_pressure
     return None
 
+def get_air_temperature(content):
+    for line in content:
+        line_split_up = line.split()
+        if(len(line_split_up) > 2):
+            if(line_split_up[0] == "Air" and line_split_up[1] == "Temp:"):
+                air_temperature = line_split_up[2:]
+                air_temperature = ' '.join(air_temperature)
+                if(air_temperature == ""):
+                    return None
+                return air_temperature
+    return None
+
 def get_log_data(content):
     # get each data piece individually if there is no data return blank string        
     log_data = []
@@ -931,8 +943,12 @@ def get_log_data(content):
     print("Outlet Temperature: " + str(outlet_temperature))
     #get Stack Temperature
     stack_temperature = get_stack_temperature(content)
-    log_data.append(stack_temperature)
-    print("Stack Temperature: " + str(stack_temperature))    
+    log_data.append(stack_temperature)    
+    print("Stack Temperature: " + str(stack_temperature))
+    #get Air Temperature
+    air_temperature = get_air_temperature(content)    
+    log_data.append(air_temperature)
+    print("Air Temperature: " + str(air_temperature))
     #get Flame Condition
     flame_condition = get_flame_condition(content)
     log_data.append(flame_condition)
@@ -1061,7 +1077,7 @@ def process_folder_of_folders_of_files(folder_of_folders_path):
 def main():        
     folder_of_folders_path = '../database-insertion/ELOG/Pembina North/Hot Oil 2'
     process_folder_of_folders_of_files(folder_of_folders_path)
-    # process_file('../database-insertion/ELOG/Pembina North/Hot Oil 2/2017/170818a.log')
+    #process_file('../database-insertion/ELOG/Pembina North/Hot Oil 2/2023/230107a.log')
 
 if __name__ == "__main__":
     main()
